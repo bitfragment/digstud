@@ -1,0 +1,12 @@
+---
+---
+
+{{ reference }}
+
+{% if entry.url %}
+<span class="entry-url"><a href="{{ entry.url }}">Link (remote) →</a></span>
+{% endif %}
+
+{% if link %}
+<span class="entry-url"><a href="https://protected.personal.psu.edu/bul5/digstud/pdf/{{ key }}.pdf">Link (local PDF) ↬</a></span>
+{% endif %}

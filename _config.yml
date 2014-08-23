@@ -1,0 +1,71 @@
+title:        Digital Studies
+subtitle:     
+version:      $version$
+date:         $date$
+description:  A course in digital studies
+published:    true
+license:      > 
+              This work is licensed under a Creative Commons 
+              Attribution-NonCommercial-ShareAlike 4.0 International License.
+url:          http://digstud.bitfragment.net
+note:         
+author:       $author$
+author-name:  Prof. B. Lennon
+email:        $email$
+affiliation:  | 
+              | Departments of English and Comparative Literature
+              | Pennsylvania State University
+              | University Park, PA 16801 USA
+id_:          '$Id$'    # git
+archive_:     '$Format:%h %ci$' # 'git archive'
+project:      digstud
+category:     records
+subcategory:  teaching
+tags:         # [tag1, tag2] for Pandoc
+created:      2014-06-30
+layout:        # for Jekyll
+bibliography: /Users/blennon/sync/lib/bib/dummy.bib
+biblio-title: 'Works Cited' # for Pandoc
+csl:          /Users/blennon/sync/lib/csl/modern-language-association.csl
+css:          # filepath
+Marked CSS:   # filepath
+Marked Style: # style sheet
+Custom Preprocessor: false # Marked.app
+abstract:     
+
+tagline:      ''
+author-url:   http://english.la.psu.edu/faculty-staff/bul5
+baseurl:      http://digstud.bitfragment.net
+
+cms:          https://cms.psu.edu/section/default.asp?id=201415FAUP%5F%5F%5FRENGL%5F401%5F001
+wiki:         https://wikispaces.psu.edu/display/digstud
+blog:         https://sites.psu.edu/digstud
+zotero:       https://www.zotero.org/echteunendlichkeit/items/collectionKey/724Q7W98
+calendar:     https://calendly.com/blennon
+office:       "[Room 111, Verizon Building, 224 South Allen Street](https://www.google.com/maps/place/224+S+Allen+St/@40.7928264,-77.8596376,17z)"
+
+exclude:      [build, pdf, README.md, resources, snapshot]
+include:      [.nojekyll]
+
+permalink:     pretty
+highlighter:   pygments
+
+markdown:      kramdown
+kramdown:
+  auto_ids:      true
+  footnote_nr:   1
+  entity_output: as_char
+  toc_levels:    1..6
+  smart_quotes:  lsquo,rsquo,ldquo,rdquo
+
+# jekyll-scholar
+scholar:
+  # style:        chicago-fullnote-bibliography
+  style:        https://raw.githubusercontent.com/citation-style-language/styles/master/modern-language-association.csl
+  # style:        https://raw.githubusercontent.com/citation-style-language/styles/master/modern-language-association-with-url.csl
+  source:       ./
+  repository:   ./pdf/
+  sort_by:      author
+  order:        ascending
+  bibliography: #
+  bibliography_template: bib

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="page">
+
+{% if page.entry.author %}
+{% if page.entry.journal %}
+<h1 class="page-title-details">{{ page.entry.author }}, “{{ page.entry.title }}” ({{ page.entry.year }})</h1>
+{% else %}
+<h1 class="page-title-details">{{ page.entry.author }}, {{ page.entry.title }} ({{ page.entry.year }})</h1>
+{% endif %}
+{% else %}
+<h1 class="page-title-details">{{ page.entry.title }} ({{ page.entry.year }})</h1>
+{% endif %}
+
+{% if page.entry.url %}
+<a href="{{ page.entry.url }}">{{ page.entry.url }}</a>
+{% endif %}
+
+{% if page.entry.abstract %}
+<div class="abstract"><strong>Published abstract:</strong> {{ page.entry.abstract }}</div>
+{% endif %}
+
+<pre>{% raw %}{{ page.entry.bibtex }}{% endraw %}</pre>
+
+</div>
