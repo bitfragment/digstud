@@ -49,15 +49,16 @@ abstract:
 ## Studies in genre
 
 * Genre in, e.g.:
-    - Literature ✳︎
-    - Film and television ✳︎
+    - Literature︎
+    - Film and television︎
         + [The History of Film](http://www.historyshots.com/film)
         + [Genealogy of Prime Time Television](http://www.historyshots.com/TV/)
     - Music
         + [Genealogy of Pop & Rock Music](http://www.historyshots.com/Rockmusic/)
-* "Internal" criterion: genre as form ✳︎
-    - A pattern or structure
-* External criterion: genre as metadata ✳︎
+1. "Internal" criterion: genre as form︎
+    - A pattern or structure, perhaps including a dominant content element (theme)
+    - Description of individual artifact
+2. External criterion: genre as metadata︎
     - A *common* pattern or structure
     - Grouping and classification
     * <q>Using large teams of people specially trained to watch movies, Netflix deconstructed Hollywood. They paid people to watch films and tag them with all kinds of metadata.</q>  {% cite madrigal_how_2014 --file 09-intro %}
@@ -67,29 +68,43 @@ abstract:
 
 ## Digital studies
 
-* Study of genres of digital culture ✳︎
+* Study of genres of digital culture︎
 * Digital encoding as writing (inscription)
-* Linguistic history of computing ✳
+* Linguistic history of computing
+    * How writing systems we use with human language are represented in a digital medium
+    * How the text we produce with them is represented in a digital medium
+
 
 
 
 ## Digital "genres"
 
-1. Bit ✳
-1. File ✳
-1. Document ✳
-1. Program ✳
-1. Version ✳
-1. Domain ✳
-1. Network ✳
-1. Game ✳
-
+1. Bit
+    * Fundamental unit of representation in a digital medium
+    * All representation is translated "up" or down to or from binary representation
+1. File
+    * Representational grouping of bits into a digital object that we can manipulate
+1. Document
+    * Digital representation of object of paper medium
+1. Program
+    * Special kind of text
+    * Both readable and executable
+1. Version
+    * Temporal representation of change (editing) of files, documents, programs
+1. Domain
+    * Representation of space
+    * Hyperspace, cyberspace, virtual space, etc.
+1. Network
+    * Representation of connections or relations in space
+1. Game
+    * Domain of algorithmic play
 
 
 ## [*Pixels* by Patrick Jean](http://player.vimeo.com/video/10829255)
 
 * Genre of this artifact?
-* "Internal" genres?
+* Genres it depicts?
+* Interpretation
 
 
 
