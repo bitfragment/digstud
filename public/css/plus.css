@@ -1,0 +1,13 @@
+@media (max-width: 48rem) {
+  h3.masthead-title {
+    text-align: center;
+    font-size: 1em ;
+  }
+}
+
+.vcsinfo {
+    font-size: 0.6em;
+    font-family: monospace;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}

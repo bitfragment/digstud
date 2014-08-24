@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="author" content="Brian Lennon">
+  <meta name="description" content="A course in digital studies: Course notes on the topic 'bit'">
+  <title>Bit &middot; Digital Studies</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="http://digstud.bitfragment.net/public/css/poole.css">
+  <link rel="stylesheet" href="http://digstud.bitfragment.net/public/css/syntax.css">
+  <link rel="stylesheet" href="http://digstud.bitfragment.net/public/css/lanyon.css">
+  <link rel="stylesheet" href="http://digstud.bitfragment.net/public/css/plus.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://digstud.bitfragment.net/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>A course in digital studies</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/">Schedule</a>
+
+    
+
+    
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/01-instructor/">Instructor</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/02-description/">Description</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/02-sites/">Sites</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/04-readings/">Readings</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/05-resources/">Other resources</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/06-assignments/">Assignments</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/07-grading/">Grading</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/08-statements/">Statements</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/09-intro/">Introduction</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item active" href="http://digstud.bitfragment.net/10-bit/">Bit</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/11-file-1/">File</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/11-file-2-document/">File: Document</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/11-file-3-program/">File: Program</a>
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+      
+    
+      
+        
+          
+        
+      
+    
+  </nav>
+
+  <div class="sidebar-item">
+    <p> 2014-08-23</p>
+    <p>Course author and site author: <a href="http://english.la.psu.edu/faculty-staff/bul5">Prof. B. Lennon</a></p>
+    <p>This work is licensed under a Creative Commons  Attribution-NonCommercial-ShareAlike 4.0 International License.
+</p>
+    <p>Built with <a href="http://lanyon.getpoole.com/">Lanyon</a>, a <a href="http://jekyllrb.com">Jekyll</a> theme.</p>
+  </div>
+
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://digstud.bitfragment.net/" title="Home">Digital Studies</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+      <div class="container content">
+        <div class="page">
+  <h1 class="page-title">Bit</h1>
+  
+  <div class="vcsinfo">(  2014-08-23)</div>
+  
+
+  <ul id="markdown-toc">
+  <li><a href="#readings">Readings</a></li>
+  <li><a href="#digital-etymology-and-history">Digital: etymology and history</a></li>
+  <li><a href="#binary-numeration">Binary numeration</a></li>
+  <li><a href="#bit-storage-history">Bit storage: history</a></li>
+  <li><a href="#binary-representation">Binary representation</a></li>
+  <li><a href="#memory-addressing">Memory addressing</a></li>
+  <li><a href="#character-display">Character display</a></li>
+  <li><a href="#character-encoding-babel">Character encoding: Babel</a></li>
+  <li><a href="#character-encoding-ascii">Character encoding: ASCII</a></li>
+  <li><a href="#binary-and-hexadecimal-notation">Binary and hexadecimal notation</a></li>
+  <li><a href="#symbolic-assembly-language">Symbolic assembly language</a></li>
+</ul>
+
+<p><a href="10-bit-slides-revealjs.html">Slide version</a></p>
+
+<h2 id="readings">Readings</h2>
+
+<ol class="bibliography"><li><span id="_digital_2014">“Digital, n. And Adj.” <i>OED Online</i> Mar. 2014. Web.</span>
+
+
+<span class="entry-url"><a href="http://www.oed.com.ezaccess.libraries.psu.edu/view/Entry/52611">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="_american_1963">“American Standard Code for Information Interchange ASA Standard X3.4-1963.” 1963. Web.</span>
+
+
+<span class="entry-url"><a href="http://worldpowersystems.com/J/codes/X3.4-1963/index.html">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="bryant_representing_2011">Bryant, Randal E., and David O’Hallaron. “Representing And Manipulating Information.” <i>Computer Systems: A Programmer’s Perspective</i>. 2nd ed. Boston: Prentice Hall, 2011. 25–120. Web.</span>
+
+
+<span class="entry-url"><a href="http://csapp.cs.cmu.edu/public/ch2-preview.pdf">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="bryant_tour_2011">---. “A Tour of Computer Systems.” <i>Computer Systems: A Programmer’s Perspective</i>. 2nd ed. Boston: Prentice Hall, 2011. 1–23. Web.</span>
+
+
+<span class="entry-url"><a href="http://csapp.cs.cmu.edu/public/ch1-preview.pdf">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="ceruzzi_introduction_2012">Ceruzzi, Paul E. “Introduction.” <i>Computing: A Concise History</i>. Cambridge, MA: MIT Press, 2012. ix–xvi. Web.</span>
+
+
+<span class="entry-url"><a href="http://mitpress.mit.edu/books/computing">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="fischer_evolution_2000">Fischer, Eric. <i>The Evolution of Character Codes, 1874-1968</i>. 2000.</span>
+
+
+<span class="entry-url"><a href="http://www2.units.it/hirema/didattica/materiali/charset/ASCII/ascii.pdf">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="haugeland_analog_1981">Haugeland, John. “Analog And Analog.” <i>Philosophical Topics</i> 12.1 (1981): n. pag. Web.</span>
+
+
+<span class="entry-url"><a href="http://search.proquest.com.ezaccess.libraries.psu.edu/docview/1294920773/13F43B6EA45652132E1">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="schreibman_how_2004">Laue, Andrea. “How The Computer Works.” <i>A Companion to Digital Humanities</i>. Ed. by Susan Schreibman, Ray Siemens, and John Unsworth. Oxford: Blackwell, 2004. Web.</span>
+
+
+<span class="entry-url"><a href="http://nora.lis.uiuc.edu:3030/companion/view?docId=blackwell/9781405103213/9781405103213.xml&amp;chunk.id=ss1-3-1&amp;toc.depth=1&amp;toc.id=ss1-3-1&amp;brand=9781405103213_brand">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="schreibman_digital_2004">Lavagnino, John. “Digital And Analog Texts.” <i>A Companion to Digital Humanities</i>. Ed. by Susan Schreibman, Ray Siemens, and John Unsworth. Oxford: Blackwell, 2004. Web.</span>
+
+
+<span class="entry-url"><a href="http://nora.lis.uiuc.edu:3030/companion/view?docId=blackwell/9781405148641/9781405148641.xml&amp;chunk.id=ss1-6-3&amp;toc.depth=1&amp;toc.id=ss1-6-3&amp;brand=9781405148641_brand">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="sammet_machine_1969">Sammet, Jean E. “Machine Language Programming.” <i>Programming Languages: History And Fundamentals</i>. Englewood Cliffs, N.J.: Prentice-Hall, 1969. 2. Print.</span>
+
+
+
+
+<span class="entry-url"><a href="https://protected.personal.psu.edu/bul5/digstud/pdf/sammet_machine_1969.pdf">Link (local PDF) ↬</a></span>
+
+</li>
+<li><span id="sammet_symbolic_1969">---. “Symbolic Assembly Language Programming.” <i>Programming Languages: History And Fundamentals</i>. Englewood Cliffs, N.J.: Prentice-Hall, 1969. 2–3. Print.</span>
+
+
+
+
+<span class="entry-url"><a href="https://protected.personal.psu.edu/bul5/digstud/pdf/sammet_symbolic_1969.pdf">Link (local PDF) ↬</a></span>
+
+</li>
+<li><span id="searle_brief_2004">Searle, Steven J. “A Brief History of Character Codes in North America, Europe, And East Asia.” 2004. Web.</span>
+
+
+<span class="entry-url"><a href="http://tronweb.super-nova.co.jp/characcodehist.html">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="schreibman_character_2004">Wittern, Christian. “Character Encoding.” <i>A Companion to Digital Humanities</i>. Ed. by Susan Schreibman, Ray Siemens, and John Unsworth. Oxford: Blackwell, 2004. Web.</span>
+
+
+<span class="entry-url"><a href="http://nora.lis.uiuc.edu:3030/companion/view?docId=blackwell/9781405148641/9781405148641.xml&amp;chunk.id=ss1-6-12&amp;toc.depth=1&amp;toc.id=ss1-6-12&amp;brand=9781405148641_brand">Link (remote) →</a></span>
+
+
+
+</li></ol>
+
+<h2 id="digital-etymology-and-history">Digital: etymology and history</h2>
+
+<ul>
+  <li><em>OED</em>: <a href="http://www.oed.com.ezaccess.libraries.psu.edu/view/Entry/52611">digital, n. and adj.</a>
+    <ul>
+      <li>English <em>digital</em> &lt; classical Latin <em>digitalis,</em> “measuring a finger’s breadth”</li>
+      <li>In post-classical Latin, a broader meaning: “of or relating to the finger” (<em>digitus,</em> finger)</li>
+      <li>Also used to describe the whole numbers from 1-9 (“single digits”)</li>
+      <li>In domain of electronics and computing, used to denote representation by <em>discrete</em> values, usually in <em>binary</em> form</li>
+      <li>In domain of electronics and computing, used in contrast with <em>analog</em></li>
+    </ul>
+  </li>
+  <li>“Digital paradigm” <a href="#ceruzzi_introduction_2012">(Ceruzzi)</a>
+    <ul>
+      <li>“…the notion of coding information, computation, and control in binary form, that is, a number system that uses only two symbols, 1 and 0, instead of the more familiar decimal system that human beings, with their ten fingers, have used for millennia” <a href="#ceruzzi_introduction_2012">(Ceruzzi x)</a></li>
+      <li>“It is not just the use of binary arithmetic, but also the use of binary logic to control machinery and encode instructions for devices, and of binary codes to transmit information” <a href="#ceruzzi_introduction_2012">(Ceruzzi xi)</a></li>
+    </ul>
+  </li>
+  <li>Catachrestic and/or ideological usage
+    <ul>
+      <li>As equivalent of <em>new</em> (novelty, progress)</li>
+      <li>As equivalent of <em>inevitable</em></li>
+      <li>Example: <a href="http://expandiverse.com/files/2013/02/Blog-1-Artwork-4Feb20131-300x300.png">Change Ahead: Our digital future is inevitable. But, then, it always has been</a> (<a href="http://expandiverse.com/2013/02/11/our-digital-future-is-inevitable-but-then-it-always-has-been/">source</a>)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="binary-numeration">Binary numeration</h2>
+
+<ul>
+  <li><a href="http://en.wikipedia.org/wiki/Bit">Binary digit</a> or “bit”
+    <ul>
+      <li>Find an ordinary “toggle” light switch (not a dimmer)
+        <ul>
+          <li>Flip the switch. Is the lamp on, or is it off?</li>
+          <li>Flip the switch again. Is the lamp on, or is it off?</li>
+          <li>Flip the switch one more time. Is the lamp on, or is it off?</li>
+          <li>The lamp controlled by the switch has only two <em>states</em></li>
+        </ul>
+      </li>
+      <li><a href="http://www.cambridgedigital.com/mooc/html/jan14/31_Activity1/31_Activity1.html">Illustration</a> (second panel: “On and Off”)</li>
+      <li>A device with two <em>states</em> can represent a binary digit with only two <em>values</em></li>
+    </ul>
+  </li>
+  <li><a href="http://en.wikipedia.org/wiki/Binary_number#Counting_in_binary">Counting in binary</a>
+    <ul>
+      <li>0, 1, 10, 11, 100, 101, 110, 111, 1000, 1001</li>
+      <li><a href="http://www.mathmaniacs.org/lessons/01-binary/Magic_Trick/counting.gif">Illustration</a></li>
+    </ul>
+  </li>
+  <li>A <a href="http://en.wikipedia.org/wiki/Binary_number">binary number</a> consists of groups of bits
+    <ul>
+      <li><a href="http://www.cambridgedigital.com/mooc/html/jan14/31_Activity1/31_Activity1.html">Illustration</a> (third panel: “Groups of bits”)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="bit-storage-history">Bit storage: history</h2>
+
+<ul>
+  <li><a href="http://en.wikipedia.org/wiki/Punched_card">Punched cards</a> and <a href="http://en.wikipedia.org/wiki/Punched_tape">punched tape</a> (19C-20C)
+    <ul>
+      <li>Punched/not punched</li>
+      <li><a href="http://content.answcdn.com/main/content/img/CDE/_PUNCHCD.GIF">Illustration</a></li>
+    </ul>
+  </li>
+  <li><a href="http://en.wikipedia.org/wiki/Relay">Electrical relays</a> (19C-20C)
+    <ul>
+      <li>Open/closed states</li>
+      <li><a href="http://www.electronics-tutorials.ws/io/io24.gif">Illustration</a>, from <a href="http://www.electronics-tutorials.ws/io/io_5.html">Electrical Relay and Solid State Relays for Relay Switching</a></li>
+    </ul>
+  </li>
+  <li><a href="http://en.wikipedia.org/wiki/Vacuum_tube">Vacuum tubes</a> (19C-20C)
+    <ul>
+      <li>Polarity of electrical charge</li>
+      <li><a href="http://media.bestofmicro.com/,P-X-302901-3.jpg">Illustration</a>, from <a href="http://www.tomshardware.com/reviews/upgrade-repair-pc,3000-2.html">From Tubes To Transistors - Computer History 101: The Development of the PC</a></li>
+    </ul>
+  </li>
+  <li><a href="http://en.wikipedia.org/wiki/Magnetic_tape">Magnetic tape</a>, <a href="http://en.wikipedia.org/wiki/Magnetic_drum">drum</a>, and <a href="http://en.wikipedia.org/wiki/Disk_storage">disk</a> (1950s–)
+    <ul>
+      <li>Polarity of magnetization</li>
+    </ul>
+  </li>
+  <li><a href="http://en.wikipedia.org/wiki/Integrated_circuit">Integrated circuits</a> (silicon microchips) (1960s–)
+    <ul>
+      <li>Polarity of electrical charge (capacitor)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="binary-representation">Binary representation</h2>
+
+<ul>
+  <li>Binary representation as “lowest layer” of abstraction
+    <ul>
+      <li>“All information in a system — including disk files, programs stored in memory, user data stored in memory, and data transferred across a network — is represented as a bunch of bits” <a href="#bryant_tour_2011">(Bryant and O’Hallaron)</a></li>
+      <li>Bits are <em>grouped</em> into data objects, providing <em>context</em> for their <em>interpretation</em> <a href="#bryant_tour_2011">(Bryant and O’Hallaron)</a></li>
+    </ul>
+  </li>
+  <li>Bit and byte
+    <ul>
+      <li>A binary number has a <a href="http://en.wikipedia.org/wiki/Bit-length">bit length</a></li>
+      <li>In computing, a standard <a href="http://en.wikipedia.org/wiki/Byte">byte</a> is a grouping of eight bits, or bit string</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="memory-addressing">Memory addressing</h2>
+
+<ul>
+  <li>Virtual memory
+    <ul>
+      <li>An abstraction of physical memory capacity in RAM, disk storage, other hardware, and OS operations
+        <ul>
+          <li>Illustration: <a href="http://www.jbcs.co.za/ham_radio/Memory_files/image006.gif">IBM PC motherboard with memory area highlighted</a>, from <a href="http://www.jbcs.co.za/ham_radio/Memory.htm">Memory, memory addressing &amp; structure</a></li>
+        </ul>
+      </li>
+      <li>Represented by a <a href="http://en.wikipedia.org/wiki/Page_table">page table</a>
+        <ul>
+          <li>Illustration: <a href="http://www.jbcs.co.za/ham_radio/Memory_files/image023.gif">representation of system memory addresses</a>, from <a href="http://www.jbcs.co.za/ham_radio/Memory.htm">Memory, memory addressing &amp; structure</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="http://en.wikipedia.org/wiki/Byte_addressing">Byte addressing</a> and word size
+    <ul>
+      <li>The “smallest addressable unit of memory” is not the bit, but the byte <a href="#bryant_tour_2011">(Bryant and O’Hallaron)</a></li>
+      <li>In the same context, the largest addressable unit of memory is the <a href="http://en.wikipedia.org/wiki/Word_(computer_architecture)">word</a>
+        <ul>
+          <li><strong>First of the <em>transpositions of linguistic concepts</em> that we will encounter in the history of computing</strong></li>
+          <li>32-bit computer systems have a word size of 4 bytes</li>
+          <li>64-bit computer systems have a word size of 8 bytes</li>
+        </ul>
+      </li>
+      <li>Different data types are allocated different quantities of memory
+        <ul>
+          <li>An ASCII alphanumeric character is allocated one byte</li>
+          <li>Integers and floating point numbers might be allocated two or four bytes</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="character-display">Character display</h2>
+
+<ul>
+  <li>Binary representation of human writing systems
+    <ul>
+      <li>“What makes personal computers useful to the majority of people is not that they can process numerical data […] but that they can process textual data” <a href="#searle_brief_2004">(Searle)</a></li>
+      <li>“[T]here are many people who are unaware of the fact that to a computer textual data are also numerical data. In modern computer systems, the individual characters of the scripts that humans use to record and transmit their languages are encoded in the form of binary numerical codes, just as are the Arabic numerals used in calculation programs” <a href="#searle_brief_2004">(Searle)</a></li>
+      <li>“This is because the circuitry of the microprocessor that lies at the heart of a modern computer system can only do two things — calculate binary arithmetic operations and perform Boolean (i.e., true or false) logic operations.” <a href="#searle_brief_2004">(Searle)</a></li>
+    </ul>
+  </li>
+  <li>Character display is not inscription
+    <ul>
+      <li>The letter “A” is not <em>impressed</em> onto your screen</li>
+      <li>Nor is it <em>impressed</em> into a storage medium</li>
+      <li>“…when a personal computer records the letter ‘A’ onto a floppy disk, for instance, it does not create an image of the letter ‘A’ with tiny magnetic dots, rather it records a binary number (made up of zeroes and ones) that represents the letter ‘A’ in a character code table” <a href="#searle_brief_2004">(Searle)</a></li>
+    </ul>
+  </li>
+  <li>Character display process
+    <ol>
+      <li>Hardware keyboard provides options for input</li>
+      <li>Each hardware key is assigned an internal numeric key code</li>
+      <li>That key code is assigned to a specific character in a specific character set and its international <a href="http://en.wikipedia.org/wiki/Code_page">code page</a></li>
+      <li>That character is displayed on the screen in a particular <a href="http://en.wikipedia.org/wiki/Typeface">display font</a></li>
+    </ol>
+  </li>
+</ul>
+
+<h2 id="character-encoding-babel">Character encoding: Babel</h2>
+
+<blockquote>
+  <p>As long as the processing of information from end to end occurs only in a single machine, there is no need for a standardized character encoding. Early computers up to the beginning of the 1960s thus simply used whatever ad-hoc convention to represent characters internally seemed appropriate; some distinguished upper- and lowercase letters, most did not. <a href="#schreibman_character_2004">(Wittern)</a></p>
+</blockquote>
+
+<h2 id="character-encoding-ascii">Character encoding: ASCII</h2>
+
+<ul>
+  <li>Illustration: <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/ASCII_Code_Chart-Quick_ref_card.jpg/1280px-ASCII_Code_Chart-Quick_ref_card.jpg">USASCII code chart</a></li>
+  <li>A standard binary encoding of 95 written symbols in U.S. English
+    <ul>
+      <li>Numerals <code>0</code>-<code>9</code></li>
+      <li>Letters <code>a</code>–<code>z</code> and <code>A</code>–<code>Z</code></li>
+      <li>Basic punctuation symbols</li>
+    </ul>
+  </li>
+  <li>Plus 33 non-printing <a href="http://en.wikipedia.org/wiki/Control_character">control characters</a></li>
+  <li>ASCII provides a one-byte (8-bit) encoding for each character</li>
+  <li>A byte (8 bits) is represented as an eight-bit binary number</li>
+</ul>
+
+<h2 id="binary-and-hexadecimal-notation">Binary and hexadecimal notation</h2>
+
+<ul>
+  <li>Binary notation is “verbose” <a href="#bryant_representing_2011">(Bryant and O’Hallaron)</a></li>
+  <li>Binary notation is “tedious” to convert to and from decimal notation <a href="#bryant_representing_2011">(Bryant and O’Hallaron)</a></li>
+  <li>Hexadecimal (base 16) or “hex” notation
+    <ul>
+      <li><code>0</code>–<code>9</code> plus <code>A</code>–<code>F</code></li>
+    </ul>
+  </li>
+  <li>Illustration: <a href="http://www.highteck.net/images/227-Ethernet-exadecimal-numbering.jpg">Hexadecimal numbering</a>, from <a href="http://www.highteck.net/EN/Ethernet/Ethernet.html">Ethernet</a></li>
+  <li><a href="http://www.asciitohex.com">ASCII to Hex… and other free text conversion tools</a></li>
+</ul>
+
+<h2 id="symbolic-assembly-language">Symbolic assembly language</h2>
+
+<ul>
+  <li>Another situation in which the “verbosity” of binary notation was a problem: early computer programming</li>
+  <li>
+    <p>A microprocessor (hardware) instruction set is represented in a “machine language” of (here, 6-bit) binary notation:</p>
+
+    <pre><code>  011011 000000 000000 000000 000001 000000
+  +----+ +--------------------------------+
+         ^data
+  ^instruction
+</code></pre>
+  </li>
+</ul>
+
+<p><a href="#sammet_machine_1969">(Sammet 2)</a></p>
+
+<ul>
+  <li>
+    <p>The same expression, using an alphanumeric mnemonic code for the instruction (example from Sammet, “Symbolic Assembly Language Programming”):</p>
+
+    <pre><code>  CLA    000000 000000 000000 000001 000000
+  +----+ +--------------------------------+
+         ^data
+  ^instruction
+</code></pre>
+  </li>
+</ul>
+
+<p><a href="#sammet_machine_1969">(Sammet 2)</a></p>
+
+<ul>
+  <li>Systems of such mnemonic codes came to be called <em>symbolic assembly language</em>, the earliest forms of what we now call “programming languages”</li>
+</ul>
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  </body>
+</html>
