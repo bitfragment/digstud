@@ -55,9 +55,11 @@ abstract:
         + [Genealogy of Prime Time Television](http://www.historyshots.com/TV/)
     - Music
         + [Genealogy of Pop & Rock Music](http://www.historyshots.com/Rockmusic/)
+
 1. "Internal" criterion: genre as form︎
     - A pattern or structure, perhaps including a dominant content element (theme)
     - Description of individual artifact
+
 2. External criterion: genre as metadata︎
     - A *common* pattern or structure
     - Grouping and classification
