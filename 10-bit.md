@@ -79,7 +79,8 @@ Binary numeration
     - A device with two *states* can represent a binary digit with only two *values*
 * [Counting in binary](http://en.wikipedia.org/wiki/Binary_number#Counting_in_binary)
     - 0, 1, 10, 11, 100, 101, 110, 111, 1000, 1001
-    - [Illustration](http://www.mathmaniacs.org/lessons/01-binary/Magic_Trick/counting.gif)
+    - [Illustration](http://britton.disted.camosun.bc.ca/binary_count.gif)
+    - [Another illustration](http://www.homofaciens.de/bilder/technik/computer_024a.gif)
 * A [binary number](http://en.wikipedia.org/wiki/Binary_number) consists of groups of bits
     - [Illustration](http://www.cambridgedigital.com/mooc/html/jan14/31_Activity1/31_Activity1.html) (navigate forward to third panel titled "Groups of bits")
 
