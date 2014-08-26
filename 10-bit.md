@@ -75,13 +75,13 @@ Binary numeration
         + Flip the switch again. Is the lamp on, or is it off?
         + Flip the switch one more time. Is the lamp on, or is it off?
         + The lamp controlled by the switch has only two *states*
-    - [Illustration](http://www.cambridgedigital.com/mooc/html/jan14/31_Activity1/31_Activity1.html) (second panel: "On and Off")
+    - [Illustration](http://www.cambridgedigital.com/mooc/html/jan14/31_Activity1/31_Activity1.html) (navigate forward to second panel titled "On and Off")
     - A device with two *states* can represent a binary digit with only two *values*
 * [Counting in binary](http://en.wikipedia.org/wiki/Binary_number#Counting_in_binary)
     - 0, 1, 10, 11, 100, 101, 110, 111, 1000, 1001
     - [Illustration](http://www.mathmaniacs.org/lessons/01-binary/Magic_Trick/counting.gif)
 * A [binary number](http://en.wikipedia.org/wiki/Binary_number) consists of groups of bits
-    - [Illustration](http://www.cambridgedigital.com/mooc/html/jan14/31_Activity1/31_Activity1.html) (third panel: "Groups of bits")
+    - [Illustration](http://www.cambridgedigital.com/mooc/html/jan14/31_Activity1/31_Activity1.html) (navigate forward to third panel titled "Groups of bits")
 
 
 Bit storage: history
