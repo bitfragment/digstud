@@ -45,62 +45,70 @@ Readings
 {% bibliography --file 11-file-2-document %}
 
 
+
 ## File as document
 
-* A digital file meets the basic definition of *document*
+* A digital file meets the most basic definition of *document*: a written representation
+* In consumer computing, a document usually describes a file containing text data
 
 
 
 ## Plain text
 
-* Review text encoding
-* Plain text: content "only"
-    - CLI interface: [Javascript PC Emulator](http://bellard.org/jslinux/)
-    - http://darkcopy.com
-    - https://writer.bighugelabs.com
-* Plain text with markup
-* Content *and* form
-* Content and form co-present but easily distinguished
+* `DO`: Review character display and character encoding, in [Bit]({{site.baseurl/10-bit/}})
+* [Plain text](http://en.wikipedia.org/wiki/Plain_text): content with (what is ostensibly) a minimum of form
+    - [Command line interface](http://en.wikipedia.org/wiki/Command-line_interface) vs. [graphical user interface](http://en.wikipedia.org/wiki/Graphical_user_interface)
+        - [Javascript PC Emulator](http://bellard.org/jslinux/)
+    - [DarkCopy: Simple, full screen text editing](http://darkcopy.com/)
+    - [Writer: the internet typewriter](https://writer.bighugelabs.com/)
+* Plain text with [markup](http://en.wikipedia.org/wiki/Markup_language)
+* Content and form are combined, yet distinguishable
     
 
 
 ## Formatted or "rich" or "styled" text
 
-* WYSIWYG
-* "Invisible" markup
-* Content and form co-present but not easily distinguished
+* [WYSIWYG](http://en.wikipedia.org/wiki/WYSIWYG)
+* Markup is hidden
+* Content and form are combined, but not easily distinguished
 
 
 
-## Text editors vs word processors
+## Text editors vs. word processors
 
-* ed in [Javascript PC Emulator](http://bellard.org/jslinux/)
-* vi and emacs in [Javascript PC Emulator](http://bellard.org/jslinux/)
-* Emacs
-    * Ymacs: http://www.ymacs.org/demo/
-* vi, vim
-    * jsvi: http://gpl.internetconnection.net/vi/
-* Word processors [illustrations/emulators]
-    - History to 1976
-    - Electric Pencil
-        + Illustrations: http://www.trs-80.org/electric-pencil/
-    - WordStar
-    - WordPerfect
-    - Microsoft Word
+* Text editors
+    * `ed` in [Javascript PC Emulator](http://bellard.org/jslinux/)
+    * `vi` and `emacs` in [Javascript PC Emulator](http://bellard.org/jslinux/)
+    * Emacs
+        * [Ymacs demo](http://www.ymacs.org/demo/)
+    * vi, vim
+        * [jsvi](http://gpl.internetconnection.net/vi/)
+* Desktop word processors
+    - Plain text interfaces (before 1984-1985)
+        + MS-DOS operating system, 1981
+        - Plain text with formatting characters added to text and visible to user
+            - Electric Pencil, 1976: [illustration](http://www.trs-80.org/electric-pencil/)
+            - WordStar, 1978
+            - WordPerfect, 1980
+            - Microsoft Word, 1983
+    - Graphical user interfaces
+        + Mac OS operating system, 1984
+        + Microsoft Windows operating system, 1985
+        - Rich text with formatting codes added to text and hidden from user
+        - WordPerfect "reveal codes" feature
+        - WYSIWYG: screen display mimics, and produces, printed document
+            + [Ted Nelson Google Tech Talk, 4:15](http://www.youtube.com/watch?v=ohiKTVVtDJA): "simulations of paper under glass"
+
 
 
 ## Markup
 
 * Processing markup
+    - Producing printed or printable documents
 * Semantic markup
+    - Describing the structure of documents
 * Presentation markup
-
-
-
-## Markup: HTML
-
-* Presentation markup
-* `DO`: plain text file with HTML, rendered by browser
+    - Presenting documents on a screen
 
 
 
@@ -115,12 +123,19 @@ Readings
 
 ## Markup history: text processing
 
-* Unix Seventh Edition Manual (Bell Labs)
-    * [troff source](http://cm.bell-labs.com/7thEdMan/vol1/man0.bun)
-    * [PDF](http://cm.bell-labs.com/7thEdMan/v7vol1.pdf)
-* [A dictionary of troff commands](http://www.lemoda.net/unix/troff-dictionary/index.html)
-* LaTeX
-    + [writeLaTeX](https://www.writelatex.com)
+* `roff`-type utilities
+    - `TYPSET` and `RUNOFF` on MIT Compatible Time-Sharing System (CTSS), 1964
+    - `runoff` on MIT Multiplexed Information and Computing Service (Multics), after 1964
+    - `roff` on Bell Labs UNiplexed Information and Computing Service (UNICS, then UNIX/Unix), after 1970
+    - `nroff` ("new `roff`") on Unix, after 1973, for line printers and terminals
+    - `troff` ("typesetter `roff`") on Unix, after 1973, for phototypesetters
+        * Unix Seventh Edition Manual (Bell Labs)
+            * [troff source](http://cm.bell-labs.com/7thEdMan/vol1/man0.bun)
+            * [PDF](http://cm.bell-labs.com/7thEdMan/v7vol1.pdf)
+        * [A dictionary of troff commands](http://www.lemoda.net/unix/troff-dictionary/index.html)
+* TeX (1978) and LaTeX (1984)
+    - Designed for typesetting mathematics, among other functions
+    - [writeLaTeX](https://www.writelatex.com)
 
 
 
@@ -169,7 +184,7 @@ Readings
         <p>Markup minimization (later generalized and formalized in SGML),
         allowed the end-tags to be omitted for the "h1" and "p" elements.
 
-* "…many desktop publishing methods were in vogue: SGML, Interleaf, LaTex, Microsoft Word, and Troff among many others. Commercial hypertext packages were computer-specific and could not easily take text from other sources; besides, they were far too complicated and involved tedious compiling of text into internal formats to create the final hypertext system… What was needed was something very simple, at least in the beginning" {% cite raggett_history_1998 --file 11-file-2-document %}
+* "…many desktop publishing methods were in vogue: SGML, Interleaf, LaTeX, Microsoft Word, and Troff among many others. Commercial hypertext packages were computer-specific and could not easily take text from other sources; besides, they were far too complicated and involved tedious compiling of text into internal formats to create the final hypertext system… What was needed was something very simple, at least in the beginning" {% cite raggett_history_1998 --file 11-file-2-document %}
 * "The HTML that Tim [Berners-Lee] invented was strongly based on SGML (Standard Generalized Mark-up Language), an internationally agreed upon method for marking up text into structural units such as paragraphs, headings, list items and so on… What SGML does not include, of course, are hypertext links: the idea of using the anchor element with the HREF attribute was purely Tim [Berners-Lee]'s invention" {% cite raggett_history_1998 --file 11-file-2-document %}
 * [View HTML source of this page](view-source:data.html)
 * [Tryit Editor v2.0](http://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic)
@@ -196,9 +211,6 @@ Readings
     * [Sample XML document (Microsoft Developer Network)](http://msdn.microsoft.com/en-us/library/ms762271(v=vs.85).aspx)
 * XHTML
 * HTML 5
-
-
-
-* markup history from previous notes: working on markup3
-* markdown processor online
-* markdown editors: stackedit, dillinger.io, markable.in
+* Markdown
+    * [Markdown processors online]
+    * [Markdown editors: Stackedit, Dillinger.io, Markable.in]
