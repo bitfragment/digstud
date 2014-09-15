@@ -166,7 +166,7 @@
   </nav>
 
   <div class="sidebar-item">
-    <p> 2014-08-24</p>
+    <p> 2014-08-26</p>
     <p>Course author and site author: <a href="http://english.la.psu.edu/faculty-staff/bul5">Prof. B. Lennon</a></p>
     <p>This work is licensed under a Creative Commons  Attribution-NonCommercial-ShareAlike 4.0 International License.
 </p>
@@ -191,7 +191,7 @@
         <div class="page">
   <h1 class="page-title">File: Document</h1>
   
-  <div class="vcsinfo">(  2014-08-24)</div>
+  <div class="vcsinfo">(v0.2.0-7-g090e101  2014-08-26)</div>
   
 
   <ul id="markdown-toc">
@@ -199,9 +199,8 @@
   <li><a href="#file-as-document">File as document</a></li>
   <li><a href="#plain-text">Plain text</a></li>
   <li><a href="#formatted-or-rich-or-styled-text">Formatted or “rich” or “styled” text</a></li>
-  <li><a href="#text-editors-vs-word-processors">Text editors vs word processors</a></li>
+  <li><a href="#text-editors-vs-word-processors">Text editors vs. word processors</a></li>
   <li><a href="#markup">Markup</a></li>
-  <li><a href="#markup-html">Markup: HTML</a></li>
   <li><a href="#markup-history-typesetting">Markup history: typesetting</a></li>
   <li><a href="#markup-history-text-processing">Markup history: text processing</a></li>
   <li><a href="#markup-history-semantics">Markup history: semantics</a></li>
@@ -209,8 +208,6 @@
   <li><a href="#the-front-end-web-development-stack">The front-end Web development “stack”</a></li>
   <li><a href="#standardization-and-its-discontents">Standardization and its discontents</a></li>
 </ul>
-
-<p><a href="11-file-2-document-slides-revealjs.html">Slide version</a></p>
 
 <h2 id="readings">Readings</h2>
 
@@ -226,6 +223,14 @@
 
 
 <span class="entry-url"><a href="http://www.w3.org/People/Raggett/book4/ch02.html">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="nelson_transclusion:_2007">“Transclusion: Fixing Electronic Literature.” Jan. 2007. Web.</span>
+
+
+<span class="entry-url"><a href="http://www.youtube.com/watch?v=ohiKTVVtDJA">Link (remote) →</a></span>
 
 
 
@@ -274,59 +279,84 @@
 <h2 id="file-as-document">File as document</h2>
 
 <ul>
-  <li>A digital file meets the basic definition of <em>document</em></li>
+  <li>A digital file meets the most basic definition of <em>document</em>: a written representation</li>
+  <li>In consumer computing, a document usually describes a file containing text data</li>
 </ul>
 
 <h2 id="plain-text">Plain text</h2>
 
 <ul>
-  <li>Review text encoding</li>
-  <li>Plain text: content “only”
+  <li><code>DO</code>: Review character display and character encoding, in <a href="">Bit</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/Plain_text">Plain text</a>: content with (what is ostensibly) a minimum of form
     <ul>
-      <li>CLI interface: <a href="http://bellard.org/jslinux/">Javascript PC Emulator</a></li>
-      <li>http://darkcopy.com</li>
-      <li>https://writer.bighugelabs.com</li>
+      <li><a href="http://en.wikipedia.org/wiki/Command-line_interface">Command line interface</a> vs. <a href="http://en.wikipedia.org/wiki/Graphical_user_interface">graphical user interface</a>
+        <ul>
+          <li><a href="http://bellard.org/jslinux/">Javascript PC Emulator</a></li>
+        </ul>
+      </li>
+      <li><a href="http://darkcopy.com/">DarkCopy: Simple, full screen text editing</a></li>
+      <li><a href="https://writer.bighugelabs.com/">Writer: the internet typewriter</a></li>
     </ul>
   </li>
-  <li>Plain text with markup</li>
-  <li>Content <em>and</em> form</li>
-  <li>Content and form co-present but easily distinguished</li>
+  <li>Plain text with <a href="http://en.wikipedia.org/wiki/Markup_language">markup</a></li>
+  <li>Content and form are combined, yet distinguishable</li>
 </ul>
 
 <h2 id="formatted-or-rich-or-styled-text">Formatted or “rich” or “styled” text</h2>
 
 <ul>
-  <li>WYSIWYG</li>
-  <li>“Invisible” markup</li>
-  <li>Content and form co-present but not easily distinguished</li>
+  <li><a href="http://en.wikipedia.org/wiki/WYSIWYG">WYSIWYG</a></li>
+  <li>Markup is hidden</li>
+  <li>Content and form are combined, but not easily distinguished</li>
 </ul>
 
-<h2 id="text-editors-vs-word-processors">Text editors vs word processors</h2>
+<h2 id="text-editors-vs-word-processors">Text editors vs. word processors</h2>
 
 <ul>
-  <li>ed in <a href="http://bellard.org/jslinux/">Javascript PC Emulator</a></li>
-  <li>vi and emacs in <a href="http://bellard.org/jslinux/">Javascript PC Emulator</a></li>
-  <li>Emacs
+  <li>Text editors
     <ul>
-      <li>Ymacs: http://www.ymacs.org/demo/</li>
-    </ul>
-  </li>
-  <li>vi, vim
-    <ul>
-      <li>jsvi: http://gpl.internetconnection.net/vi/</li>
-    </ul>
-  </li>
-  <li>Word processors [illustrations/emulators]
-    <ul>
-      <li>History to 1976</li>
-      <li>Electric Pencil
+      <li><code>ed</code> in <a href="http://bellard.org/jslinux/">Javascript PC Emulator</a></li>
+      <li><code>vi</code> and <code>emacs</code> in <a href="http://bellard.org/jslinux/">Javascript PC Emulator</a></li>
+      <li>Emacs
         <ul>
-          <li>Illustrations: http://www.trs-80.org/electric-pencil/</li>
+          <li><a href="http://www.ymacs.org/demo/">Ymacs demo</a></li>
         </ul>
       </li>
-      <li>WordStar</li>
-      <li>WordPerfect</li>
-      <li>Microsoft Word</li>
+      <li>vi, vim
+        <ul>
+          <li><a href="http://gpl.internetconnection.net/vi/">jsvi</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Desktop word processors
+    <ul>
+      <li>Plain text interfaces (before 1984-1985)
+        <ul>
+          <li>MS-DOS operating system, 1981</li>
+          <li>Plain text with formatting characters added to text and visible to user
+            <ul>
+              <li>Electric Pencil, 1976: <a href="http://www.trs-80.org/electric-pencil/">illustration</a></li>
+              <li>WordStar, 1978</li>
+              <li>WordPerfect, 1980</li>
+              <li>Microsoft Word, 1983</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Graphical user interfaces
+        <ul>
+          <li>Mac OS operating system, 1984</li>
+          <li>Microsoft Windows operating system, 1985</li>
+          <li>Rich text with formatting codes added to text and hidden from user</li>
+          <li>WordPerfect “reveal codes” feature</li>
+          <li>WYSIWYG: screen display mimics, and produces, printed document
+            <ul>
+              <li><a href="http://www.youtube.com/watch?v=ohiKTVVtDJA">Ted Nelson Google Tech Talk, 4:15</a>: “simulations of paper under glass”</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>
@@ -334,16 +364,21 @@
 <h2 id="markup">Markup</h2>
 
 <ul>
-  <li>Processing markup</li>
-  <li>Semantic markup</li>
-  <li>Presentation markup</li>
-</ul>
-
-<h2 id="markup-html">Markup: HTML</h2>
-
-<ul>
-  <li>Presentation markup</li>
-  <li><code>DO</code>: plain text file with HTML, rendered by browser</li>
+  <li>Processing markup
+    <ul>
+      <li>Producing printed or printable documents</li>
+    </ul>
+  </li>
+  <li>Semantic markup
+    <ul>
+      <li>Describing the structure of documents</li>
+    </ul>
+  </li>
+  <li>Presentation markup
+    <ul>
+      <li>Presenting documents on a screen</li>
+    </ul>
+  </li>
 </ul>
 
 <h2 id="markup-history-typesetting">Markup history: typesetting</h2>
@@ -358,15 +393,28 @@
 <h2 id="markup-history-text-processing">Markup history: text processing</h2>
 
 <ul>
-  <li>Unix Seventh Edition Manual (Bell Labs)
+  <li><code>roff</code>-type utilities
     <ul>
-      <li><a href="http://cm.bell-labs.com/7thEdMan/vol1/man0.bun">troff source</a></li>
-      <li><a href="http://cm.bell-labs.com/7thEdMan/v7vol1.pdf">PDF</a></li>
+      <li><code>TYPSET</code> and <code>RUNOFF</code> on MIT Compatible Time-Sharing System (CTSS), 1964</li>
+      <li><code>runoff</code> on MIT Multiplexed Information and Computing Service (Multics), after 1964</li>
+      <li><code>roff</code> on Bell Labs UNiplexed Information and Computing Service (UNICS, then UNIX/Unix), after 1970</li>
+      <li><code>nroff</code> (“new <code>roff</code>”) on Unix, after 1973, for line printers and terminals</li>
+      <li><code>troff</code> (“typesetter <code>roff</code>”) on Unix, after 1973, for phototypesetters
+        <ul>
+          <li>Unix Seventh Edition Manual (Bell Labs)
+            <ul>
+              <li><a href="http://cm.bell-labs.com/7thEdMan/vol1/man0.bun">troff source</a></li>
+              <li><a href="http://cm.bell-labs.com/7thEdMan/v7vol1.pdf">PDF</a></li>
+            </ul>
+          </li>
+          <li><a href="http://www.lemoda.net/unix/troff-dictionary/index.html">A dictionary of troff commands</a></li>
+        </ul>
+      </li>
     </ul>
   </li>
-  <li><a href="http://www.lemoda.net/unix/troff-dictionary/index.html">A dictionary of troff commands</a></li>
-  <li>LaTeX
+  <li>TeX (1978) and LaTeX (1984)
     <ul>
+      <li>Designed for typesetting mathematics, among other functions</li>
       <li><a href="https://www.writelatex.com">writeLaTeX</a></li>
     </ul>
   </li>
@@ -425,7 +473,7 @@
   allowed the end-tags to be omitted for the "h1" and "p" elements.
 </code></pre>
   </li>
-  <li>“…many desktop publishing methods were in vogue: SGML, Interleaf, LaTex, Microsoft Word, and Troff among many others. Commercial hypertext packages were computer-specific and could not easily take text from other sources; besides, they were far too complicated and involved tedious compiling of text into internal formats to create the final hypertext system… What was needed was something very simple, at least in the beginning” <a href="#raggett_history_1998">(Raggett)</a></li>
+  <li>“…many desktop publishing methods were in vogue: SGML, Interleaf, LaTeX, Microsoft Word, and Troff among many others. Commercial hypertext packages were computer-specific and could not easily take text from other sources; besides, they were far too complicated and involved tedious compiling of text into internal formats to create the final hypertext system… What was needed was something very simple, at least in the beginning” <a href="#raggett_history_1998">(Raggett)</a></li>
   <li>“The HTML that Tim [Berners-Lee] invented was strongly based on SGML (Standard Generalized Mark-up Language), an internationally agreed upon method for marking up text into structural units such as paragraphs, headings, list items and so on… What SGML does not include, of course, are hypertext links: the idea of using the anchor element with the HREF attribute was purely Tim [Berners-Lee]’s invention” <a href="#raggett_history_1998">(Raggett)</a></li>
   <li><a href="view-source:data.html">View HTML source of this page</a></li>
   <li><a href="http://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic">Tryit Editor v2.0</a></li>
@@ -463,12 +511,13 @@
     </ul>
   </li>
   <li>XHTML</li>
-  <li>
-    <p>HTML 5</p>
+  <li>HTML 5</li>
+  <li>Markdown
+    <ul>
+      <li>[Markdown processors online]</li>
+      <li>[Markdown editors: Stackedit, Dillinger.io, Markable.in]</li>
+    </ul>
   </li>
-  <li>markup history from previous notes: working on markup3</li>
-  <li>markdown processor online</li>
-  <li>markdown editors: stackedit, dillinger.io, markable.in</li>
 </ul>
 
 </div>
