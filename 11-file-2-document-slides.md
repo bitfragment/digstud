@@ -158,6 +158,22 @@ Plain text → formatted with markup → Styled or "rich" text
  
 ----
 
+## Markup
+
+* Types
+* History
+* The situation today: the web development “stack”
+
+^
+* We’ve been talking about the concept of a document
+* A file whose content is text
+* Markup formats
+* Next 2 sessions: review 3 types, their history
+* Much faster than in a web dev course
+* Brief non-technical summary of where web dev is today
+
+----
+
 ## Three types of markup
 
 1. Processing markup
@@ -423,3 +439,196 @@ within two working days and shipped
 ^
 * [Open and demo]
 * "Here is some text. I can emphasize text, or place it in bold face. I can make a link to the course syllabus Web site."
+
+----
+
+## SGML (1980; primarily semantic or *descriptive* markup) → 
+## HTML (1990s; *presentation* markup)
+
+^
+* HTML's history as a presentation markup format:
+* Absorbed SGML, designed as semantic markup
+* SGML in turn had been based on GML, a processing markup
+* A certain tension evolved from this history
+
+----
+
+## Description of a text's structure
+
+    <h1>A level 1 section heading</h1>
+    
+    <p>A paragraph</p>
+    
+## Presentation of styled or "rich" text
+
+    <i>Italicized text</i>
+    
+    <b>Boldface text</b>
+
+^
+* In early HTML, there was a tension
+* Between the descriptive elements of SGML: what this is
+* And elements needed most often for *presenting* text on a screen: how it looks
+
+----
+
+## Mixing structure and presentation
+
+    <h1>A level 1 section heading 
+    with some <i>italicized text</i> in it</h1>
+^
+* Web designers often mixed them together
+* [Explain]
+
+----
+
+## Mixing structure and presentation
+
+    <h1>A level 1 section heading with some 
+    <i><font color="red">italicized 
+    and colored text</font></i> 
+    in it</h1>
+
+^
+* And this could make the code look very complicated
+* But also confusing: two different purposes
+* [Demo this in Tryit Editor]
+* [h1 and a p]
+* [add italic text inside h1]
+* [add 2 different colored text inside italicized, using '<font color="x">'
+
+----
+
+## Separation of content (structure) and form (style)
+
+![inline,left](http://localvox.com/wp-content/uploads/2013/03/bold-italics1.jpg)
+
+![inline,right,200%](http://farm8.staticflickr.com/7077/7164254600_4869a4fb68.jpg)
+
+^
+* Early webdevs: these two things shouldn't be mingled
+* Section/paragraph = structural element, doesn't change
+* Color, italics, bold, etc. = context-dependent
+* Different colors, forms of emphasis, etc. used in different languages and typesetting styles
+* E.g., German *Sperrsatz*
+* Didn't want to have to rewrite HTML using different forms of emphasis
+
+----
+
+## HTML today: the front-end Web development “stack”
+
+1. HTML
+2. **CSS** (Cascading Style Sheets)
+
+^
+* CSS = style language to be used along with HTML markup format
+* Moves presentation instructions into a separate section of the HTML code, or event a separate document, called the style sheets
+
+----
+
+## HTML
+
+	    <h1>A level 1 section heading</h1>
+    
+## CSS
+
+	    h1 { 
+	    	font-size: 24pt;
+	    	font-color: red;
+	    	}
+
+----
+
+## CSSDesk.com
+
+^
+* [Open and demonstrate the html/css on the previous slide]
+* Now HTML describes the structural elements of the document
+* CSS controls its presentation
+
+----
+
+## Internal style sheets
+
+	   <style>
+	       h1 { 
+	    	font-size: 24pt;
+	    	font-color: red;
+	    	}
+	   </style>
+
+^
+* CSS can be incorporated into the HTML markup of a document
+* Between a set of special tags
+
+----
+
+## External style sheets
+
+	   <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+^
+* These days, CSS is sophisticated enough so that usually external
+* You can view it along with HTML source in a browser
+* [Show them using course syllabus Web site]
+
+----
+
+## HTML today: the front-end Web development “stack”
+
+1. HTML
+2. CSS (Cascading Style Sheets)
+3. **JavaScript**
+
+^
+* There is a third element of the stack
+* Special-purpose programming language
+* Developed along with HTML and CSS for programming inside a Web page
+
+----
+
+## JavaScript
+
+		<script> 
+			document.write("Hello World!);
+		</script>
+
+^
+* It's a proglang, which is our next unit, so just a bit here
+* Language is contained in the browser: Safari, Chrome, Firefox
+* Like CSS, can be incorporated into HTML markup of a document…
+* …or JavaScript files can be linked
+* [Show them using psu.edu]
+
+----
+
+## JavaScript in your browser
+
+^
+* You can access it if you want to
+* [Demo on Chrome: alert, document.write]
+
+----
+
+## Client-side scripting (JavaScript)
+## Server-side scripting (PHP)
+
+^
+* There is one more programming language used inside HTML markup: PHP
+* JavaScript is executed in browser: client-side
+* Your browser is the client
+* PHP is executed on the server side
+
+----
+
+## PHP
+		
+		<?php
+		 echo "Hello World!";
+		?>
+
+^
+* [Open compileonline.com for PHP]
+* [Add h1 header text]
+* [Add paragraph]
+* [Then add PHP hello world]

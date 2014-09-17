@@ -166,7 +166,7 @@
   </nav>
 
   <div class="sidebar-item">
-    <p> 2014-08-26</p>
+    <p> 2014-09-14</p>
     <p>Course author and site author: <a href="http://english.la.psu.edu/faculty-staff/bul5">Prof. B. Lennon</a></p>
     <p>This work is licensed under a Creative Commons  Attribution-NonCommercial-ShareAlike 4.0 International License.
 </p>
@@ -191,7 +191,7 @@
         <div class="page">
   <h1 class="page-title">File: Document</h1>
   
-  <div class="vcsinfo">(v0.2.0-7-g090e101  2014-08-26)</div>
+  <div class="vcsinfo">(v0.2.0-8-gb7f92f3  2014-09-14)</div>
   
 
   <ul id="markdown-toc">
@@ -205,8 +205,8 @@
   <li><a href="#markup-history-text-processing">Markup history: text processing</a></li>
   <li><a href="#markup-history-semantics">Markup history: semantics</a></li>
   <li><a href="#markup-history-text-presentation">Markup history: text presentation</a></li>
-  <li><a href="#the-front-end-web-development-stack">The front-end Web development “stack”</a></li>
-  <li><a href="#standardization-and-its-discontents">Standardization and its discontents</a></li>
+  <li><a href="#structure-vs-presentation">Structure vs. presentation</a></li>
+  <li><a href="#today-the-front-end-web-development-stack">Today: the front-end Web development “stack”</a></li>
 </ul>
 
 <h2 id="readings">Readings</h2>
@@ -479,46 +479,87 @@
   <li><a href="http://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic">Tryit Editor v2.0</a></li>
 </ul>
 
-<h2 id="the-front-end-web-development-stack">The front-end Web development “stack”</h2>
+<h2 id="structure-vs-presentation">Structure vs. presentation</h2>
+
+<ul>
+  <li>Structural elements of a document
+    <ul>
+      <li>Section breaks with their headings</li>
+      <li>Paragraph boundaries</li>
+      <li>Less variable than presentation elements of a text</li>
+    </ul>
+  </li>
+  <li>Presentation elements of a document
+    <ul>
+      <li>Typeface color</li>
+      <li>Typeface size</li>
+      <li>Typeface: roman, italic</li>
+      <li>Type weight: regular, bold</li>
+      <li>Other forms of emphasis: underscores, spacing of letters</li>
+      <li>Vertical spacing between structural elements like section breaks, paragraph boundaries</li>
+      <li>One might choose an italic typeface, bold type weight, underlining, or spacing to emphasize a particular word in presenting a text in various contexts and media (print, screen), without changing any <em>structural</em> element of the text thereby</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="today-the-front-end-web-development-stack">Today: the front-end Web development “stack”</h2>
 
 <ul>
   <li>HTML + CSS
     <ul>
+      <li>A style language developed for use with HTML</li>
+      <li>Internal style sheets: <code>&lt;style&gt;</code>…<code>&lt;/style&gt;</code></li>
+      <li>External style sheets: <code>&lt;link rel="stylesheet" type="text/css" href="mystyle.css"&gt;</code></li>
       <li><a href="http://www.cssdesk.com/">CSSDesk - Online CSS Sandbox</a></li>
     </ul>
   </li>
   <li>HTML + CSS + JavaScript
     <ul>
-      <li>JavaScript in browser</li>
+      <li>JavaScript is a lightweight, special-purpose programming language</li>
+      <li>Developed along with HTML and CSS for Web sites</li>
+      <li>Implementation is entirely contained in any browser
+        <ul>
+          <li>Safari: Developer &gt; Error Console</li>
+          <li>Chrome: Developer &gt; JavaScript console</li>
+        </ul>
+      </li>
+      <li>Use inside document with HTML markup viewed in browser
+        <ul>
+          <li><code>&lt;script&gt;</code> … <code>&lt;/script&gt;</code></li>
+        </ul>
+      </li>
+      <li>Simple JavaScript functions
+        <ul>
+          <li><code>alert("Hello World!);</code></li>
+          <li><code>document.write("Hello World!");</code></li>
+        </ul>
+      </li>
       <li><a href="http://dabblet.com">Dabblet</a></li>
     </ul>
   </li>
-  <li>Client-side (browser) vs. server-side</li>
+  <li>Client-side (browser) vs. server-side scripting</li>
   <li>PHP (server-side)
     <ul>
+      <li><code>&lt;?php echo "Hello World!"; ?&gt;</code></li>
       <li><a href="http://www.compileonline.com/execute_php_online.php">Execute PHP Script Online</a></li>
     </ul>
   </li>
 </ul>
 
-<h2 id="standardization-and-its-discontents">Standardization and its discontents</h2>
+<!-- for possible future elaboration 
 
-<ul>
-  <li>XML
-    <ul>
-      <li><q>Although it took off like wildfire, HTML is where things began to go horribly wrong</q> [@anderson_introducing_2004]</li>
-      <li><a href="http://msdn.microsoft.com/en-us/library/ms762271(v=vs.85).aspx">Sample XML document (Microsoft Developer Network)</a></li>
-    </ul>
-  </li>
-  <li>XHTML</li>
-  <li>HTML 5</li>
-  <li>Markdown
-    <ul>
-      <li>[Markdown processors online]</li>
-      <li>[Markdown editors: Stackedit, Dillinger.io, Markable.in]</li>
-    </ul>
-  </li>
-</ul>
+## Standardization and its discontents
+
+* XML
+    * <q>Although it took off like wildfire, HTML is where things began to go horribly wrong</q> [@anderson_introducing_2004]
+    * [Sample XML document (Microsoft Developer Network)](http://msdn.microsoft.com/en-us/library/ms762271(v=vs.85).aspx)
+* XHTML
+* HTML 5
+* Markdown
+    * [Markdown processors online]
+    * [Markdown editors: Stackedit, Dillinger.io, Markable.in]
+
+-->
 
 </div>
 
