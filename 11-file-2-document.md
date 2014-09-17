@@ -191,18 +191,49 @@ Readings
 
 
 
-## The front-end Web development "stack"
+## Structure vs. presentation
+
+* Structural elements of a document
+	* Section breaks with their headings
+	* Paragraph boundaries
+	* Less variable than presentation elements of a text
+* Presentation elements of a document
+	* Typeface color
+	* Typeface size
+	* Typeface: roman, italic
+	* Type weight: regular, bold
+	* Other forms of emphasis: underscores, spacing of letters
+	* Vertical spacing between structural elements like section breaks, paragraph boundaries
+	* One might choose an italic typeface, bold type weight, underlining, or spacing to emphasize a particular word in presenting a text in various contexts and media (print, screen), without changing any *structural* element of the text thereby
+
+
+
+## Today: the front-end Web development "stack"
 
 * HTML + CSS
+	- A style language developed for use with HTML
+    - Internal style sheets: `<style>`...`</style>`
+    - External style sheets: `<link rel="stylesheet" type="text/css" href="mystyle.css">`
     - [CSSDesk - Online CSS Sandbox](http://www.cssdesk.com/)
 * HTML + CSS + JavaScript
-    - JavaScript in browser
+	- JavaScript is a lightweight, special-purpose programming language
+	- Developed along with HTML and CSS for Web sites
+	- Implementation is entirely contained in any browser
+		- Safari: Developer > Error Console
+		- Chrome: Developer > JavaScript console
+	- Use inside document with HTML markup viewed in browser
+		- `<script>` ... `</script>`
+	- Simple JavaScript functions
+		- `alert("Hello World!);`
+		- `document.write("Hello World!");`
     - [Dabblet](http://dabblet.com)
-* Client-side (browser) vs. server-side
+* Client-side (browser) vs. server-side scripting
 * PHP (server-side)
+	- `<?php echo "Hello World!"; ?>`
     - [Execute PHP Script Online](http://www.compileonline.com/execute_php_online.php)
 
 
+<!-- for possible future elaboration 
 
 ## Standardization and its discontents
 
@@ -214,3 +245,5 @@ Readings
 * Markdown
     * [Markdown processors online]
     * [Markdown editors: Stackedit, Dillinger.io, Markable.in]
+
+-->
