@@ -105,7 +105,7 @@ Algorithm
 
 * Colloquial usage
     - A byproduct of contemporary digital culture
-        * [Example]()![fit](https://jurnalpelajarbodoh.files.wordpress.com/2013/09/alg-dilbert.gif)
+        * [Example](https://jurnalpelajarbodoh.files.wordpress.com/2013/09/alg-dilbert.gif)
     - Any specification of steps in a procedure
         + Example: [An Algorithm: Baking a Cake](http://www.wiley.com/college/busin/icmis/oakman/outline/chap05/slides/algor.htm)
 * More precise usage in computing
