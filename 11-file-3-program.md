@@ -50,29 +50,43 @@ Readings
 What is a program?
 ------------------
 
-* `DO`: Hello world! in Ruby (use [Codecademy Labs](http://labs.codecademy.com/))
-
-      def hello
-          puts 'hello world!'
-      end
-
-
-      hello()
-
-* `DO`: Hello world! in Python (use [Codecademy Labs](http://labs.codecademy.com/))
-
-      def hello():
-          print 'hello world!'
-
-
-      hello()
+Plain text that can be interpreted as instructions to perform a computational process
 
 
 
-Execution
+Hello world
+-----------
+
+The simplest program is a single instruction:
+
+    print "Hello world!"
+
+
+
+
+Functions
 ---------
 
-       javascript:alert("Hello world!");
+    def hello
+        print 'Hello world!'
+    end
+
+* Here, a separate *function*
+* Like a dictionary definition
+
+
+
+…and function calls
+-------------------
+
+    def hello
+        print 'Hello world!'
+    end
+
+    hello()
+
+* Calling a function is like looking up and reading a dictionary definition
+* A programming language interpreter reads the definition and executes the instructions it contains
 
 
 
