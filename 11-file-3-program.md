@@ -38,7 +38,6 @@ abstract:
 * toc
 {:toc}
 
-[Slide version](11-program-slides-revealjs.html)
 
 
 Readings
