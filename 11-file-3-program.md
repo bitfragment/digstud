@@ -55,27 +55,38 @@ What is a program?
 
       def hello
           puts 'hello world!'
-      hello
+      end
+
+
+      hello()
 
 * `DO`: Hello world! in Python (use [Codecademy Labs](http://labs.codecademy.com/))
 
       def hello():
           print 'hello world!'
 
+
       hello()
 
 
 
-The double life of programs: three doubles
-------------------------------------------
+Execution
+---------
 
-* Semantic
-    1. As instructions
-    2. As data
+       javascript:alert("Hello world!");
+
+
+
+The double life of a program: three doubles
+-------------------------------------------
 
 * Ontological
     1. A static text artifact or product
     2. When executed, a dynamic computational process
+
+* Semantic
+    1. As data
+    1. As instructions
 
 * Legal
     1. Text, therefore protected by copyright
@@ -95,6 +106,7 @@ Algorithm
 
 * Colloquial usage
     - A byproduct of contemporary digital culture
+        * [Example]()![fit](https://jurnalpelajarbodoh.files.wordpress.com/2013/09/alg-dilbert.gif)
     - Any specification of steps in a procedure
         + Example: [An Algorithm: Baking a Cake](http://www.wiley.com/college/busin/icmis/oakman/outline/chap05/slides/algor.htm)
 * More precise usage in computing
@@ -106,9 +118,8 @@ Algorithm
 Exercise: algorithm
 -------------------
 
-Write an algorithm that will help someone find her or his way to our classroom.
-
-TODO: ANGEL Assessment: write an algorithm for making the perfect sandwich (or the perfect lunch, if you don't like sandwiches)
+* Write an algorithm that will help someone find her or his way to our classroom
+* Write an algorithm for making the perfect sandwich (or the perfect lunch, if you don't like sandwiches)
 
 
 
@@ -127,6 +138,10 @@ Pseudocode
 * An algorithm can be expressed *informally* in a natural language like English
     - Your algorithm for locating our classroom
 * An algorithm can be expressed *formally* in an artificial programming language
+    - [Greatest common divisor - Rosetta Code: BASIC](http://rosettacode.org/wiki/Greatest_common_divisor#BASIC)
+    - [Greatest common divisor - Rosetta Code: JavaScript](http://rosettacode.org/wiki/Greatest_common_divisor#JavaScript)
+    - [Greatest common divisor - Rosetta Code: Python](http://rosettacode.org/wiki/Greatest_common_divisor#Python)
+    - [Greatest common divisor - Rosetta Code: Ruby](http://rosettacode.org/wiki/Greatest_common_divisor#Ruby)
 
 
 
@@ -145,8 +160,3 @@ Pseudocode example
             Do something else
     Else
         Stay in bed
-
-
-TODO: Assessment: write pseudocode
-
-WORKINGHERE: remainder of proglang-notes on program
