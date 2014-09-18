@@ -166,7 +166,7 @@
   </nav>
 
   <div class="sidebar-item">
-    <p> 2014-09-16</p>
+    <p> 2014-09-18</p>
     <p>Course author and site author: <a href="http://english.la.psu.edu/faculty-staff/bul5">Prof. B. Lennon</a></p>
     <p>This work is licensed under a Creative Commons  Attribution-NonCommercial-ShareAlike 4.0 International License.
 </p>
@@ -191,13 +191,14 @@
         <div class="page">
   <h1 class="page-title">File: Program</h1>
   
-  <div class="vcsinfo">(v0.2.0-9-g6c53ba5  2014-09-18)</div>
+  <div class="vcsinfo">(v0.2.0-10-g2a387c6  2014-09-16)</div>
   
 
   <ul id="markdown-toc">
   <li><a href="#readings">Readings</a></li>
   <li><a href="#what-is-a-program">What is a program?</a></li>
-  <li><a href="#the-double-life-of-programs-three-doubles">The double life of programs: three doubles</a></li>
+  <li><a href="#execution">Execution</a></li>
+  <li><a href="#the-double-life-of-a-program-three-doubles">The double life of a program: three doubles</a></li>
   <li><a href="#layers-of-abstraction">Layers of abstraction</a></li>
   <li><a href="#algorithm">Algorithm</a></li>
   <li><a href="#exercise-algorithm">Exercise: algorithm</a></li>
@@ -206,11 +207,17 @@
   <li><a href="#pseudocode-example">Pseudocode example</a></li>
 </ul>
 
-<p><a href="11-program-slides-revealjs.html">Slide version</a></p>
-
 <h2 id="readings">Readings</h2>
 
-<ol class="bibliography"><li><span id="colburn_software_1999">Colburn, Timothy R. “Software, Abstraction, And Ontology.” <i>The Monist</i> 82.1 (1999): 3–19. Web.</span>
+<ol class="bibliography"><li><span id="_greatest_????">“Greatest Common Divisor.” <i>Rosetta Code</i>. Web.</span>
+
+
+<span class="entry-url"><a href="http://rosettacode.org/wiki/Greatest_common_divisor">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="colburn_software_1999">Colburn, Timothy R. “Software, Abstraction, And Ontology.” <i>The Monist</i> 82.1 (1999): 3–19. Web.</span>
 
 
 <span class="entry-url"><a href="http://www.jstor.org.ezaccess.libraries.psu.edu/stable/27903620">Link (remote) →</a></span>
@@ -225,6 +232,14 @@
 
 
 
+</li>
+<li><span id="rosler_hello_????">Rösler, Wolfram. “The Hello World Collection.” Web.</span>
+
+
+<span class="entry-url"><a href="http://www.roesler-ac.de/wolfram/hello.htm">Link (remote) →</a></span>
+
+
+
 </li></ol>
 
 <h2 id="what-is-a-program">What is a program?</h2>
@@ -235,7 +250,10 @@
 
     <pre><code>def hello
     puts 'hello world!'
-hello
+end
+
+
+hello()
 </code></pre>
   </li>
   <li>
@@ -244,24 +262,30 @@ hello
     <pre><code>def hello():
     print 'hello world!'
 
+
 hello()
 </code></pre>
   </li>
 </ul>
 
-<h2 id="the-double-life-of-programs-three-doubles">The double life of programs: three doubles</h2>
+<h2 id="execution">Execution</h2>
+
+<pre><code>   javascript:alert("Hello world!");
+</code></pre>
+
+<h2 id="the-double-life-of-a-program-three-doubles">The double life of a program: three doubles</h2>
 
 <ul>
-  <li>Semantic
-    <ol>
-      <li>As instructions</li>
-      <li>As data</li>
-    </ol>
-  </li>
   <li>Ontological
     <ol>
       <li>A static text artifact or product</li>
       <li>When executed, a dynamic computational process</li>
+    </ol>
+  </li>
+  <li>Semantic
+    <ol>
+      <li>As data</li>
+      <li>As instructions</li>
     </ol>
   </li>
   <li>Legal
@@ -281,7 +305,11 @@ hello()
 <ul>
   <li>Colloquial usage
     <ul>
-      <li>A byproduct of contemporary digital culture</li>
+      <li>A byproduct of contemporary digital culture
+        <ul>
+          <li><a href="">Example</a><img src="https://jurnalpelajarbodoh.files.wordpress.com/2013/09/alg-dilbert.gif" alt="fit" /></li>
+        </ul>
+      </li>
       <li>Any specification of steps in a procedure
         <ul>
           <li>Example: <a href="http://www.wiley.com/college/busin/icmis/oakman/outline/chap05/slides/algor.htm">An Algorithm: Baking a Cake</a></li>
@@ -299,9 +327,10 @@ hello()
 
 <h2 id="exercise-algorithm">Exercise: algorithm</h2>
 
-<p>Write an algorithm that will help someone find her or his way to our classroom.</p>
-
-<p>TODO: ANGEL Assessment: write an algorithm for making the perfect sandwich (or the perfect lunch, if you don’t like sandwiches)</p>
+<ul>
+  <li>Write an algorithm that will help someone find her or his way to our classroom</li>
+  <li>Write an algorithm for making the perfect sandwich (or the perfect lunch, if you don’t like sandwiches)</li>
+</ul>
 
 <h2 id="algorithm-as-abstraction">Algorithm as abstraction</h2>
 
@@ -322,7 +351,14 @@ hello()
       <li>Your algorithm for locating our classroom</li>
     </ul>
   </li>
-  <li>An algorithm can be expressed <em>formally</em> in an artificial programming language</li>
+  <li>An algorithm can be expressed <em>formally</em> in an artificial programming language
+    <ul>
+      <li><a href="http://rosettacode.org/wiki/Greatest_common_divisor#BASIC">Greatest common divisor - Rosetta Code: BASIC</a></li>
+      <li><a href="http://rosettacode.org/wiki/Greatest_common_divisor#JavaScript">Greatest common divisor - Rosetta Code: JavaScript</a></li>
+      <li><a href="http://rosettacode.org/wiki/Greatest_common_divisor#Python">Greatest common divisor - Rosetta Code: Python</a></li>
+      <li><a href="http://rosettacode.org/wiki/Greatest_common_divisor#Ruby">Greatest common divisor - Rosetta Code: Ruby</a></li>
+    </ul>
+  </li>
 </ul>
 
 <h2 id="pseudocode-example">Pseudocode example</h2>
@@ -340,10 +376,6 @@ hello()
 Else
     Stay in bed
 </code></pre>
-
-<p>TODO: Assessment: write pseudocode</p>
-
-<p>WORKINGHERE: remainder of proglang-notes on program</p>
 
 </div>
 
