@@ -166,7 +166,7 @@
   </nav>
 
   <div class="sidebar-item">
-    <p> 2014-09-18</p>
+    <p>v0.2.0-12-g70d0126 2014-09-18</p>
     <p>Course author and site author: <a href="http://english.la.psu.edu/faculty-staff/bul5">Prof. B. Lennon</a></p>
     <p>This work is licensed under a Creative Commons  Attribution-NonCommercial-ShareAlike 4.0 International License.
 </p>
@@ -191,13 +191,15 @@
         <div class="page">
   <h1 class="page-title">File: Program</h1>
   
-  <div class="vcsinfo">(v0.2.0-11-ge9fb453  2014-09-18)</div>
+  <div class="vcsinfo">(v0.2.0-12-g70d0126  2014-09-18)</div>
   
 
   <ul id="markdown-toc">
   <li><a href="#readings">Readings</a></li>
   <li><a href="#what-is-a-program">What is a program?</a></li>
-  <li><a href="#execution">Execution</a></li>
+  <li><a href="#hello-world">Hello world</a></li>
+  <li><a href="#functions">Functions</a></li>
+  <li><a href="#and-function-calls">…and function calls</a></li>
   <li><a href="#the-double-life-of-a-program-three-doubles">The double life of a program: three doubles</a></li>
   <li><a href="#layers-of-abstraction">Layers of abstraction</a></li>
   <li><a href="#algorithm">Algorithm</a></li>
@@ -244,34 +246,40 @@
 
 <h2 id="what-is-a-program">What is a program?</h2>
 
-<ul>
-  <li>
-    <p><code>DO</code>: Hello world! in Ruby (use <a href="http://labs.codecademy.com/">Codecademy Labs</a>)</p>
+<p>Plain text that can be interpreted as instructions to perform a computational process</p>
 
-    <pre><code>def hello
-    puts 'hello world!'
+<h2 id="hello-world">Hello world</h2>
+
+<p>The simplest program is a single instruction:</p>
+
+<pre><code>print "Hello world!"
+</code></pre>
+
+<h2 id="functions">Functions</h2>
+
+<pre><code>def hello
+    print 'Hello world!'
 end
-
-
-hello()
 </code></pre>
-  </li>
-  <li>
-    <p><code>DO</code>: Hello world! in Python (use <a href="http://labs.codecademy.com/">Codecademy Labs</a>)</p>
 
-    <pre><code>def hello():
-    print 'hello world!'
-
-
-hello()
-</code></pre>
-  </li>
+<ul>
+  <li>Here, a separate <em>function</em></li>
+  <li>Like a dictionary definition</li>
 </ul>
 
-<h2 id="execution">Execution</h2>
+<h2 id="and-function-calls">…and function calls</h2>
 
-<pre><code>   javascript:alert("Hello world!");
+<pre><code>def hello
+    print 'Hello world!'
+end
+
+hello()
 </code></pre>
+
+<ul>
+  <li>Calling a function is like looking up and reading a dictionary definition</li>
+  <li>A programming language interpreter reads the definition and executes the instructions it contains</li>
+</ul>
 
 <h2 id="the-double-life-of-a-program-three-doubles">The double life of a program: three doubles</h2>
 
