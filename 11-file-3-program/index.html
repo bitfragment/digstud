@@ -166,7 +166,7 @@
   </nav>
 
   <div class="sidebar-item">
-    <p>v0.2.0-12-g70d0126 2014-09-18</p>
+    <p> 2014-09-18</p>
     <p>Course author and site author: <a href="http://english.la.psu.edu/faculty-staff/bul5">Prof. B. Lennon</a></p>
     <p>This work is licensed under a Creative Commons  Attribution-NonCommercial-ShareAlike 4.0 International License.
 </p>
@@ -191,7 +191,7 @@
         <div class="page">
   <h1 class="page-title">File: Program</h1>
   
-  <div class="vcsinfo">(v0.2.0-12-g70d0126  2014-09-18)</div>
+  <div class="vcsinfo">(v0.2.0-13-gce889b6  2014-09-18)</div>
   
 
   <ul id="markdown-toc">
@@ -207,14 +207,55 @@
   <li><a href="#algorithm-as-abstraction">Algorithm as abstraction</a></li>
   <li><a href="#pseudocode">Pseudocode</a></li>
   <li><a href="#pseudocode-example">Pseudocode example</a></li>
+  <li><a href="#from-computer-to-programmer">From “computer” to “programmer”</a></li>
+  <li><a href="#stored-program-computing">Stored program computing</a></li>
+  <li><a href="#assemblers-and-alphanumeric-assembly-codes">Assemblers and alphanumeric assembly codes</a></li>
+  <li><a href="#compilers">Compilers</a>    <ul>
+      <li><a href="#hello-world-written-in-the-c-programming-language">“Hello world!” written in the C programming language</a></li>
+      <li><a href="#compiling-the-plain-text-file-helloc">Compiling the plain text file <code>hello.c</code></a></li>
+      <li><a href="#executing-the-object-code-produced-by-the-compiler">Executing the object code produced by the compiler</a></li>
+    </ul>
+  </li>
+  <li><a href="#from-compiler-to-programming-language">From “compiler” to “programming language”</a></li>
+  <li><a href="#fortran-formula-translation-1957">FORTRAN (FORmula TRANslation), 1957</a></li>
+  <li><a href="#cobol-common-business-oriented-language-1958">COBOL (COmmon Business-Oriented Language), 1958</a></li>
+  <li><a href="#fortran-and-cobol-algebraic-notation-vs-english-language-prose">FORTRAN and COBOL: algebraic notation vs. English-language prose</a>    <ul>
+      <li><a href="#fortran">FORTRAN</a></li>
+      <li><a href="#cobol">COBOL</a></li>
+    </ul>
+  </li>
+  <li><a href="#clumsiness-of-the-analogy-between-language-and-code">Clumsiness of the analogy between language and code</a></li>
+  <li><a href="#natural-languages">Natural languages</a></li>
+  <li><a href="#formal-languages">Formal languages</a></li>
+  <li><a href="#programming-languages">Programming languages</a></li>
 </ul>
 
 <h2 id="readings">Readings</h2>
 
-<ol class="bibliography"><li><span id="_greatest_????">“Greatest Common Divisor.” <i>Rosetta Code</i>. Web.</span>
+<ol class="bibliography"><li><span id="_greatest_2014">“Greatest Common Divisor.” <i>Rosetta Code</i> Aug. 2014. Web.</span>
 
 
 <span class="entry-url"><a href="http://rosettacode.org/wiki/Greatest_common_divisor">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="plutte_eniacs_2011">“ENIAC’s Programmers.” 2011. Web.</span>
+
+
+<span class="entry-url"><a href="http://www.computerhistory.org/revolution/birth-of-the-computer/4/78/2258">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="ceruzzi_stored_2012">Ceruzzi, Paul E. “The Stored Program Principle.” <i>Computing: A Concise History</i>. Cambridge, MA: MIT Press, 2012. 49–80. Print.</span>
+
+
+
+
+</li>
+<li><span id="ceruzzi_first_2012">---. “The First Computers, 1935-1945.” <i>Computing: A Concise History</i>. Cambridge, MA: MIT Press, 2012. 23–48. Print.</span>
+
 
 
 
@@ -227,6 +268,30 @@
 
 
 </li>
+<li><span id="da_cruz_programming_2013">Da Cruz, Frank. “Programming The ENIAC.” <i>Columbia University Computing History</i> Nov. 2013. Web.</span>
+
+
+<span class="entry-url"><a href="http://www.columbia.edu/cu/computinghistory/eniac.html">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="downey_formal_2013">Downey, Allen. “Formal And Natural Languages.” <i>Think Python: How to Think Like a Computer Scientist</i>. Version 2.0.12. Needham, MA: Green Tea Press, 2013. 5–6. Web.</span>
+
+
+<span class="entry-url"><a href="http://www.greenteapress.com/thinkpython/thinkpython.html">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="erickson_top_2010">Erickson, LeeAnn, and Cynthia Baughman. “Top Secret Rosies: The Female Computers of World War II.” 2010. Web.</span>
+
+
+<span class="entry-url"><a href="http://cat.libraries.psu.edu/uhtbin/cgisirsi/0/0/0/5?searchdata1=%5EC6945516">Link (remote) →</a></span>
+
+
+
+</li>
 <li><span id="knuth_algorithm_1966">Knuth, Donald E. “Algorithm And Program; Information And Data.” <i>Communications of the ACM</i> 9.9 (1966): 654. Web.</span>
 
 
@@ -235,7 +300,23 @@
 
 
 </li>
-<li><span id="rosler_hello_????">Rösler, Wolfram. “The Hello World Collection.” Web.</span>
+<li><span id="light_when_1999">Light, Jennifer S. “When Computers Were Women.” <i>Technology and Culture</i> 40.3 (1999): 455–483. Web.</span>
+
+
+<span class="entry-url"><a href="http://muse.jhu.edu.ezaccess.libraries.psu.edu/journals/technology_and_culture/v040/40.3light.html">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="moye_eniac:_1996">Moye, William T. “ENIAC: The Army-Sponsored Revolution.” Jan. 1996. Web.</span>
+
+
+<span class="entry-url"><a href="http://ftp.arl.mil/~mike/comphist/96summary/index.html">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="rosler_hello_2014">Rösler, Wolfram. “The Hello World Collection.” Sep. 2014. Web.</span>
 
 
 <span class="entry-url"><a href="http://www.roesler-ac.de/wolfram/hello.htm">Link (remote) →</a></span>
@@ -384,6 +465,223 @@ hello()
 Else
     Stay in bed
 </code></pre>
+
+<h2 id="from-computer-to-programmer">From “computer” to “programmer”</h2>
+
+<p>The word “computer” originally denoted a human occupation:</p>
+
+<blockquote>
+  <p>During the war, BRL [U.S. Army Ballistic Research Laboratory] recruited approximately two hundred women to work as computers, hand-calculating firing tables for rockets and artillery shells. <a href="#light_when_1999">(Light)</a></p>
+</blockquote>
+
+<p>During and after WWII, the denotation of “computer” shifted to the electromechanical or electronic machine that automated and replaced that human occupation:</p>
+
+<blockquote>
+  <p>During World War II, a “computer” was a person who calculated artillery firing tables using a desk calculator. Six women “computers” were assigned to serve as ENIAC’s original programming group. Although most were college graduates, the “girls” were told that only “men” could get professional ratings. Finally, in November 1946, many of the women received professional ratings. <a href="#moye_eniac:_1996">(Moye)</a></p>
+</blockquote>
+
+<blockquote>
+  <p>ENIAC’s first application was to solve an important problem for the Manhatten [<em>sic</em>] Project. Involved were Nicholas Metropolis and Stanley Frankel from the Los Alamos National Laboratory, who worked with Eckert, Mauchly, and the women programmers. Captain (Dr.) Goldstine and his wife, Adele, taught Metropolis and Frankel how to program the machine, and the “girls” would come in and set the switches according to the prepared program. <a href="#moye_eniac:_1996">(Moye)</a></p>
+</blockquote>
+
+<ul>
+  <li><a href="http://www.dfrc.nasa.gov/Gallery/Photo/People/Small/E49-0053.jpg">Early NACA human computers at work</a></li>
+  <li><a href="http://www.seas.upenn.edu/images/about-seas/eniac-home.jpg">ENIAC, 1946 (Penn Engineering)</a></li>
+  <li><a href="http://s7.computerhistory.org/is/image/CHM/500004289-03-01?$re-zoomed$">ENIAC tube change</a></li>
+  <li><a href="http://s7.computerhistory.org/is/image/CHM/102622742-03-01?$re-zoomed$">ENIAC being set up (Computer History Museum)</a></li>
+  <li><a href="http://s7.computerhistory.org/is/image/CHM/102618640-03-01?$re-story-hero$">ENIAC programmers (Computer History Museum)</a></li>
+  <li><a href="http://www.columbia.edu/cu/computinghistory/eniac1.jpg">Programming the ENIAC (Columbia University Computing History)</a></li>
+  <li><a href="http://www.columbia.edu/cu/computinghistory/eniac7.gif">Programming the ENIAC (Columbia University Computing History)</a></li>
+  <li><a href="http://www.computerhistory.org/revolution/birth-of-the-computer/4/78/2258">Jean Bartik: ENIAC’s Programmers (Computer History Museum)</a></li>
+</ul>
+
+<h2 id="stored-program-computing">Stored program computing</h2>
+
+<ul>
+  <li>Advantages of stored program computing architecture
+    <ol>
+      <li>Preparing the program in advance and storing it as data enables faster execution</li>
+      <li>Ability to treat program as data and modify it when you want to
+        <ul>
+          <li>Ability to operate on program data itself</li>
+          <li>Example: storing commonly used subroutines in advance and calling them from a program when they were needed</li>
+          <li>Such subroutines could be written in binary operation codes, then “called” by a program written in a higher-level code: for example, a code using words from the English language (“set,” “get,” “goto”, “print”), which are easier for humans to read and write</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+</ul>
+
+<p>This is really the beginning of the history of what we now call “programming languages”:</p>
+
+<blockquote>
+  <p>By storing a program and data in a common high-speed memory, not only could programs be executed at electronic speeds; the programs could also be operated on as if they were data — the ancestor of today’s high-level languages compiled inside modern computers. <a href="#ceruzzi_stored_2012">(Ceruzzi)</a></p>
+</blockquote>
+
+<p>Ceruzzi: the “stored program principle” was so influential that the referent of the word “computer” shifted once again. Now, it described electromechanical or electronic machines designed with a stored program architecture, rather than other designs:</p>
+
+<blockquote>
+  <p>The definition of <em>computer</em> thus changed, and to an extent it remains the one used today, with the criterion of programmability now extended to encompass the internal storage of that program in high-speed memory. <a href="#ceruzzi_stored_2012">(Ceruzzi)</a></p>
+</blockquote>
+
+<h2 id="assemblers-and-alphanumeric-assembly-codes">Assemblers and alphanumeric assembly codes</h2>
+
+<p><a href="http://www.cl.cam.ac.uk/relics/jpegs/edsac_wilkes.jpg">EDSAC (University of Cambridge, 1949)</a></p>
+
+<ul>
+  <li>EDSAC provided a hard-wired assembler program stored in ROM, allowing the programmer to enter brief alphanumberic codes instead of coding in binary notation</li>
+  <li>The assembler performed the “translation” of those alphanumberic codes into binary code</li>
+  <li>This assembler program was called “initial orders” (it had two versions)</li>
+  <li>
+    <p>“Hello World” for EDSAC initial orders 1, from <a href="http://www.cl.cam.ac.uk/events/EDSAC99/simulators/echo/flat.html">EDSAC Programming Tutorial</a>:</p>
+
+    <pre><code>  T56F
+  ZF 
+  TF 
+  O43F 
+  A34F 
+  A41F 
+  U34F 
+  S42F 
+  G33F 
+  ZF 
+  P1F O56F 
+  *F HF EF LF LF OF 
+  !F WF OF RF LF DF &amp;F
+</code></pre>
+  </li>
+  <li>These are the alphanumeric assembler codes for a “Hello world!” program written for EDSAC’s “initial orders” assembler 1</li>
+  <li>The first two lines are preparatory codes, stopping any prior process and clearing the memory</li>
+  <li>The remainder of the program directs the machine’s teleprinter to print a series of alphabetic charaters, the string “Hello world!”</li>
+  <li>They tell it to retrieve one character at a time from the character codes on the last two lines of the program, store them in memory, and then print them using the teleprinter</li>
+</ul>
+
+<h2 id="compilers">Compilers</h2>
+
+<blockquote>
+  <p>…a special kind of program, later called a compiler, would take as its input instructions written in a form that was familiar to human programmers and easy to grasp, and its output would be another program, this one written in the arcane codes that the hardware was able to decode. <a href="#ceruzzi_stored_2012">(Ceruzzi)</a></p>
+</blockquote>
+
+<ul>
+  <li>Terminology was in flux, and its took time for the meaning of the word “compiler” to stabilize</li>
+  <li>A compiler performed the same function as what was earlier sometimes called an “assembler”: translating higher-level codes that were easy for the programmer to write into lower-level machine codes</li>
+  <li>This amounts to writing in a “programming language,” instead of entering such <a href="#/hello-world-for-edsac-initial-orders-1">operation codes</a></li>
+</ul>
+
+<h3 id="hello-world-written-in-the-c-programming-language">“Hello world!” written in the C programming language</h3>
+
+<pre><code>#include&lt;stdio.h&gt;
+
+main()
+{
+    printf("Hello World");
+
+}
+</code></pre>
+
+<h3 id="compiling-the-plain-text-file-helloc">Compiling the plain text file <code>hello.c</code></h3>
+
+<pre><code>$ gcc -v hello.c
+</code></pre>
+
+<h3 id="executing-the-object-code-produced-by-the-compiler">Executing the object code produced by the compiler</h3>
+
+<pre><code>$ ./a.out
+Hello world!
+</code></pre>
+
+<h2 id="from-compiler-to-programming-language">From “compiler” to “programming language”</h2>
+
+<p>Eventually, the term “compiler” came to refer to a software program that performed that translation, while “programming language” came to refer to the particular code used by the programmer to write for the compiler</p>
+
+<blockquote>
+  <p>It was also around this time that these codes came to be called “languages,” because they shared many, though not all, characteristics with spoken languages. <a href="#ceruzzi_stored_2012">(Ceruzzi)</a></p>
+</blockquote>
+
+<ul>
+  <li>The <em>analogy</em> was based on the fact that natural languages and programming languages shared <em>a few restricted attributes,</em> such as syntactic rules</li>
+  <li>Programming languages have rules of syntax just as natural languages do, though in the case of programming languages the rules are deliberately designed, whereas in natural languages, we become aware of those rules only <em>after</em> learning to use them</li>
+</ul>
+
+<h2 id="fortran-formula-translation-1957">FORTRAN (FORmula TRANslation), 1957</h2>
+
+<ul>
+  <li>
+    <p>Compare the below with a more “direct” programming using EDSAC’s operation codes:</p>
+
+    <pre><code> PRINT *, "Hello World!"
+ END
+</code></pre>
+  </li>
+  <li>This is a “Hello world!” program written in FORTRAN, the first higher-level programming language</li>
+  <li>Much more like English than the operation codes used to program EDSAC’s assembler</li>
+</ul>
+
+<h2 id="cobol-common-business-oriented-language-1958">COBOL (COmmon Business-Oriented Language), 1958</h2>
+
+<ul>
+  <li>Designed as a common business programming language</li>
+  <li>Used an even more extensively English-like syntax</li>
+</ul>
+
+<h2 id="fortran-and-cobol-algebraic-notation-vs-english-language-prose">FORTRAN and COBOL: algebraic notation vs. English-language prose</h2>
+
+<h3 id="fortran">FORTRAN</h3>
+
+<p>Conditional (if) statement that is true if value of a is larger than value of b:</p>
+
+<pre><code>IF A &gt; B
+</code></pre>
+
+<h3 id="cobol">COBOL</h3>
+
+<pre><code>IF EMPLOYEE-HOURS IS GREATER THAN MAXIMUM
+</code></pre>
+
+<ul>
+  <li>In COBOL programming one might deliberately use use long value or variable names (<code>EMPLOYEE-HOURS</code>) instead of simple letter symbols (<code>A</code>, <code>B</code>)</li>
+  <li>One can use English prose expressions (<code>GREATER THAN</code>, <code>MAXIMUM</code>) rather than algebraic symbols</li>
+</ul>
+
+<h2 id="clumsiness-of-the-analogy-between-language-and-code">Clumsiness of the analogy between language and code</h2>
+
+<p>This is the beginning of a certain confusion caused by the analogy between <em>code</em> and <em>human language</em></p>
+
+<blockquote>
+  <p>In the years that followed, researchers explored the relationship between machine and human language, and while COBOL was a significant milestone, it gave the illusion that it understood English better than it really did. (Paul Ceruzzi, <em>A History of Modern Computing</em>)</p>
+</blockquote>
+
+<blockquote>
+  <p>The word “language” turned out to be a dangerous term, implying much more than its initial users foresaw. The English word is derived from the French <em>langue,</em> meaning tongue, implying that it is spoken. Whatever other parallels there may be with natural language, computer languages are not spoken but written, according to a rigidly defined and precise syntax. (Paul Ceruzzi, <em>A History of Modern Computing</em>)</p>
+</blockquote>
+
+<h2 id="natural-languages">Natural languages</h2>
+
+<p>Downey, Elkner &amp; Meyers, “Formal and Natural Languages” <a href="#downey_formal_2013">(Downey)</a></p>
+
+<ol>
+  <li>Are <em>spoken</em></li>
+  <li>Were not <em>designed</em></li>
+  <li>Can be <em>ambiguous</em> and <em>context-dependent</em> in usage</li>
+  <li>Are <em>redundant</em> and <em>verbose</em> or “noisy” as a result</li>
+</ol>
+
+<h2 id="formal-languages">Formal languages</h2>
+
+<p>Downey, Elkner &amp; Meyers, “Formal and Natural Languages” <a href="#downey_formal_2013">(Downey)</a></p>
+
+<ol>
+  <li>Are <em>not</em> spoken</li>
+  <li><em>Were</em> designed</li>
+  <li>Were designed to be <em>unambiguous</em> in usage</li>
+  <li>Are <em>concise</em> as a result</li>
+</ol>
+
+<h2 id="programming-languages">Programming languages</h2>
+
+<p>Downey, Elkner &amp; Meyers, “Formal and Natural Languages”  <a href="#downey_formal_2013">(Downey)</a></p>
+
+<p>Programming languages are <em>formal</em> languages that were “designed to express computations”</p>
 
 </div>
 

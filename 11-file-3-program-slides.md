@@ -269,22 +269,254 @@ http://rosettacode.org/wiki/Greatest_common_divisor
 * Loops (iteration): For ... each
 * Indentation and nesting to indicate sequence
 
+----
 
+![fit](http://www.dfrc.nasa.gov/Gallery/Photo/People/Small/E49-0053.jpg)
 
+^
+* A little history, now
+* [Read caption]
+* ?(What does caption mean)
+* The English word "computer" in the 1940s referred to these women
+* Who were doing a particular job
 
+----
 
+Light, "When Computers Were Women":
 
+> During the war, BRL [U.S. Army Ballistic Research Laboratory] recruited approximately two hundred women to work as computers, hand-calculating firing tables for rockets and artillery shells.
 
+----
 
+Moye, "ENIAC: The Army-Sponsored Revolution"
 
+> During World War II, a “computer” was a person who calculated artillery firing tables using a desk calculator. 
 
+----
 
+![fit](http://www.seas.upenn.edu/images/about-seas/eniac-home.jpg)
 
+^
+* ENIAC (Electronic Numerical Integrator and Computer), 1946
+* Built University of Pennsylvania
+* Financed by the US Army Ballistics Research Laboratory
+* Designed to do the job those women were doing: calculate artillery firing tables
+* That is, to replace the human computers
 
-    
+----
 
+![fit](http://s7.computerhistory.org/is/image/CHM/500004289-03-01?$re-zoomed$)
 
+^
+* ENIAC took up an entire room
+* It used ~17,500 vacuum tubes for performing [decimal] calculations
+* Here's a pic of a tube being changed
 
+----
 
+![fit](http://s7.computerhistory.org/is/image/CHM/102622742-03-01?$re-zoomed$)
 
+^
+* Here you can also see a lot of wires
+* ENIAC was "programmed" not using a programming language, but by setting switches and connecting components using plugs and wires
+* A manual process
 
+----
+
+Moye, "ENIAC: The Army-Sponsored Revolution"
+
+> During World War II, a “computer” was a person who calculated artillery firing tables using a desk calculator. Six women “computers” were assigned to serve as ENIAC’s original programming group.
+
+^
+* So, what happened to the women "computers" who were replaced by machines like ENIAC
+* Some of them lost the opportunity to work
+* But some of them, once they were no longer the first "computers," became the first "programmers"
+
+----
+
+![fit](http://www.columbia.edu/cu/computinghistory/eniac2.gif)
+
+----
+
+![fit](http://s7.computerhistory.org/is/image/CHM/102618640-03-01?$re-story-hero$)
+
+----
+
+![fit](http://www.columbia.edu/cu/computinghistory/eniac1.jpg)
+
+----
+
+![150%](http://www.columbia.edu/cu/computinghistory/eniac7.gif)
+
+---
+
+## Jean Bartik: ENIAC's Programmers
+
+^
+* One of the original six ENIAC programmers
+
+----
+
+## Stored program computing
+
+^
+* The original design for ENIAC required manual "programming" for each task
+* Laborious
+* In all these pictures [flick back], a physical activity
+* Nothing like sitting at a keyboard typing, today
+* That labor-intensive nature → idea of "preprogramming" the machine
+* In other words, storing programs in advance and then calling them
+
+----
+
+## Programming languages
+
+Ceruzzi, *Computing: A Concise History*:
+
+> By storing a program and data in a common high-speed memory, not only could programs be executed at electronic speeds; the programs could also be operated on as if they were data — the ancestor of today’s high-level languages compiled inside modern computers.
+
+^
+* New designs abandoned ENIAC's manual set-up
+* Designed with memory that could store programs in advance
+* Storing programs in memory meant they could be executed more quickly
+* Also meant that programs were stored as data, like any other data
+* Beginning of the ontological ambiguity of the program: static text data that can be interpreted as a dynamic computational process
+
+----
+
+![fit](http://www.cl.cam.ac.uk/relics/jpegs/edsac_wilkes.jpg)
+
+^
+* EDSAC, University of Cambridge, 1949
+* A stored-program computer
+
+----
+
+![125%](http://www.dspguide.com/graphics/T_4_3.gif)
+
+^
+* Remember that the “verbosity” of binary notation was a problem for human beings
+* A microprocessor (hardware) instruction set is represented in a "machine code" or "machine language" specified in binary notation
+* [describe image]
+
+----
+
+![150%](http://2.bp.blogspot.com/-pclOIGp0F0E/UBqOQHCXZcI/AAAAAAAAAKk/FRR2VdNum6g/s1600/AssemblyLanguage.png)
+
+^
+* Alphanumeric codes were devised as shorthand for the binary notation
+* Symbolic assembly codes/languages
+* This is what was "stored" in a stored-program computer
+
+----
+
+![fit](http://cdn1.raywenderlich.com/wp-content/uploads/2013/05/SpeakAssembly.png)
+
+^
+* Think of machine code, in binary notation, as a computer's "native" language
+* Assembly code stored in the computer is like a foreign language taught to the computer so it can communicate with humans more easily
+* It's also taught how to translate from assembly to machine code
+
+----
+
+## "Hello world!" in EDSAC "initial orders 1" assembly code
+
+		  T56F
+		  ZF 
+		  TF 
+		  O43F 
+		  A34F 
+		  A41F 
+		  U34F 
+		  S42F 
+		  G33F 
+		  ZF 
+		  P1F O56F 
+		  *F HF EF LF LF OF 
+		  !F WF OF RF LF DF &F
+
+^
+* Characters are stored in last two lines
+* Previous is a set of instructions to retrieve and print them
+* This is compressed alphanumeric notation
+* Less verbose than binary notation, but still hard to read
+
+----
+
+![150%](http://trycatch22.com/blog/wp-content/uploads/2012/10/ProgrammingToolchain.png)
+
+^
+* Stored-program architecture is like a pyramid
+* [Explain]
+
+----
+
+## FORTRAN (FORmula TRANslation), 1957
+
+		 PRINT *, "Hello World!"
+		 END
+
+^ 
+* Next step: design of programming languages that looked more like human language
+* “Hello world!” in FORTRAN, the first higher-level programming language
+* Much more like English than the operation codes used to program EDSAC’s assembler [flip back]
+
+----
+
+## COBOL (COmmon Business-Oriented Language), 1958
+
+^
+* Designed as a common business programming language
+* Used an even more extensively English-like syntax
+
+----
+
+## FORTRAN and COBOL: algebraic notation vs. English-language prose
+
+### FORTRAN
+
+		IF A > B
+
+### COBOL
+
+		IF EMPLOYEE-HOURS IS GREATER THAN MAXIMUM
+
+^
+* FORTRAN: Conditional (if) statement that is true if value of a is larger than value of b:
+* COBOL: longer value or variable names instead of simple letter symbols
+* COBOL: English prose expressions rather than algebraic symbols
+
+----
+
+![150%](http://trycatch22.com/blog/wp-content/uploads/2012/12/ProgrammingToolchain2.png)
+
+^
+* English-like proglangs needed software compilers to translate them into assembly code (or directly into machine code)
+
+----
+
+## “Hello world!” in the C programming language
+
+		#include<stdio.h>
+		
+		main()
+		{
+		    printf("Hello World");
+		
+		}
+
+----
+
+## Compiling the plain text file hello.c
+
+		$ gcc -v hello.c
+
+^
+* [Cat the file in my CLI and compile it]
+
+----
+
+## Executing the object code produced by the compiler
+
+		$ ./a.out
+		Hello world!
