@@ -90,7 +90,8 @@ Version control topics and concepts
     - Unix file comparison utility to show changes between two versions of a text file
 * [patch](http://en.wikipedia.org/wiki/Patch_(computing))
     - Unix file updating utility that uses output of `diff`
-* Three important capabilities  {% cite raymond_understanding_2008 --file 11-file-4-version %} WORKINGHERE FROM http://www.catb.org/esr/writings/version-control/version-control.html
+* Three important capabilities  {% cite raymond_understanding_2008 --file 11-file-4-version %}
+*   <http://www.catb.org/esr/writings/version-control/version-control.html>
     1. Reversibility
     2. Concurrency
     3. Annotation
@@ -163,7 +164,7 @@ patch
 History of revision control systems
 -----------------------------------
 
-http://en.wikipedia.org/wiki/Revision_control
+<http://en.wikipedia.org/wiki/Revision_control>
 
 * Source Code Control System (SCCS), 1972
 
