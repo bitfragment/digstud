@@ -286,6 +286,9 @@ Light, "When Computers Were Women":
 
 > During the war, BRL [U.S. Army Ballistic Research Laboratory] recruited approximately two hundred women to work as computers, hand-calculating firing tables for rockets and artillery shells.
 
+^
+* [Show essay on screen]
+	
 ----
 
 Moye, "ENIAC: The Army-Sponsored Revolution"
@@ -354,6 +357,7 @@ Moye, "ENIAC: The Army-Sponsored Revolution"
 
 ^
 * One of the original six ENIAC programmers
+* [Show them also PSU Libraries page for “Top Secret Rosies”]
 
 ----
 
@@ -463,6 +467,12 @@ Ceruzzi, *Computing: A Concise History*:
 
 ----
 
+Ceruzzi, *A Concise History of Computing*:
+
+> It was also around this time that these codes came to be called “languages,” because they shared many, though not all, characteristics with spoken languages.
+
+----
+
 ## COBOL (COmmon Business-Oriented Language), 1958
 
 ^
@@ -488,10 +498,21 @@ Ceruzzi, *Computing: A Concise History*:
 
 ----
 
+Ceruzzi, *A Concise History of Computing*:
+
+> …a special kind of program, later called a compiler, would take as its input instructions written in a form that was familiar to human programmers and easy to grasp, and its output would be another program, this one written in the arcane codes that the hardware was able to decode.
+
+^
+* English-like proglangs needed something more sophisticated than an assembler to translate them into assembly code (or sometimes directly into machine code)
+* Called a compiler
+* [Read]
+
+----
+
 ![150%](http://trycatch22.com/blog/wp-content/uploads/2012/12/ProgrammingToolchain2.png)
 
 ^
-* English-like proglangs needed software compilers to translate them into assembly code (or directly into machine code)
+* The compiler operates in another layer of a computing architecture
 
 ----
 
@@ -520,3 +541,91 @@ Ceruzzi, *Computing: A Concise History*:
 
 		$ ./a.out
 		Hello world!
+
+----
+
+## Analogies between language and code
+
+Ceruzzi, *A Concise History of Computing*:
+
+> It was also around this time that these codes came to be called “languages,” because they shared many, though not all, characteristics with spoken languages.
+
+^
+* We conclude this unit with a reflection on terminology
+* Use of the term "programming language"
+* [Read slide]
+* In Ceruzzi's opinion (I agree), misleading to call them "languages"
+
+----
+
+## Analogies between language and code
+
+Ceruzzi, *A History of Modern Computing*:
+
+> In the years that followed, researchers explored the relationship between machine and human language, and while COBOL was a significant milestone, it gave the illusion that it understood English better than it really did.
+
+^
+* It was easy to suggest such an analogy, as proglangs became more like English
+* But they became more like English in one way only: borrowing of words and some elements of syntax
+* [Read slide]
+
+----
+
+## Analogies between language and code
+
+Ceruzzi, *A History of Modern Computing*:
+
+> The word “language” turned out to be a dangerous term, implying much more than its initial users foresaw. 
+
+^
+* [Read slide]
+* Reading COBOL [flip back] suggested to some people that a computer could actually understand English — not the case
+
+----
+
+## Analogies between language and code
+
+Ceruzzi, *A History of Modern Computing*:
+
+> The English word ["language"] is derived from the French *langue,* meaning tongue, implying that it is spoken. Whatever other parallels there may be with natural language, computer languages are not spoken but written, according to a rigidly defined and precise syntax.
+
+^
+* Single most important difference between a humlang like English and proglangs
+* [Read slide]
+
+----
+
+## Characteristics of natural languages
+
+Downey, Elkner & Meyers, “Formal and Natural Languages”:
+
+Natural languages:
+
+1. Are spoken
+1. Were not designed
+1. Can be ambiguous and context-dependent in usage
+1. Are redundant and verbose or “noisy” as a result
+
+----
+
+## Characteristics of formal languages
+
+Downey, Elkner & Meyers, “Formal and Natural Languages”:
+
+Formal languages:
+
+1. Are not spoken
+1. Were designed
+1. Were designed to be unambiguous in usage
+1. Are concise as a result
+
+^
+* Broad definition of formal langs
+* Formal languages can include symbolic logic, mathematical notation, etc.
+* As well as proglangs
+ 
+----
+
+Downey, Elkner & Meyers, “Formal and Natural Languages”:
+
+Programming languages are not natural languages, but rather formal languages that were “designed to express computations”

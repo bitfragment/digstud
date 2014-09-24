@@ -1,1 +1,433 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="author" content="Brian Lennon">
+  <meta name="description" content="A course in digital studies: Course notes on the 'file' subtopic 'version'">
+  <title>File: Version &middot; Digital Studies</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="http://digstud.bitfragment.net/public/css/poole.css">
+  <link rel="stylesheet" href="http://digstud.bitfragment.net/public/css/syntax.css">
+  <link rel="stylesheet" href="http://digstud.bitfragment.net/public/css/lanyon.css">
+  <link rel="stylesheet" href="http://digstud.bitfragment.net/public/css/plus.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://digstud.bitfragment.net/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>A course in digital studies</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/">Schedule</a>
+
+    
+
+    
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/01-instructor/">Instructor</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/02-description/">Description</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/02-sites/">Sites</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/04-readings/">Readings</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/05-resources/">Other resources</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/06-assignments/">Assignments</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/07-grading/">Grading</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/08-statements/">Statements</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/09-intro/">Introduction</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/10-bit/">Bit</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/11-file-1/">File</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/11-file-2-document/">File: Document</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item" href="http://digstud.bitfragment.net/11-file-3-program/">File: Program</a>
+          
+        
+      
+    
+      
+        
+          
+          <a class="sidebar-nav-item active" href="http://digstud.bitfragment.net/11-file-4-version/">File: Version</a>
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+      
+    
+      
+        
+          
+        
+      
+    
+  </nav>
+
+  <div class="sidebar-item">
+    <p> 2014-09-21</p>
+    <p>Course author and site author: <a href="http://english.la.psu.edu/faculty-staff/bul5">Prof. B. Lennon</a></p>
+    <p>This work is licensed under a Creative Commons  Attribution-NonCommercial-ShareAlike 4.0 International License.
+</p>
+    <p>Built with <a href="http://lanyon.getpoole.com/">Lanyon</a>, a <a href="http://jekyllrb.com">Jekyll</a> theme.</p>
+  </div>
+
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://digstud.bitfragment.net/" title="Home">Digital Studies</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+      <div class="container content">
+        <div class="page">
+  <h1 class="page-title">File: Version</h1>
+  
+  <div class="vcsinfo">(v0.2.0-15-g39a9dd5  2014-09-23)</div>
+  
+
+  <ul id="markdown-toc">
+  <li><a href="#readings">Readings</a></li>
+  <li><a href="#what-is-a-version">What is a version?</a></li>
+  <li><a href="#everyday-ad-hoc-version-control-file-naming">Everyday ad-hoc version control: file naming</a>    <ul>
+      <li><a href="#for-example">For example:</a></li>
+      <li><a href="#for-example-1">For example:</a></li>
+    </ul>
+  </li>
+  <li><a href="#version-control-topics-and-concepts">Version control topics and concepts</a></li>
+  <li><a href="#diff">diff</a>    <ul>
+      <li><a href="#file1">file1:</a></li>
+      <li><a href="#file2">file2:</a></li>
+      <li><a href="#output-of-diff-file1-file2">Output of <code>diff file1 file2</code></a></li>
+      <li><a href="#output-of-diff--y-file1-file2">Output of <code>diff -y file1 file2</code></a></li>
+    </ul>
+  </li>
+  <li><a href="#patch">patch</a>    <ul>
+      <li><a href="#output-of-diff--u-file1-file2">Output of <code>diff -u file1 file2</code></a></li>
+      <li><a href="#patching-file1">Patching <code>file1</code></a></li>
+    </ul>
+  </li>
+  <li><a href="#history-of-revision-control-systems">History of revision control systems</a></li>
+</ul>
+
+<h2 id="readings">Readings</h2>
+
+<ol class="bibliography"><li><span id="atwood_mixing_2009">Atwood, Jeff. “Mixing Oil And Water: Authorship in a Wiki World.” <i>Coding Horror</i> Feb. 2009. Web.</span>
+
+
+<span class="entry-url"><a href="http://blog.codinghorror.com/mixing-oil-and-water-authorship-in-a-wiki-world/">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="lehman_history_2012">Lehman, Michael. “The History of Version Control.” Nov. 2012. Web.</span>
+
+
+<span class="entry-url"><a href="http://www.lynda.com/ALMTFS-tutorials/history-version-control/106788/115979-4.html">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="page_visualising_2009">Page, Roderic D. M. “Visualising Edit History of a Wikipedia Page.” <i>iPhylo</i> Sep. 2009. Web.</span>
+
+
+<span class="entry-url"><a href="http://iphylo.blogspot.com/2009/09/visualising-edit-history-of-wikipedia.html">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="raymond_understanding_2008">Raymond, Eric. “Understanding Version-Control Systems.” <i>Eric S. Raymond’s Home Page</i> 2008. Web.</span>
+
+
+<span class="entry-url"><a href="http://www.catb.org/esr/writings/version-control/version-control.html">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="rochkind_source_1975">Rochkind, Marc J. “The Source Code Control System.” <i>IEEE Transactions on Software Engineering</i> SE-1.4 (1975): 364–370. Web.</span>
+
+
+<span class="entry-url"><a href="http://basepath.com/aup/talks/SCCS-Slideshow.pdf">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="viegas_studying_????">Viégas, Fernanda B., Martin Wattenberg, and Kushal Dave. “Studying Cooperation And Conflict between Authors with History Flow Visualizations.” vol. 6. Vienna, Austria: CHI Letters. 575–582. Web.</span>
+
+
+<span class="entry-url"><a href="http://alumni.media.mit.edu/~fviegas/papers/history_flow.pdf">Link (remote) →</a></span>
+
+
+
+</li></ol>
+
+<h2 id="what-is-a-version">What is a version?</h2>
+
+<ul>
+  <li>A concept common to both literary composition and software programmers</li>
+  <li>Philology and literary studies developed the concepts of manuscript <em>variant</em> and printed <em>edition</em></li>
+  <li>Software programmers have developed especially sophisticated <em>version control</em> or <em>revision control</em> concepts, utilities, and workflows</li>
+  <li>These have been incorporated into software for producing new kinds of documents, such as wiki software
+    <ul>
+      <li>Wikipedia: <a href="http://en.wikipedia.org/w/index.php?title=Wiki&amp;action=history">Revision history page for article “Wiki”</a></li>
+      <li><a href="http://blog.codinghorror.com/content/images/uploads/2009/02/6a0120a85dcdae970b012877707d6a970c-pi.gif">Sample visualization</a> of a wiki page edited by three different people at different points in time</li>
+    </ul>
+  </li>
+  <li>IBM <a href="https://www.research.ibm.com/visual/projects/history_flow/index.htm">History Flow</a> project, ca. 2004
+    <ul>
+      <li>Visual representation of time-series of versions of a document
+        <ul>
+          <li>Wikipedia
+            <ul>
+              <li><a href="https://www.research.ibm.com/visual/projects/history_flow/images/calculus1.gif">Calculus</a> (by versions)</li>
+              <li><a href="https://www.research.ibm.com/visual/projects/history_flow/images/calculus2.gif">Calculus</a> (by date)</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="everyday-ad-hoc-version-control-file-naming">Everyday ad-hoc version control: file naming</h2>
+
+<h3 id="for-example">For example:</h3>
+
+<pre><code>    engl401paper.doc
+    engl401paper-revision.doc
+</code></pre>
+
+<h3 id="for-example-1">For example:</h3>
+
+<pre><code>    engl401paper-version1.doc
+    engl401paper-version2.doc
+</code></pre>
+
+<h2 id="version-control-topics-and-concepts">Version control topics and concepts</h2>
+
+<ul>
+  <li>Review text editor and word processor, in <a href="">File: Document</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/File_comparison">File comparison</a>
+    <ul>
+      <li>Comparison of text files (documents or programs)</li>
+    </ul>
+  </li>
+  <li><a href="http://en.wikipedia.org/wiki/Diff">diff</a>, early 1970s
+    <ul>
+      <li>Unix file comparison utility to show changes between two versions of a text file</li>
+    </ul>
+  </li>
+  <li><a href="http://en.wikipedia.org/wiki/Patch_(computing)">patch</a>
+    <ul>
+      <li>Unix file updating utility that uses output of <code>diff</code></li>
+    </ul>
+  </li>
+  <li>Three important capabilities  <a href="#raymond_understanding_2008">(Raymond)</a></li>
+  <li><a href="http://www.catb.org/esr/writings/version-control/version-control.html">http://www.catb.org/esr/writings/version-control/version-control.html</a>
+    <ol>
+      <li>Reversibility</li>
+      <li>Concurrency</li>
+      <li>Annotation</li>
+    </ol>
+  </li>
+</ul>
+
+<h2 id="diff">diff</h2>
+
+<h3 id="file1">file1:</h3>
+
+<pre><code>    This is a text file. 
+    It contains some text.
+</code></pre>
+
+<h3 id="file2">file2:</h3>
+
+<pre><code>    This is a text file. 
+    It contains quite a bit of text.
+
+    Text text text text text 
+    text text text text text text!
+</code></pre>
+
+<h3 id="output-of-diff-file1-file2">Output of <code>diff file1 file2</code></h3>
+
+<pre><code>    2c2,5
+    &lt; It contains some text.
+    ---
+    &gt; It contains quite a bit of text.
+    &gt; 
+    &gt; Text text text text text 
+    &gt; text text text text text text!
+</code></pre>
+
+<h3 id="output-of-diff--y-file1-file2">Output of <code>diff -y file1 file2</code></h3>
+
+<pre><code>    This is a text file.              This is a text file. 
+    It contains some text.            | It contains quite a bit of text.
+                                      &gt;
+                                      &gt; Text text text text text 
+                                      &gt; text text text text text text!
+</code></pre>
+
+<ul>
+  <li><a href="http://phatness.com/wp-content/uploads/2011/01/Screen-shot-2011-01-12-at-1.06.26-PM.png">HTML example</a> using Kaleidoscope.app</li>
+  <li><a href="https://raw.githubusercontent.com/caseyg/bylaws/master/img/kaleidoscope-screenshot.png">Prose example</a> using Kaleidoscope.app</li>
+</ul>
+
+<h2 id="patch">patch</h2>
+
+<h3 id="output-of-diff--u-file1-file2">Output of <code>diff -u file1 file2</code></h3>
+
+<pre><code>    --- file1  2014-09-23 16:13:00.000000000 -0400
+    +++ file2 2014-09-23 16:13:14.000000000 -0400
+    @@ -1,2 +1,5 @@
+     This is a text file. 
+    -It contains some text.
+    +It contains quite a bit of text.
+    +
+    +Text text text text text 
+    +text text text text text text!
+</code></pre>
+
+<h3 id="patching-file1">Patching <code>file1</code></h3>
+
+<pre><code>    $ diff -u file1 file2 &gt; diff_output.diff
+    $ patch &lt; diff_output.diff
+    patching file file1
+</code></pre>
+
+<h2 id="history-of-revision-control-systems">History of revision control systems</h2>
+
+<p><a href="http://en.wikipedia.org/wiki/Revision_control">http://en.wikipedia.org/wiki/Revision_control</a></p>
+
+<ul>
+  <li>Source Code Control System (SCCS), 1972</li>
+</ul>
+
+<!-- software dev cycle: alpha, beta, version numbering -->
+<!-- demo vc in ms word -->
+<!-- demo using git -->
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  </body>
+</html>
