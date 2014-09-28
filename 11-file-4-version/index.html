@@ -172,7 +172,7 @@
   </nav>
 
   <div class="sidebar-item">
-    <p> 2014-09-21</p>
+    <p> 2014-09-23</p>
     <p>Course author and site author: <a href="http://english.la.psu.edu/faculty-staff/bul5">Prof. B. Lennon</a></p>
     <p>This work is licensed under a Creative Commons  Attribution-NonCommercial-ShareAlike 4.0 International License.
 </p>
@@ -197,7 +197,7 @@
         <div class="page">
   <h1 class="page-title">File: Version</h1>
   
-  <div class="vcsinfo">(v0.2.0-15-g39a9dd5  2014-09-23)</div>
+  <div class="vcsinfo">(v0.2.0-17-g24dca07  2014-09-23)</div>
   
 
   <ul id="markdown-toc">
@@ -208,20 +208,33 @@
       <li><a href="#for-example-1">For example:</a></li>
     </ul>
   </li>
-  <li><a href="#version-control-topics-and-concepts">Version control topics and concepts</a></li>
-  <li><a href="#diff">diff</a>    <ul>
-      <li><a href="#file1">file1:</a></li>
-      <li><a href="#file2">file2:</a></li>
+  <li><a href="#file-comparison-diff-and-patch">File comparison, <code>diff</code>, and <code>patch</code></a></li>
+  <li><a href="#diff"><code>diff</code></a>    <ul>
+      <li><a href="#file1"><code>file1</code>:</a></li>
+      <li><a href="#file2"><code>file2</code>:</a></li>
       <li><a href="#output-of-diff-file1-file2">Output of <code>diff file1 file2</code></a></li>
+      <li><a href="#output-of-diff--c-file1-file2">Output of <code>diff -c file1 file2</code></a></li>
       <li><a href="#output-of-diff--y-file1-file2">Output of <code>diff -y file1 file2</code></a></li>
+      <li><a href="#using-a-gui-application">Using a GUI application</a></li>
     </ul>
   </li>
-  <li><a href="#patch">patch</a>    <ul>
+  <li><a href="#patch"><code>patch</code></a>    <ul>
       <li><a href="#output-of-diff--u-file1-file2">Output of <code>diff -u file1 file2</code></a></li>
       <li><a href="#patching-file1">Patching <code>file1</code></a></li>
     </ul>
   </li>
-  <li><a href="#history-of-revision-control-systems">History of revision control systems</a></li>
+  <li><a href="#version-control-concepts">Version control concepts</a></li>
+  <li><a href="#elements-of-a-version-control-system">Elements of a version control system</a></li>
+  <li><a href="#change-history-and-branching">Change history and branching</a></li>
+  <li><a href="#history-of-version-control-systems">History of version control systems</a>    <ul>
+      <li><a href="#centralized-first-generation-systems">Centralized first generation systems</a></li>
+      <li><a href="#centralized-second-generation-systems">Centralized second generation systems</a></li>
+      <li><a href="#decentralized-third-generation-systems">Decentralized third generation systems</a></li>
+    </ul>
+  </li>
+  <li><a href="#version-id-numbering">Version ID numbering</a></li>
+  <li><a href="#version-control-with-rcs">Version control with RCS</a></li>
+  <li><a href="#software-release-lifecycle">Software release lifecycle</a></li>
 </ul>
 
 <h2 id="readings">Readings</h2>
@@ -317,7 +330,7 @@
     engl401paper-version2.doc
 </code></pre>
 
-<h2 id="version-control-topics-and-concepts">Version control topics and concepts</h2>
+<h2 id="file-comparison-diff-and-patch">File comparison, <code>diff</code>, and <code>patch</code></h2>
 
 <ul>
   <li>Review text editor and word processor, in <a href="">File: Document</a></li>
@@ -336,91 +349,402 @@
       <li>Unix file updating utility that uses output of <code>diff</code></li>
     </ul>
   </li>
-  <li>Three important capabilities  <a href="#raymond_understanding_2008">(Raymond)</a></li>
-  <li><a href="http://www.catb.org/esr/writings/version-control/version-control.html">http://www.catb.org/esr/writings/version-control/version-control.html</a>
-    <ol>
-      <li>Reversibility</li>
-      <li>Concurrency</li>
-      <li>Annotation</li>
-    </ol>
-  </li>
 </ul>
 
-<h2 id="diff">diff</h2>
+<h2 id="diff"><code>diff</code></h2>
 
-<h3 id="file1">file1:</h3>
+<h3 id="file1"><code>file1</code>:</h3>
 
-<pre><code>    This is a text file. 
-    It contains some text.
+<pre><code>    This is a poem
+    about a bear
+    who got lost
+    in State College
+    and ate a dog.
 </code></pre>
 
-<h3 id="file2">file2:</h3>
+<h3 id="file2"><code>file2</code>:</h3>
 
-<pre><code>    This is a text file. 
-    It contains quite a bit of text.
-
-    Text text text text text 
-    text text text text text text!
+<pre><code>    This is a poem
+    about a bear 
+    who got lost
+    in State College
+    and ate a professor.
 </code></pre>
 
 <h3 id="output-of-diff-file1-file2">Output of <code>diff file1 file2</code></h3>
 
-<pre><code>    2c2,5
-    &lt; It contains some text.
+<pre><code>    5c5
+    &lt; and ate a dog.
     ---
-    &gt; It contains quite a bit of text.
-    &gt; 
-    &gt; Text text text text text 
-    &gt; text text text text text text!
+    &gt; and ate a professor.
+</code></pre>
+
+<h3 id="output-of-diff--c-file1-file2">Output of <code>diff -c file1 file2</code></h3>
+
+<pre><code>    *** file1   2014-09-28 12:29:40.000000000 -0400
+    --- file2   2014-09-28 12:29:51.000000000 -0400
+    ***************
+    *** 2,5 ****
+      about a bear
+      who got lost
+      in State College
+    ! and ate a dog.
+    --- 2,5 ----
+      about a bear
+      who got lost
+      in State College
+    ! and ate a professor.
 </code></pre>
 
 <h3 id="output-of-diff--y-file1-file2">Output of <code>diff -y file1 file2</code></h3>
 
-<pre><code>    This is a text file.              This is a text file. 
-    It contains some text.            | It contains quite a bit of text.
-                                      &gt;
-                                      &gt; Text text text text text 
-                                      &gt; text text text text text text!
+<pre><code>    This is a poem                   This is a poem
+    about a bear                     about a bear
+    who got lost                     who got lost
+    in State College                 in State College
+    and ate a dog.                 | and ate a professor.
 </code></pre>
+
+<h3 id="using-a-gui-application">Using a GUI application</h3>
+
+<p><img src="http://digstud.bitfragment.net/public/images/diff-kaleidoscope.png" alt="diff in Kaleidoscope.app" /></p>
 
 <ul>
   <li><a href="http://phatness.com/wp-content/uploads/2011/01/Screen-shot-2011-01-12-at-1.06.26-PM.png">HTML example</a> using Kaleidoscope.app</li>
   <li><a href="https://raw.githubusercontent.com/caseyg/bylaws/master/img/kaleidoscope-screenshot.png">Prose example</a> using Kaleidoscope.app</li>
 </ul>
 
-<h2 id="patch">patch</h2>
+<h2 id="patch"><code>patch</code></h2>
 
 <h3 id="output-of-diff--u-file1-file2">Output of <code>diff -u file1 file2</code></h3>
 
-<pre><code>    --- file1  2014-09-23 16:13:00.000000000 -0400
-    +++ file2 2014-09-23 16:13:14.000000000 -0400
-    @@ -1,2 +1,5 @@
-     This is a text file. 
-    -It contains some text.
-    +It contains quite a bit of text.
-    +
-    +Text text text text text 
-    +text text text text text text!
+<pre><code>    --- file1   2014-09-28 12:29:40.000000000 -0400
+    +++ file2   2014-09-28 12:29:51.000000000 -0400
+    @@ -2,4 +2,4 @@
+     about a bear
+     who got lost
+     in State College
+    -and ate a dog.
+    +and ate a professor.
 </code></pre>
 
 <h3 id="patching-file1">Patching <code>file1</code></h3>
 
-<pre><code>    $ diff -u file1 file2 &gt; diff_output.diff
-    $ patch &lt; diff_output.diff
+<p><code>file2</code> is a newer, “updated” version of the poem. We want everyone we know to update the older version of the poem (in <code>file1</code>) to the new version. So we distribute the output of <code>diff</code> (with the <code>-u</code> flag) as a “patch file” named <code>bear-poem-update</code>:</p>
+
+<pre><code>    $ diff -u file1 file2 &gt; bear-poem-update.diff
+</code></pre>
+
+<p>Individual users can then use the <code>patch</code> utility to update their copies of the poem using the patch file <code>bear-poem-update</code>:</p>
+
+<pre><code>    $ patch &lt; bear-poem-update.diff
     patching file file1
 </code></pre>
 
-<h2 id="history-of-revision-control-systems">History of revision control systems</h2>
+<p><code>file1</code> has now been updated to contain the new version of the poem:</p>
 
-<p><a href="http://en.wikipedia.org/wiki/Revision_control">http://en.wikipedia.org/wiki/Revision_control</a></p>
+<pre><code>    $ cat file1
+    This is a poem
+    about a bear
+    who got lost
+    in State College
+    and ate a professor.
+</code></pre>
+
+<h2 id="version-control-concepts">Version control concepts</h2>
+
+<p>Three important capabilities  <a href="#raymond_understanding_2008">(Raymond)</a>:</p>
+
+<ol>
+  <li><strong>Reversibility</strong>: “the ability to back up to a saved, known-good state when you discover that some modification you did was a mistake or a bad idea”
+    <ul>
+      <li>Sophisticated “undo” features</li>
+      <li>You have a complete record of versions, so you can <em>revert</em>, or go back to any previous version whenever you need to</li>
+    </ul>
+  </li>
+  <li><strong>Concurrency</strong>: “the ability to have many people modifying the same collection of code or documents knowing that conflicting modifications can be detected and resolved”</li>
+  <li><strong>Annotation</strong>: the ability to attach “explanatory comments about the intention behind each change to it and a record of who was responsible for each change”</li>
+</ol>
+
+<h2 id="elements-of-a-version-control-system">Elements of a version control system</h2>
+
+<ol>
+  <li>Repository
+    <ul>
+      <li>A concept borrowed from the domain of paper documents</li>
+      <li>Data structure representing a storage space</li>
+      <li>Elements of a version control repository
+        <ul>
+          <li>Files and directories</li>
+          <li>Descriptions of changes to files and directories</li>
+          <li>Data objects representing changes to files and directories</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Master copy</li>
+  <li>Working copy “checked out” (copied) for work</li>
+  <li>Change history</li>
+</ol>
+
+<h2 id="change-history-and-branching">Change history and branching</h2>
 
 <ul>
-  <li>Source Code Control System (SCCS), 1972</li>
+  <li>Tree structure: trunk and branch</li>
+  <li>Trunk
+    <ul>
+      <li>Like the trunk of a tree</li>
+      <li>Series of authoritative versions
+        <ul>
+          <li>Versions of software actually released</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Branch
+    <ul>
+      <li>Like the branch of a tree</li>
+      <li>Will always be “smaller” than the trunk</li>
+      <li>May or may not become structurally significant
+        <ul>
+          <li>Some branches grow large</li>
+          <li>Others remain small</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
 </ul>
 
-<!-- software dev cycle: alpha, beta, version numbering -->
-<!-- demo vc in ms word -->
-<!-- demo using git -->
+<h2 id="history-of-version-control-systems">History of version control systems</h2>
+
+<h3 id="centralized-first-generation-systems">Centralized first generation systems</h3>
+
+<ul>
+  <li>Centralized architectures
+    <ul>
+      <li>Before Internet</li>
+      <li>Designed for use on a single machine</li>
+    </ul>
+  </li>
+  <li>Source Code Control System (SCCS), 1972</li>
+  <li>Revision Control System (RCS), 1982
+    <ul>
+      <li>Individual files only</li>
+      <li>Local only</li>
+    </ul>
+  </li>
+  <li>Concurrent Versions System (CVS), 1990
+    <ul>
+      <li>Groups of files simultaneously</li>
+      <li>Centralized client-server architecture: a single master repository retains master copies, serves and receives working copies</li>
+      <li>After 1994, modified to accommodate networked (Internet) usage</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="centralized-second-generation-systems">Centralized second generation systems</h3>
+
+<ul>
+  <li>Subversion (SVN), 2004
+    <ul>
+      <li>Was widely adopted in place of CVS</li>
+      <li>Last widely adopted centralized VCS</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="decentralized-third-generation-systems">Decentralized third generation systems</h3>
+
+<ul>
+  <li>Decentralized architectures
+    <ul>
+      <li>Each developer can work independently on a complete <em>copy</em> of the “master” repository for a project</li>
+      <li>Branching and merging changes is generally easier than in centralized systems</li>
+    </ul>
+  </li>
+  <li>BitKeeper (BK), early 2000s
+    <ul>
+      <li>Adopted by Linus Torvalds for development of Linux kernel</li>
+      <li>Unlike most other VCSs, proprietary (rather than “open source”) software</li>
+    </ul>
+  </li>
+  <li>Git (2005)
+    <ul>
+      <li>Designed by Linus Torvalds as a non-proprietary alternative to BitKeeper</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="version-id-numbering">Version ID numbering</h2>
+
+<ul>
+  <li>SCCS style: 1.1 = major version + “.” + minor version</li>
+  <li>Many other variations, but <code>major.minor</code> is very popular</li>
+  <li>Apple OS X
+    <ul>
+      <li>Major versions: <code>10.0</code> (“Cheetah”) … <code>10.10</code> (“Yosemite”)</li>
+      <li>Minor versions: <code>10.9.0</code> (“Mavericks”) … <code>10.9.5</code> (“Mavericks,” version 5)</li>
+    </ul>
+  </li>
+  <li>Microsoft Windows
+    <ul>
+      <li>Major versions using <code>major.minor</code>: <code>1.0</code> … <code>3.0</code> (1981-1992)</li>
+      <li>Major individual consumer versions using dates: <code>95</code>, <code>98</code>, <code>ME</code> (Millennium) (1995-2000)</li>
+      <li>Major versions using brand names: <code>XP</code>, <code>Vista</code> (2001-2006)</li>
+      <li>Major versions using <code>major.minor</code>: <code>7.0</code>, <code>8.0</code> (2009-)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="version-control-with-rcs">Version control with RCS</h2>
+
+<p>We are going to edit the poem, changing the line “ate a dog” to “ate a professor” and using RCS to keep track of that change.</p>
+
+<p>First, we “check in” the file to beging tracking its versions:</p>
+
+<pre><code>    $ ci file1
+    file1,v  &lt;--  file1
+    enter description, terminated with single '.' or end of file:
+    NOTE: This is NOT the log message!
+    &gt;&gt; Poem about bear.
+    initial revision: 1.1
+    done
+</code></pre>
+
+<p>RCS asks us for a description of the file. Notice also that RCS automatically provides our first version number, <code>1.1</code>.</p>
+
+<p>This creates a file named <code>file1,v</code> (the <code>v</code> marks it as a version control file). Here’s what that file looks like:</p>
+
+<pre><code>    head    1.1;
+    access;
+    symbols;
+    locks; strict;
+    comment @# @;
+
+    1.1
+    date    2014.09.28.17.00.25;    author blennon; state Exp;
+    branches;
+    next    ;
+
+    desc
+    @Poem about bear.
+    @
+
+    1.1
+    log
+    @Initial revision
+    @
+    text
+    @This is a poem
+    about a bear
+    who got lost
+    in downtown State College
+    and ate a dog.
+    @
+</code></pre>
+
+<p>Now we “check out” a working copy of the file so we can edit it.</p>
+
+<pre><code>    $ co -l file1
+</code></pre>
+
+<p>We open an editor and change the line “ate a dog” to “ate a professor.” Then we check the file back in, this time providing a description of the change we made:</p>
+
+<pre><code>    $ ci file1
+    file1,v  &lt;--  file1
+    new revision: 1.2; previous revision: 1.1
+    enter log message, terminated with single '.' or end of file:
+    &gt;&gt; Change "ate a dog" to "ate a professor"
+    done
+</code></pre>
+
+<p>Notice also that RCS automatically increments our version number from <code>1.1</code> to <code>1.2</code>. Here’s what the file <code>file1,v</code> looks like now:</p>
+
+<pre><code>    head    1.2;
+    access;
+    symbols;
+    locks; strict;
+    comment @# @;
+
+    1.2
+    date    2014.09.28.17.01.49;    author blennon; state Exp;
+    branches;
+    next    1.1;
+
+    1.1
+    date    2014.09.28.17.00.25;    author blennon; state Exp;
+    branches;
+    next    ;
+
+    desc
+    @Poem about bear.
+    @
+
+    1.2
+    log
+    @Change "ate a dog" to "ate a professor"
+    @
+    text
+    @This is a poem
+    about a bear
+    who got lost
+    in downtown State College
+    and ate a professor.
+    @
+
+    1.1
+    log
+    @Initial revision
+    @
+    text
+    @d5 1
+    a5 1
+    and ate a dog.
+    @
+</code></pre>
+
+<p>We can also look at the log (history) of versions and changes made to the file:</p>
+
+<pre><code>    $ rlog file1
+
+    RCS file: file1,v
+    Working file: file1
+    head: 1.2
+    branch:
+    locks: strict
+    access list:
+    symbolic names:
+    keyword substitution: kv
+    total revisions: 2; selected revisions: 2
+    description:
+    Poem about bear.
+    ----------------------------
+    revision 1.2
+    date: 2014/09/28 17:01:49;  author: blennon;  state: Exp;  lines: +1 -1
+    Change "ate a dog" to "ate a professor"
+    ----------------------------
+    revision 1.1
+    date: 2014/09/28 17:00:25;  author: blennon;  state: Exp;
+    Initial revision
+</code></pre>
+
+<h2 id="software-release-lifecycle">Software release lifecycle</h2>
+
+<ol>
+  <li>“Alpha” and “beta” versions
+    <ul>
+      <li>Preliminary versions for testing purposes only, not full release or “shipping”</li>
+      <li>Borrowed from Greek alphabet: Α α alpha, Β β beta</li>
+    </ul>
+  </li>
+  <li>Sequence of released versions</li>
+  <li>End of life stage: no further development or support
+    <ul>
+      <li>Deliberately discontinued</li>
+      <li>Abandoned (“abandonware”)</li>
+    </ul>
+  </li>
+</ol>
 
 </div>
 
