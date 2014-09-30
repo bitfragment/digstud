@@ -418,3 +418,163 @@ Later, you can merge if you want, or not
 ----
 
 ![fit](http://i.stack.imgur.com/aoN7v.png) -->
+
+----
+
+## [fit] Software release lifecycle
+
+----
+
+![150%](http://blog.bughuntress.com/wp-content/uploads/2012/07/ALPHA-BETA-250x250.png)
+
+^
+* First two versions of software
+* Greek alphabet: ordinal system before Arabic numerals
+* Alpha: internal testing
+* Beta: external testing
+* [Look at Best Buy commercials: 'beta' -> everyday usage]
+
+----
+
+![fit](https://igor.io/img/git-branching/version.png)
+
+^
+* Most conventional release numbering schema
+* Combination of identifiers [prase]
+
+----
+
+![fit](http://toastytech.com/guis/mac11about.gif)
+
+^
+Mac OS 1.1, 1984
+
+----
+
+![fit](http://toastytech.com/guis/macos81about.png)
+
+^
+Mac OS 8.1, 1997
+
+----
+
+![fit](http://toastytech.com/guis/macos9about.png)
+
+^
+Mac OS 9.2, 2001
+
+----
+
+![fit](http://cdn.cultofmac.com/wp-content/uploads/2011/07/10.0.4-Cheetah.jpg)
+
+^
+Mac OS 10.0.4, 2001
+
+----
+
+![fit](http://toastytech.com/guis/osx13about2.png)
+
+^
+Mac OS 10.3.4, 2004
+
+----
+
+![fit](http://toastytech.com/guis/osx14desktop.png)
+
+^
+Mac OS 10.4.6, 2005
+
+----
+
+![fit](http://toastytech.com/guis/win101logo.png)
+
+^
+* MS Windows started out using same type of numbering schema
+* MS Windows 1.01, 1985
+
+----
+
+![fit](http://toastytech.com/guis/win203executive.png)
+
+^
+MS Windows 2.03, 1987
+
+----
+
+![fit](http://toastytech.com/guis/win30logo.png)
+
+^
+MS Windows 3.0, 1990
+
+----
+
+![fit](http://toastytech.com/guis/win30progman.png)
+
+^
+Another view of MS Windows 3.0, 1990
+
+----
+
+![100%](http://toastytech.com/guis/win95boot.png)
+
+^
+* After that, MS shifted to version IDs using dates
+* Here, Windows 95 -> 1995
+
+----
+
+![fit](http://toastytech.com/guis/win95desktop.png)
+
+^
+Another view of Windows 95
+
+----
+
+![100%](http://toastytech.com/guis/win98logo.png)
+
+^
+Windows 98 -> 1998
+
+----
+
+![fit](http://toastytech.com/guis/win98desk.png)
+
+^
+Another view of Windows 98
+
+----
+
+![150%](http://www.guidebookgallery.org/pics/gui/interface/dialogs/aboutgui/winme.png)
+
+^
+Windows ME (Milennium Edition), 2000
+
+----
+
+![100%](http://photos.pcpro.co.uk/images/front_picture_library_PC_Pro/dir_417/it_photo_208816_52.jpg)
+
+^
+* Then shifted to brand names
+* XP, 2001
+
+----
+
+![fit](http://www.windowsvistahelpnow.com/wp-content/uploads/2014/04/windows-vista-help2.jpg)
+
+^
+Vista, 2006
+
+----
+
+![fit](http://windows7helpdesk.com/wp-content/uploads/2014/06/Customizing-Windows.jpg)
+
+^
+* ...then back to numbering
+* Windows 7, 2009
+
+----
+
+![100%](http://www.shmoggo.com/articles/wp-content/uploads/2012/12/windows-8-logo.jpg)
+
+^
+Windows 8, 2012

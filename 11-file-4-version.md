@@ -281,6 +281,19 @@ Three important capabilities  {% cite raymond_understanding_2008 --file 11-file-
 
 
 
+## Software release lifecycle
+
+1. "Alpha" and "beta" versions
+    - Preliminary versions for testing purposes only, not full release or "shipping"
+    - Borrowed from Greek alphabet: Α α alpha, Β β beta
+    - Best Buy "beta tested" ad campaign [example](http://www.ispot.tv/ad/72AT/best-buy-blue-shirt-beta-test-verizon-htc-one)
+2. Sequence of released versions
+3. End of life stage: no further development or support
+    - Deliberately discontinued
+    - Abandoned ("abandonware")
+
+
+
 ## Version control with RCS
 
 We are going to edit the poem, changing the line "ate a dog" to "ate a professor" and using RCS to keep track of that change.
@@ -406,15 +419,3 @@ We can also look at the log (history) of versions and changes made to the file:
         revision 1.1
         date: 2014/09/28 17:00:25;  author: blennon;  state: Exp;
         Initial revision
-
-
-
-## Software release lifecycle
-
-1. "Alpha" and "beta" versions
-    - Preliminary versions for testing purposes only, not full release or "shipping"
-    - Borrowed from Greek alphabet: Α α alpha, Β β beta
-2. Sequence of released versions
-3. End of life stage: no further development or support
-    - Deliberately discontinued
-    - Abandoned ("abandonware")
