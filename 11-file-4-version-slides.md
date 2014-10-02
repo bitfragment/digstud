@@ -444,6 +444,13 @@ Later, you can merge if you want, or not
 
 ----
 
+![fit](http://upload.wikimedia.org/wikipedia/commons/thumb/0/00/VersionNumbers.svg/192px-VersionNumbers.svg.png)
+
+^
+Software release train
+
+----
+
 ![fit](http://toastytech.com/guis/mac11about.gif)
 
 ^
@@ -578,3 +585,60 @@ Vista, 2006
 
 ^
 Windows 8, 2012
+
+----
+
+![fit](http://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Web_2.0_Map.svg/1280px-Web_2.0_Map.svg.png)
+
+^
+Looser sense, to refer to an entire generation of infrastructure
+
+----
+
+![fit](http://www.caratulas.com/caratulas/G/Garbage/Garbage-Version_2.0-Frontal.jpg)
+
+^
+Popular culture (1998)
+
+----
+
+## [fit] Review: CLI `diff` and GUI equivalents
+
+^ 
+* [Get poem from notes, put in DROPBOX/temp as 'bear']
+* [dupe to 'prof', change word]
+* [Run diff, diff -c, diff -u, diff -y]
+* [ksdiff the two files]
+
+----
+
+## [fit] Version preservation in apps you know
+
+^
+* [Wikipedia history page and diff]
+* [View Dropbox versions of edited poem file]
+* [View TextEdit versions of edited poem file]
+
+----
+
+## [fit] RCS version control
+
+^
+* Don't need to make multiple copies of file!
+* [Use my own temp dir]
+* [Make new 'poem' with bear poem]
+* [Open Finder and let them watch as filename changes]
+* [ci poem -> filename changes to poem,v]
+* [Notice that it gives 1.1]
+* [open -e poem,v] -> CONTINUES BELOW THIS LINE
+* [co -l poem, edit, rcsdiff, ci, open -e file]
+* [rlog poem -> quality of annotation]
+* [co -r1.1 file to get older version -> quality of reversibility]
+* [quality of concurrency, if multiple authors]
+
+<!-- 
+## [fit] Version control with Git
+
+^
+[demo gittower.app on digstud repo]
+-->
