@@ -89,17 +89,62 @@ abstract:
             * [Unix](http://www.openbookproject.net/tutorials/getdown/unix/images/lesson2/UnixDirectoryTree.png)
             * [Unix](http://www.cs.miami.edu/~geoff/Courses/CSC322-11S/Content/UNIXUse/Pictures/Hierarchy.GIF)
 
-<!-- 
-Leave these to elaborate in topic 'User'
-Continue with 1-day overviews of Network and Game
-...and elaborate each in 
 
-## Session (a temporal concept)
 
-* A *session* begins at login and ends (usually) at logout
+## Abstract concept of network
 
-## From mainframe computing to the time-sharing OS
+* A concept of space defined not by boundaries as much as by *relations*
+* Generic elements of a network are often called *nodes*, especially in telecommunications and computing
+* Often does not have an *obvious* single center, though it will almost always include *clusters*
 
-* (user space vs root) v kernel space
-* permissions
- -->
+* "Networking": an adaptation to describe a social process ([example](http://www.atariarchives.org/deli/computer_networking1.jpg))
+
+
+
+## Networked computing
+
+* A *network* includes any two or more individual computer systems connected by a telecommunications link
+* The telecommunications link may be a "tube" (hardware wire or cable), or a radio wave (transmitted and received by other hardware components)
+* When the two or more systems occupy the same relatively local space (for example, a company office or a college campus), we call the network a Local Area Network (LAN)
+* When the two or more systems are located on separate Local Area Networks, they may be linked by the Internet, a "ubiquitous" network-of-networks
+
+
+
+## Prehistory of today's *ubiquitous* networked computing
+
+* Earliest commercial telecommunications infrastructure: telegraph and telephone wires
+* Earliest form of remote (non-LAN) desktop PC networking: via telephone lines, using an [acoustic coupler modem](http://en.wikipedia.org/wiki/Acoustic_coupler)
+
+
+
+## Representations of networked computing
+
+* Focus is not on individual nodes, but on *relations* between nodes
+    - [Example](http://cdn3.computerworlduk.com/cmsdata/news/3246271/networking_iStock_000007517489Small.jpg)
+    - [Example](http://www.12ahead.com/sites/default/files/styles/article_top_image/public/network.computer.300.fotolia.jpg?itok=t8ZFJQDx)
+
+* Often represented as "overlay" on geographic space
+    - [Example](http://thumbs.dreamstime.com/z/worldwide-computer-network-23344093.jpg)
+    - [Example](https://sharmainemercado04.files.wordpress.com/2013/02/computer-network-technology.jpg?w=1200)
+
+
+* Representations of the Internet often include image of globe/planet
+    - [Example](http://photo.elsoar.com/wp-content/images/Laptops-and-earth-globe-computer-network.jpg)
+    - [Example](http://telecomsolutions4u.co.uk/images/it.jpg)
+    - [Example](http://www.freestockphotos.name/wallpaper-original/wallpapers/systems-internet-connectivity-to-download-5722.jpg)
+* Sometimes that globe itself is imagined as a network you can plug into
+    - [Example](http://www.danpontefract.com/wp-content/uploads/2014/05/internet2.jpg)
+    - [Example](http://www.xpertcomputers.com.au/images/network-consultancy.jpg)
+
+* [The Opte Project](http://dev2.opte.org/)
+    - [Internet in 2003](http://dev2.opte.org/wp-content/uploads/2014/04/about-img-2.png)
+    - [Internet in 2010](http://dev2.opte.org/wp-content/uploads/2014/04/home-page-pic.png)
+
+
+
+## Layered domains
+
+* Your user account is a "small" domain, which you log into
+* Your user account grants you access to computing resources like processing time and storage space for your files
+* It also serves as a portal to a larger domain: a LAN
+* And also as a portal to an even larger domain: the Internet
