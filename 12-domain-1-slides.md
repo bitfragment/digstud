@@ -1,5 +1,9 @@
 ## [fit] File → Domain
 
+^
+* File (document, program, version): digital representations of objects
+* Domain: digital representations of space
+
 ----
 
 ## Domain: User
@@ -10,6 +14,12 @@
 * General intro, then these three subtopics
 * File is a kind of digital object (document, program, version)
 * Domain is a virtual space
+
+----
+
+## [fit] Domain: User
+## Domain: Network
+## Domain: Game
 
 ----
 
@@ -216,3 +226,270 @@ Windows
 * [Show them my home dir]
 * [Switch to view opt 2, repeat]
 * [Switch to view opt 3, repeat]
+
+----
+
+## Domain: User
+## [fit] Domain: Network
+## Domain: Game
+
+----
+
+![fit](http://teacher.buet.ac.bd/anupamdas/computer_network.jpg)
+
+^
+* Network is a space defined not by its boundaries...
+* But by relation, connection among elements
+
+----
+
+![fit](http://www.cs.rug.nl/svcg/uploads/Shapes/SBEB_example2.jpg)
+
+^
+Does not have an obvious center
+
+----
+
+![fit](http://upload.wikimedia.org/wikipedia/commons/9/9b/Social_Network_Analysis_Visualization.png)
+
+^
+* It can have CLUSTERS
+
+----
+
+![fit](http://www.atariarchives.org/deli/computer_networking1.jpg)
+
+^
+* We use the term "networking" in a social sense
+* Adopted from the technical realm
+
+----
+
+![fit](http://icons.iconarchive.com/icons/iconshock/vista-general/256/network-icon.png)
+
+^
+* Network: any (minimum) two linked individual systems
+
+----
+
+![fit](http://usednetworkequip.files.wordpress.com/2013/09/computer-network.jpg)
+
+^
+Or more than two
+
+----
+
+![fit](http://www.jamasoftware.com/media/img/industry/Headers/telecommunications-header.jpg)
+
+^
+* Connected via a telecommunications link
+
+----
+
+![fit](http://aqumcorporate.com/wp-content/uploads/2013/09/iStock_000003752861Large-1024x768.jpg)
+
+^
+* Telecoms link is material infrastructure (hardware)...
+* ...that transmits immaterial information (bits)
+
+----
+
+![fit](http://www.geo-tel.com/wp-content/uploads/2013/10/data-wires.jpg)
+
+^
+They tend to take the form of tubes or waves
+
+----
+
+![fit](http://www.mckinstry.com/cache/Offerings/11/721_292c/telecommunications_title.jpg)
+
+^
+That is, either bundles of wires...
+
+----
+
+![fit](http://www.think-technology.co/wp-content/uploads/2013/07/Telecommunications.jpg)
+
+^
+...or radio transmissions
+
+----
+
+![inline,left](http://s2.hubimg.com/u/902067_f496.jpg)![inline,right](http://files.cablewholesale.com/hires/10x6-561.jpg)
+
+^
+* LAN: computers located in same physical space
+* Simply connected to each other with networking cables
+
+----
+
+![fit](http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2012/04/telephone-line.jpg)
+
+^
+* The earliest commercial form of telecommunications infrastructure
+* Telegraph and telephone wires
+
+----
+
+![fit](http://cdn1.bigcommerce.com/server3900/wlejmk/product_images/uploaded_images/info-wall-mount-phone-jacks.jpg)
+
+^
+Home telephone plugged into jack
+
+----
+
+![fit](http://upload.wikimedia.org/wikipedia/commons/7/7c/Acoustic_coupler_20041015_175456_1.jpg)
+
+^
+* Earliest form of REMOTE desktop PC networking
+* Via phone lines, using an acoustic coupler modem
+* Two rubber cups for earpiece and mouthpiece
+
+----
+
+![fit](http://upload.wikimedia.org/wikipedia/commons/e/e5/Analogue_modem_-_acoustic_coupler.jpg)
+
+^
+* Connect to computer
+* Plug it in like so
+* Use phone lines to connect to a remote PC
+
+----
+
+![fit](http://cdn3.computerworlduk.com/cmsdata/news/3246271/networking_iStock_000007517489Small.jpg)
+
+^
+* Network as space... as domain
+* Map of relations between connected machines
+
+----
+
+![fit](http://www.12ahead.com/sites/default/files/styles/article_top_image/public/network.computer.300.fotolia.jpg?itok=t8ZFJQDx)
+
+----
+
+![fit](http://thumbs.dreamstime.com/z/worldwide-computer-network-23344093.jpg)
+
+^
+* Often represented as an overlay on geographic space
+
+----
+
+![fit](https://sharmainemercado04.files.wordpress.com/2013/02/computer-network-technology.jpg?w=1200)
+
+----
+
+![fit](http://rdm1924g.files.wordpress.com/2012/01/world_internet1.jpg)
+
+^
+* ?(What's difference between this and previous images?)
+* These representations of a global network...
+* Invoke the GLOBAL infrastructure we call the Internet
+
+----
+
+![fit](http://photo.elsoar.com/wp-content/images/Laptops-and-earth-globe-computer-network.jpg)
+
+^
+* Representations of the Internet often include image of globe/planet
+
+----
+
+![fit](http://telecomsolutions4u.co.uk/images/it.jpg)
+
+^
+* Globe/planet as image of totality of geographic space
+
+----
+
+![fit](http://www.freestockphotos.name/wallpaper-original/wallpapers/systems-internet-connectivity-to-download-5722.jpg)
+
+^
+* Potential to connect all human computer USERS on the planet
+
+----
+
+![fit](http://www.danpontefract.com/wp-content/uploads/2014/05/internet2.jpg)
+
+^
+Sometimes the globe itself is imagined as a network you can plug into
+
+----
+
+![fit](http://www.xpertcomputers.com.au/images/network-consultancy.jpg)
+
+^
+(Preferably in ocean so we don't have to dig any holes in a continent)
+
+----
+
+![fit](http://upload.wikimedia.org/wikipedia/commons/d/d2/Internet_map_1024.jpg)
+
+^
+* Now, why is that?
+* Internet radicalizes concept of network
+* This: an attempt to map all IP addresses (individual nodes)
+
+----
+
+![fit](http://lifereallymatters.com/wp-content/uploads/2014/03/internet.png)
+
+^
+* At this scale, useless to try to perceive individual computers
+* Global telecommunications network whose most salient characteristic is not individual connections...
+
+----
+
+![fit](http://dev2.opte.org/wp-content/uploads/2014/04/home-page-pic.png)
+
+^
+* But total interconnection and relationality
+* [flip back] Previous was Internet in 2003
+* This is Internet in 2010
+
+----
+
+## [fit] Domain: User account
+## [fit] Domain: Network
+
+^
+* A much more expansive concept of domain than the concept of user
+
+----
+
+![fit](http://upload.wikimedia.org/wikipedia/commons/f/fe/Screen_Shot_2014-02-07_of_English_Wikipedia_login_form.png)
+
+^
+* Your user account is a "small" domain...
+* ...which you log into...
+
+----
+
+![fit](http://content.gcflearnfree.org/topics/222/finder_home_folder.png)
+
+^
+* Grants you access to resources like storage space for your files
+
+----
+
+![fit](http://www.12ahead.com/sites/default/files/styles/article_top_image/public/network.computer.300.fotolia.jpg?itok=t8ZFJQDx)
+
+^
+* But also serves as a portal to a larger domain: a LAN...
+* All the local computers at Penn State
+
+----
+
+![fit](http://photo.elsoar.com/wp-content/images/Laptops-and-earth-globe-computer-network.jpg)
+
+^
+* AND as a portal to an even larger domain: the Internet
+
+---
+
+## Domain: User account →
+## Domain: Local Area Network (LAN) →
+## Domain: Internet
+
+^
+"Layered" domains you move through as a computer user, every day
