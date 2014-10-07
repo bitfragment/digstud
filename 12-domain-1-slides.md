@@ -493,3 +493,279 @@ Sometimes the globe itself is imagined as a network you can plug into
 
 ^
 "Layered" domains you move through as a computer user, every day
+
+----
+
+## Domain: User
+## Domain: Network
+## [fit] Domain: Game
+
+^
+* Game = video game, digital game
+* Also a virtual space, not a real space
+
+----
+
+![fit](http://dev2.opte.org/wp-content/uploads/2014/04/home-page-pic.png)
+
+^
+* A network is theoretically limitless...
+* It could keep expanding
+
+----
+
+![fit](http://graphics.stanford.edu/~mdfisher/Images/GeneralGameLearning/TicTacToe1.png)
+
+^
+* ?(How does tic-tac-toe work?)
+
+----
+
+![fit](http://upload.wikimedia.org/wikipedia/commons/a/ae/Tic_Tac_Toe.gif)
+
+^
+* Only 9 possibilities for placing your mark, to start with
+* Only a limited number of possible outcomes
+* All games are deliberately limited and restricted
+* That's part of what's absorbing about it
+
+----
+
+![fit](http://it-lex.org/wp-content/uploads/2012/07/Video-Game-Addict.png)
+
+^
+* For many of us, games are more constrainted than many of our other usual life choices:
+* ...what to eat for lunch, what major to choose, what career, etc.
+
+----
+
+## [fit] Constraint
+
+^
+* Useful concept: "constraint"
+* Games are enjoyable *because* they constrain us
+
+----
+
+![fit](http://gadget-help.com/wp-content/uploads/2014/07/i_b9fd7ef4.jpg)
+
+^
+* From the moment that start a game, you are entering a virtual space
+* ...in which all of your choices have been determined in advance
+* Again, that's why we find them enjoyable!
+
+----
+
+![fit](http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Spacewar%21-PDP-1-20070512.jpg/1280px-Spacewar%21-PDP-1-20070512.jpg)
+
+^
+* Some early vidgames using graphics — we'll return to later
+* Spacewar!, 1962
+
+----
+
+![fit](http://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Mystery_House_-_Apple_II_-_2.png/350px-Mystery_House_-_Apple_II_-_2.png)
+
+^
+* But many of the earliest computer games were primarily text-based
+* And used ASCII graphics
+* Mystery House, Apple II, 1980
+* Game described an environment and offered choices
+
+----
+
+![fit](http://blogs-images.forbes.com/davidewalt/files/2011/04/pac-man-arcade-screen-822x1024.jpg)
+
+^
+* Vidgames are even more constrained than sport-type games like table tennis
+* Table tennis: you can play with different types of equipment, different styles, and players can agree on different rules
+* Humans playing with each other can be flexible & adaptable
+
+----
+
+![fit](http://www.bone-idle.ie/wp-content/uploads/2014/07/Grid-pac-man-8970124-1680-1050.jpg)
+
+^
+* Not so with vidgames: they are programs, software
+* The only possibilities you have are those programmed in advance
+* Games are designed around algorithms
+* If you go in this directions, you can do that
+* ?(What's this game)
+
+----
+
+![fit](http://static.giantbomb.com/uploads/original/0/25/11319-5770-PAC-MAN.jpg)
+
+^
+* Paradigmatic form of a game: a maze
+* Confined space, all paths determined in advance
+* This is a model for most vidgames, even those much more sophisticated
+
+----
+
+![fit](http://d3gnjjq3mhphne.cloudfront.net/uploads/image/post/9/2459/header/story/2459_29559_6b73d8faee8581d25dfb88339260ee32.jpg)
+
+^
+* Brief history of vidgames (more to come later)
+* 1950s-1970s: various types of games
+* First commercial success: Pong, 1972 arcade, 1975 Atari home console
+
+----
+
+![fit](http://upload.wikimedia.org/wikipedia/commons/f/f8/Pong.png)
+
+^
+* Pong = typical of successful early commercial games
+* Mimicked sports pastimes: here, table tennis
+* Two paddles, one ball, score at top
+
+----
+
+![fit](http://www.youtube.com/watch?v=O6wGqV8Etaw)
+
+^
+* Breakout, 1976
+* Single-player version of *Pong*
+* Built for Atari by Steve Wozniak and Steve Jobs
+
+----
+
+![fit](http://www.youtube.com/watch?v=437Ld_rKM2s)
+
+^
+* Pong, Breakout were quite successful
+* But story of how gaming really took off: change of paradigm
+* Mimicking sports -> creating fictional worlds
+* Space Invaders, 1978 arcade
+* Scenario: aliens invading Earth, player defends it
+
+----
+
+![fit](http://www.youtube.com/watch?v=opru6qPsPa4)
+
+^
+* Version for Atari 2600 home console, 1980
+* Historical beginning of modern global video game industry
+* Unlike Pong, Breakout, no analog in real life: a fictional scenario
+* You have only two courses of action: move, shoot
+* Can't decide to negotiate, or surrender, run away
+* Can't be a peacenik: when you decide to play, you decide to kill
+
+----
+
+![fit](http://www.youtube.com/watch?v=psaM7kK5Toc)
+
+^
+* Asteroids, arcade 1979, Atari
+* Player is pilot of spaceship, in asteroid field
+* Only two options: move, shoot
+
+----
+
+## [fit] Domain: Network
+## [fit] Domain: Game
+
+^
+* Two different kinds of domain, virtual space
+* Important difference as forms of representation
+
+----
+
+![fit](http://dev2.opte.org/wp-content/uploads/2014/04/home-page-pic.png)
+
+^
+* Especially when we get to representations of the internet
+* Network is not represented from any one person's point of view
+* Game requires a player & the player's avatar
+
+----
+
+![fit](http://alt.org/nethack/mirror/www.geocities.com/TimesSquare/Portal/2416/display.gif)
+
+^
+* A game is designed using an algorithm
+* It contains an implicit map of possibilities
+* Space through which a player can navigate
+* Actions a player can take
+
+----
+
+![fit](http://dev2.opte.org/wp-content/uploads/2014/04/home-page-pic.png)
+
+^
+* Network: unlimited, focus on relation
+
+----
+
+![fit](http://upload.wikimedia.org/wikipedia/en/a/af/Rogue_Unix_Screenshot_CAR.PNG)
+
+^
+* Game: constrained, determined by invisible boundaries
+
+----
+
+![fit](http://upload.wikimedia.org/wikipedia/en/1/17/Rogue_Screen_Shot_CAR.PNG)
+
+^
+* Those constraints were explicit in the visual representation of early games
+* A map of constrained space
+
+----
+
+![fit](http://blogs-images.forbes.com/davidewalt/files/2011/04/pac-man-arcade-screen-822x1024.jpg)
+
+^
+Form of a maze
+
+----
+
+![fit](http://upload.wikimedia.org/wikipedia/en/f/f4/Maze_war.jpg)
+
+^
+* Mid-1980s: exploration of "3D" or first-person navigational perspectives
+* [Explain image: dual displays]
+* Maze War, 1985
+
+----
+
+![fit](http://calmdowntom.com/wp-content/uploads/2012/10/windblast.jpg)
+
+^
+* Developed into later generation of games, "first person,"  usually shooter
+* Early 1990s onward
+* Depicted space primarily or exclusively from player's subjective POV
+* Though map overlay usually possible
+
+----
+
+![fit](http://www.youtube.com/watch?v=yMGsWR3ocZE)
+
+^
+* One game per year from 1992 to 2012
+* Things to notice:
+    * [Meanwhile narrate year and game title]
+    * General increase in graphical detail and speed (hardware advances)
+    * Construction of objects: polygons (3D)
+    * Outdoor landscapes rather than only interiors
+    * Vertical navigation: moving up and down in space
+    * Expansion of navigable space for player ("rails" vs. roaming)
+
+----
+
+![inline,left](http://blogs-images.forbes.com/davidewalt/files/2011/04/pac-man-arcade-screen-822x1024.jpg)![inline,right](http://hotdigitalnews.com/wp-content/uploads/2013/06/fpsman1_610x411.jpg)
+
+^
+* Retro games: FPS-Man, 2013
+* Pac-Man adapted to visual conventions of FPS
+* But behind that FP perspective is the an algorithmic map of constrained space
+
+----
+
+## Domain: User
+## Domain: Network
+## Domain: Game
+
+^
+* This has been an intro to concept of domain
+* Three examples
+* We'll treat each of those examples in detail over next few weeks
