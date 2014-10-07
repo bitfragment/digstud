@@ -148,3 +148,86 @@ abstract:
 * Your user account grants you access to computing resources like processing time and storage space for your files
 * It also serves as a portal to a larger domain: a LAN
 * And also as a portal to an even larger domain: the Internet
+
+
+
+## Game as constraint
+
+* Also a representation of space, a virtual space
+* Whereas a network is often imagined as boundless, a game is embraced as a system of constraint: that's often precisely why we enjoy it
+* A game represents constrained choices for a human player's avatar
+    - For many of us, often more constrained than many of even our most quotidian life choices: for example, what to eat for lunch
+* Example: tic-tac-toe
+    - Nine possibilities for placing your mark, from the start
+    - Limited number of combinations of marks
+    - Limited number of possible outcomes
+
+* *All* games are systems of constraint
+* Computer games (video games) are *programmed*
+* The human player is less free to break the rules than she or he is in games played outside simulated environments
+
+
+
+## Early computer games
+
+### Graphical (video) games
+
+* *Spacewar!* (1962)
+
+### Text ("adventure") games
+
+ * Terminal-based
+ * Sometimes incorporated "graphics" composed with ASCII characters, rather than painted with screen pixels
+ * Narrative form: an environment is described, choices are offered
+ * Very explicitly algorithmic: if choice A, consequence B
+ * Early examples
+     - Colossal Cave Adventure, 1976
+     - Zork (1977)
+
+
+
+## Constraint
+
+* Paradigmatic form of a programmed game: the maze
+* Maze as map of programmed space
+
+* Programming as determination of outcomes
+* Algorithmic expression of "choice"
+
+
+
+## Mass-produced consumer games: history
+
+* "Primitive" games, extreme constraint
+* Often only one or two courses of action
+    1. Move an avatar through a representation of space
+    2. Make or cause impact with objects
+
+### Mimicry of sports pastimes
+
+* Pong (1972)
+* Breakout (1976)
+
+### Fictional worlds and scenarios
+
+* Space Invaders (1978)
+* Asteroids (1979)
+
+
+
+## Evolution of visual representation of space of constraint
+
+1. "Flat" (two-dimensional), with player avatar at center
+1. Three-dimensional, depicted from point of view of player avatar
+    * Mid-1980s: exploration of "3D" or first-person navigational perspectives
+        - Maze War (1985)
+    * Early 1990s: developed into later generation of games, "first person," usually shooter
+        - Depicted space primarily or exclusively from player's subjective POV
+        - Map overlay as secondary feature
+        - General increase in graphical detail and speed (hardware advances)
+        - Construction of objects: polygons (3D)
+        - Outdoor landscapes
+        - Vertical navigation: moving up and down in space
+        - Expansion of navigable space for avatar ("rails" vs. roaming)
+
+
