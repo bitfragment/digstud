@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <meta name="author" content="Brian Lennon">
   <meta name="description" content="A course in digital studies: Course notes on the 'domain' subtopic 'user'">
-  <title>Domain &middot; Digital Studies</title>
+  <title>User &middot; Digital Studies</title>
   <!-- CSS -->
   <link rel="stylesheet" href="http://digstud.bitfragment.net/public/css/poole.css">
   <link rel="stylesheet" href="http://digstud.bitfragment.net/public/css/syntax.css">
@@ -162,7 +162,7 @@
       
         
           
-          <a class="sidebar-nav-item active" href="http://digstud.bitfragment.net/12-domain-2-user/">Domain</a>
+          <a class="sidebar-nav-item active" href="http://digstud.bitfragment.net/12-domain-2-user/">User</a>
           
         
       
@@ -184,7 +184,7 @@
   </nav>
 
   <div class="sidebar-item">
-    <p> 2014-10-07</p>
+    <p> 2014-10-09</p>
     <p>Course author and site author: <a href="http://english.la.psu.edu/faculty-staff/bul5">Prof. B. Lennon</a></p>
     <p>This work is licensed under a Creative Commons  Attribution-NonCommercial-ShareAlike 4.0 International License.
 </p>
@@ -207,9 +207,9 @@
       </div>
       <div class="container content">
         <div class="page">
-  <h1 class="page-title">Domain</h1>
+  <h1 class="page-title">User</h1>
   
-  <div class="vcsinfo">(v0.2.0-26-g2b49c99  2014-10-07)</div>
+  <div class="vcsinfo">(v0.2.0-27-ga26ac3a  2014-10-09)</div>
   
 
   <ul id="markdown-toc">
@@ -217,12 +217,38 @@
   <li><a href="#user-login">User login</a></li>
   <li><a href="#user-account">User account</a></li>
   <li><a href="#password-security">Password security</a></li>
+  <li><a href="#kernel-space-and-user-space-userland">Kernel space and user space (“userland”)</a></li>
   <li><a href="#home-directory">Home directory</a></li>
+  <li><a href="#user-profile-and-avatars">User profile and avatars</a></li>
 </ul>
 
 <h2 id="readings">Readings</h2>
 
-<ol class="bibliography"><li><span id="_root_2004">“Root Directory Definition.” <i>The Linux Information Project</i> 2004. Web.</span>
+<ol class="bibliography"><li><span id="_kernel_2004">“Kernel Space Definition.” <i>The Linux Information Project</i> 2004. Web.</span>
+
+
+<span class="entry-url"><a href="http://www.linfo.org/kernel_space.html">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="_kernel_2004-1">“Kernel Definition.” <i>The Linux Information Project</i> 2004. Web.</span>
+
+
+<span class="entry-url"><a href="http://www.linfo.org/kernel.html">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="_user_2004">“User Space Definition.” <i>The Linux Information Project</i> 2004. Web.</span>
+
+
+<span class="entry-url"><a href="http://www.linfo.org/user_space.html">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="_root_2004">“Root Directory Definition.” <i>The Linux Information Project</i> 2004. Web.</span>
 
 
 <span class="entry-url"><a href="http://www.linfo.org/root_directory.html">Link (remote) →</a></span>
@@ -246,6 +272,14 @@
 
 
 </li>
+<li><span id="britt_language:_2008">Britt, Aaron. “On Language: Avatar.” <i>The New York Times Magazine</i> (2008): n. pag. Web.</span>
+
+
+<span class="entry-url"><a href="http://www.nytimes.com/2008/08/10/magazine/10wwln-guest-t.html">Link (remote) →</a></span>
+
+
+
+</li>
 <li><span id="honan_its_2011">Honan, Mat. “It’s Time to Abandon Passwords.” <i>Gizmodo</i> Jun. 2011. Web.</span>
 
 
@@ -258,6 +292,22 @@
 
 
 <span class="entry-url"><a href="http://techland.time.com/2012/08/08/online-passwords-are-a-broken-system-here-are-some-ways-to-fix-it/">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="norman_words_2006">Norman, Donald A. “Words Matter. Talk about People: Not Customers, Not Consumers, Not Users.” <i>interactions</i> 13.5 (2006): 49. Web.</span>
+
+
+<span class="entry-url"><a href="http://www.jnd.org/dn.mss/words_matter_talk_ab.html">Link (remote) →</a></span>
+
+
+
+</li>
+<li><span id="raymond_userland_2014">Raymond, Eric. “Userland.” <i>The Jargon File</i> 2014. Web.</span>
+
+
+<span class="entry-url"><a href="http://www.catb.org/jargon/html/U/userland.html">Link (remote) →</a></span>
 
 
 
@@ -366,45 +416,109 @@
         <ul>
           <li><a href="http://videodelivery.nbcnews.com/now/bypass/mp4/3aaae01e-e0f4-439d-aa7a-8d5e3e774105/00000000-0000-0000-0000-000000000000/3a41c6e4-93a3-4108-8995-64ffca7b9106/555436fc-d35d-4365-acc2-192d0bf4cc18/0/0/115/406215722/content.mp4?sid=128">NBC News broadcast August 14, 2014</a></li>
           <li>Password system as “broken”</li>
-          <li>Turn to biometrics et al.</li>
+          <li>Turn to biometric authentication</li>
         </ul>
       </li>
     </ul>
   </li>
-  <li><a href="https://howsecureismypassword.net">How Secure is My Password?</a></li>
+  <li>
+    <p><a href="https://howsecureismypassword.net">How Secure is My Password?</a></p>
+  </li>
+  <li>Biometric authentication methods represent the end of an era in the <em>linguistic history of computing</em>, as text passwords are abandoned</li>
+  <li>Biometric alternatives
+    <ul>
+      <li>Fingerprints</li>
+      <li>Palm veins</li>
+      <li>Finger veins</li>
+      <li>Hand geometry</li>
+      <li>Eye veins</li>
+      <li>Iris of the eye</li>
+      <li>Walking gait</li>
+      <li>Voice print</li>
+      <li>Keystroke dynamics (typing patterns)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="kernel-space-and-user-space-userland">Kernel space and user space (“userland”)</h2>
+
+<ul>
+  <li>Once you’ve been identified and authenticated, an operating system grants you access to a restricted domain defined for you</li>
+  <li>This <em>user space</em> is segregated from the operating system’s <em>kernel space</em></li>
+  <li>The first layer of user space is the <em>shell</em>
+    <ul>
+      <li>A plain text <em>command line interface</em></li>
+    </ul>
+  </li>
+  <li>Interacting with a shell: a <em>prompt</em> signals readiness to accept a command</li>
 </ul>
 
 <h2 id="home-directory">Home directory</h2>
 
+<p>Your home directory is user space assigned to you for file storage, but it is rarely located near or at the root of the filesystem tree</p>
+
 <ul>
-  <li>Tree structure
+  <li>Filesystem root
     <ul>
-      <li>Filesystem root
+      <li>“Top” (or bottom) of filesystem tree</li>
+      <li>In Unix, one root for the entire filesystem</li>
+      <li>In Windows, one root for each storage device and/or partition of a storage device</li>
+    </ul>
+  </li>
+  <li>Filesystem tree
+    <ul>
+      <li>Stylized illustrations
         <ul>
-          <li>“Top” (or bottom) of filesystem tree</li>
-          <li>In Unix, one root for the entire filesystem</li>
-          <li>In Windows, one root for each storage device and/or partition of a storage device</li>
+          <li><a href="http://zhangjianyuan.net/wp-content/uploads/2014/04/05fig03_alt.gif">Windows</a></li>
+          <li><a href="http://zhangjianyuan.net/wp-content/uploads/2014/04/05fig05.gif">Linux</a></li>
+          <li><a href="http://www.csee.umbc.edu/wp-content/uploads/2012/07/linux_tree.jpg">Linux</a> (2)</li>
         </ul>
       </li>
-      <li>Filesystem tree
+      <li>Schematic illustrations
         <ul>
-          <li>Stylized illustrations
-            <ul>
-              <li><a href="http://zhangjianyuan.net/wp-content/uploads/2014/04/05fig03_alt.gif">Windows</a></li>
-              <li><a href="http://zhangjianyuan.net/wp-content/uploads/2014/04/05fig05.gif">Linux</a></li>
-              <li><a href="http://www.csee.umbc.edu/wp-content/uploads/2012/07/linux_tree.jpg">Linux</a> (2)</li>
-            </ul>
-          </li>
-          <li>Schematic illustrations
-            <ul>
-              <li><a href="http://www.openbookproject.net/tutorials/getdown/unix/images/lesson2/UnixDirectoryTree.png">Unix</a></li>
-              <li><a href="http://www.cs.miami.edu/~geoff/Courses/CSC322-11S/Content/UNIXUse/Pictures/Hierarchy.GIF">Unix</a></li>
-            </ul>
-          </li>
+          <li><a href="http://www.openbookproject.net/tutorials/getdown/unix/images/lesson2/UnixDirectoryTree.png">Unix</a></li>
+          <li><a href="http://www.cs.miami.edu/~geoff/Courses/CSC322-11S/Content/UNIXUse/Pictures/Hierarchy.GIF">Unix</a></li>
         </ul>
       </li>
     </ul>
   </li>
+</ul>
+
+<h2 id="user-profile-and-avatars">User profile and avatars</h2>
+
+<ul>
+  <li>User profile: another form of user space</li>
+  <li>May represent you using an avatar
+    <ul>
+      <li>From Sanskrit <em>avatāra</em></li>
+      <li>In Hinduism, a deity (e.g., Vishnu) incarnated on Earth</li>
+    </ul>
+  </li>
+  <li><a href="http://secondlife.com/">Second Life</a>, 2003</li>
+</ul>
+
+<blockquote>
+  <p>The proliferation of <em>avatar</em>’s second meaning [in digital culture] can be traced to Second Life, a multiplayer online virtual world, where players fashion their own online personae called <em>avatars</em>. <a href="#britt_language:_2008">(Britt)</a></p>
+</blockquote>
+
+<ul>
+  <li>Other places you may find avatars
+    <ul>
+      <li>Blog comment threads
+        <ul>
+          <li><a href="https://en.gravatar.com/">Gravatar</a></li>
+        </ul>
+      </li>
+      <li>Customer service chat</li>
+      <li>Video games
+        <ul>
+          <li><a href="http://en.wikipedia.org/wiki/Maze_War">Maze War</a>, 1974</li>
+          <li>Xbox console et al.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>2009 film <em><a href="http://www.avatarmovie.com/index.html">Avatar</a></em></li>
 </ul>
 
 </div>
