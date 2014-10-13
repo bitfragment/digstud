@@ -16,6 +16,11 @@
 
 ----
 
+> Psychologists depersonalize the people they study by calling them “subjects.” We depersonalize the people we study by calling them “users.” Both terms are derogatory.
+--Don Norman
+
+----
+
 # Who am I?
 
 ![inline](http://americanmetalauction.us/images/login.gif)
@@ -252,6 +257,10 @@ abaft
 
 ----
 
+[Comedy Channel: Live at Gotham: John Ramsey, "Passwords"](http://www.cc.com/video-clips/lfqw52/live-at-gotham-passwords)
+
+----
+
 # [fit] [How Secure is My Password?](https://howsecureismypassword.net)
 
 ^ Let's use resource that will tell us how long it would take to crack different kinds of passwords
@@ -262,3 +271,342 @@ abaft
   3. Ask them for random letters and numbers
 
 ^ Have them generate passwords, and test
+
+----
+
+# [fit] After passwords:
+# [fit] Biometric authentication
+
+![](http://www.siemens.com/innovation/pool/en/publikationen/publications_pof/PoF_Spring_2003/Security_articles/Biometric_Technology/CODES1_1164411.jpg)
+
+----
+
+# Fingerprint authentication
+
+![inline](http://images.gizmag.com/hero/7242_11050724107.jpg)![inline](http://www.imore.com/sites/imore.com/files/styles/large/public/field/image/2013/09/iphone_5s_touch_id_fingerprint_video_hero_4x3.jpg?itok=bhma0a7k)
+
+^ Consumer-level fingerprint auth systems available for PC
+
+^ Also on smartphones like Apple iPhone 5S
+
+----
+
+![](http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Fingerprint_detail_on_male_finger.jpg/800px-Fingerprint_detail_on_male_finger.jpg)
+
+^ Used for ID of criminals by police
+
+^ Used in border control (immigration)
+
+^ Used in state assistance (welfare) programs, to prevent fraud
+
+----
+
+![](http://www.barcode.ro/tutorials/biometrics/img/finger3.jpg)
+
+^ Pattern of whorls on skin is close to unique
+
+^ Can be analyzed as combination of different types of shapes
+
+----
+
+![](http://upload.wikimedia.org/wikipedia/commons/2/2c/Fingerprintforcriminologystubs2.png)
+
+^ Instead of using ink on paper, as before...
+
+----
+
+![](http://www.proactiveinvestors.com/genera//img/companies/news/fingerprint350.jpg)
+
+^ Scanned and converted to a digital image
+
+----
+
+![](http://dibertatnps.tripod.com/Images/fingerprint.jpg)
+
+^ A software program uses an algorithm to analyze patterns and combinations of shapes
+
+----
+
+![fit](http://www.identityone.net/Images/BiometricTechnology/MinutiaCapture.gif)
+
+^ That analysis is recorded...
+
+^ Then converted into bits and stored
+
+----
+
+![](http://spectrum.ieee.org/image/2071335)
+
+^ We find that conversion of biometric measurements into digital data in other ID technologies too
+
+^ Pattern of palm veins
+
+----
+
+![](http://blog.m2sys.com/wp-content/uploads/2011/04/finger_vein_scanner.jpg)
+
+^ Pattern of veins in just one finger
+
+----
+
+![](http://s3.amazonaws.com/spnproduction/photos/000/006/426/6426_e37bcc8a37_full.png?1329930513)
+
+^ Pattern of veins in eyeball
+
+----
+
+![](http://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/ColourIris.png/679px-ColourIris.png)
+
+^ Alternate: patterns of color in just the iris
+
+----
+
+![fit](http://fargome.com/images/banner_handpunch.jpg)
+
+^ Instead of veins, geometry of hand
+
+----
+
+![](http://homepages.inf.ed.ac.uk/rbf/CVDICT/CVFIG3/img158.png)
+
+^ Gait recognition
+
+----
+
+![](http://www.straterian.com/_/rsrc/1361711402136/announcements/surveillancestate/dontmakeasoundinthesurveillancestate--theracetofingerprintthehumanvoice/armstrong_voiceprint_annotated3.gif)
+
+^ Voice print
+
+----
+
+![](http://1.bp.blogspot.com/-PRzjvPkqtKQ/USUB_dslVVI/AAAAAAAAACA/coiEX2BrXlg/s1600/Biometrics_Figure_2-Olzak.jpg)
+
+^ Keystroke dynamic recognition
+
+^ Time between keypress and release
+
+^ Time between keystrokes
+
+^ Only one of these that's still tied to writing
+
+^ But measuring physical action on keyboard, rather than authenticating based on what is being typed (text)
+
+----
+
+![fit](http://rlv.zcache.com/linux_we_do_not_break_userspace_shirt-r3bd97ce80da84a419f2a8df581b45452_804gy_512.jpg)
+
+^ Once you've been authenticated
+
+^ Granted access to a restricted domain defined by the OS
+
+^ User space
+
+^ This is something that the OS manages for you 
+
+----
+
+# Kernel space
+
+![inline fit](http://www.rooftopgourmet.com/wp-content/uploads/Pan-Roasted-Cod-in-Fresh-Corn-Chowder-002.jpg)
+
+^ User space is defined in contrast with kernel space
+
+^ ?(Ordinary meaning of "kernel")
+
+----
+
+![fit](http://rustedreality.com/images/gallery/IT/linux_kernel.jpg)
+
+^ Center is a "kernel": ?(Ordinary meaning of "kernel")
+
+----
+
+![fit](http://binarybase.files.wordpress.com/2011/02/explore_linux_kernel.png)
+
+^ Today's OSs represent space in rings
+
+^ Center is the most important, privileged space
+
+----
+
+![fit](http://www.brainlesstales.com/images/2012/Aug/kernel-panic.jpg)
+
+^ All the most basic & important computation functions are performed there
+
+^ Complete crash is sometimes called "kernel panic"
+
+----
+
+![](http://www.wirelust.com/img/blog/20071031/osx_kernel_panic.jpg)
+
+^ OS X kernel panic
+
+----
+
+![](http://fc05.deviantart.net/fs8/i/2005/290/1/7/Classic_Windows_3_1_BSOD_by_rhf.png)
+
+^ Windows "blue screen of death"
+
+----
+
+# [fit] Userland
+
+> Anywhere outside the kernel. “That code belongs in userland.” This term has been in common use among Unix kernel hackers since at least 1985.
+> --Eric Raymond
+
+^ Another term for your user space outside the kernel: "userland"
+
+----
+
+![fit](http://iconbug.com/data/2d/256/11e2bc23ea304780cf00550e548053ce.png)
+
+^ Userland is where everything you do directly with your computer
+
+^ Includes a home directory where you can store files and possibly do other things
+
+----
+
+# Shell
+
+![inline fit](http://upload.wikimedia.org/wikipedia/commons/6/69/Whole_walnut_kernel_and_shell.jpg)
+
+# Kernel
+
+^ First layer of user space / userland: SHELL
+
+----
+
+![](http://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Linux_command-line._Bash._GNOME_Terminal._screenshot.png/800px-Linux_command-line._Bash._GNOME_Terminal._screenshot.png)
+
+^ We've talked about the older plain-text interfaces of computer OSes, before the GUI
+
+----
+
+![](http://upload.wikimedia.org/wikipedia/commons/d/d5/Windows_PowerShell_1.0_PD.png)
+
+^ These plain-text interfaces are also called shells
+
+^ Userspace layer of the OS outside the kernel
+
+----
+
+![fit](http://nolar.info/wp-content/uploads/shell-prompt.png)
+
+^ A shell offers you what is called a "prompt"
+
+^ A symbol that indicates that it's waiting for you to type a command
+
+----
+
+![fit](http://upload.wikimedia.org/wikipedia/en/thumb/8/8a/COMMAND_LINE.svg/800px-COMMAND_LINE.svg.png)
+
+^ At the prompt, you can type a command, files to invoke that command on, and parameters for the command 
+
+^ [Switch and demo on my machine]
+
+^ [Echo > foo.txt; ls; cat foo.txt; open foo.txt]
+
+^ [`top` command; `lynx www.psu.edu`]
+
+----
+
+# [fit] User profile
+
+----
+
+![](http://news.mindprocessors.com/wp-content/uploads/2012/04/facebook-user-profile.png)
+
+^ Another form of user space, on social media: user profile
+
+^ ?(Whose is this)
+
+----
+
+![fit](http://western-technical.com/wp-content/uploads/2014/05/twitterprofile2.jpg)
+
+^ Twitter
+
+----
+
+![fit](http://www.digibuzzme.com/wp-content/uploads/2012/10/LinkedIn.jpg)
+
+^ LinkedIn
+
+----
+
+![fit](http://www.iconeasy.com/icon/thumbnail/Avatar/Face%20Avatars/Face%20Avatars%20icon%20thumbnail.jpg)
+
+^ Many user profiles have your photo
+
+^ But can also have something called an avatar
+
+^ A virtual representation of you
+
+----
+
+# [fit] Avatar
+
+## Sanskrit *avatāra*, "descent"
+
+In Hinduism, a deity incarnated on Earth
+
+----
+
+![](http://upload.wikimedia.org/wikipedia/commons/a/a0/Avatars.jpg)
+
+^ The God Vishnu had many avatars: 10 or more
+
+----
+
+The proliferation of *avatar*’s second meaning [in digital culture] can be traced to Second Life, a multiplayer online virtual world, where players fashion their own online personae called *avatars*.
+-- Aaron Britt
+
+----
+
+![](http://www.blendernation.com/wp-content/uploads/2007/05/secondlife.JPG)
+
+^ 2003, online virtual world
+
+----
+
+![](http://community.secondlife.com/t5/image/serverpage/image-id/142319i40A0CB67BBC09FD5?v=mpbl-1)
+
+^ Users had complex digital avatars
+
+----
+
+![](http://en.support.files.wordpress.com/2008/12/def-avatar.png?w=688)
+
+^ Other places you find avatars: blog comment threds
+
+----
+
+![](http://upload.wikimedia.org/wikipedia/commons/8/8b/Automated_online_assistant.png)
+
+^ Customer service chat
+
+----
+
+![](http://upload.wikimedia.org/wikipedia/en/f/f4/Maze_war.jpg)
+
+^ And of course video games
+
+^ ?(Which game was this)
+
+----
+
+![fit](http://upload.wikimedia.org/wikipedia/en/5/55/Xbox_NXE_avatar.png)
+
+^ Xbox console
+
+----
+
+![fit](http://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg)
+
+^ 2009 film
+
+----
+
+![fit](http://upload.wikimedia.org/wikipedia/en/3/38/Avatarjakeneytiri.jpg)
+
+^ Scientists use humanoid avatars to explore another world

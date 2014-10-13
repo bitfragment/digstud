@@ -1,5 +1,5 @@
 ---
-title:        Domain
+title:        User
 subtitle:     
 version:      $version$
 embed-vcs:    true
@@ -104,23 +104,70 @@ abstract:
     - Identity theft and other modes of fraud
         + [NBC News broadcast August 14, 2014](http://videodelivery.nbcnews.com/now/bypass/mp4/3aaae01e-e0f4-439d-aa7a-8d5e3e774105/00000000-0000-0000-0000-000000000000/3a41c6e4-93a3-4108-8995-64ffca7b9106/555436fc-d35d-4365-acc2-192d0bf4cc18/0/0/115/406215722/content.mp4?sid=128)
         + Password system as "broken"
-        + Turn to biometrics et al.
+        + Turn to biometric authentication
 * [How Secure is My Password?](https://howsecureismypassword.net)
 
+* Biometric authentication methods represent the end of an era in the *linguistic history of computing*, as text passwords are abandoned
+* Biometric alternatives
+    - Fingerprints
+    - Palm veins
+    - Finger veins
+    - Hand geometry
+    - Eye veins
+    - Iris of the eye
+    - Walking gait
+    - Voice print
+    - Keystroke dynamics (typing patterns)
 
+
+
+## Kernel space and user space ("userland")
+
+* Once you've been identified and authenticated, an operating system grants you access to a restricted domain defined for you
+* This *user space* is segregated from the operating system's *kernel space*
+* The first layer of user space is the *shell*
+    - A plain text *command line interface*
+
+* Interacting with a shell: a *prompt* signals readiness to accept a command
+
+    
 
 ## Home directory
 
-* Tree structure
-    - Filesystem root
-        + "Top" (or bottom) of filesystem tree
-        + In Unix, one root for the entire filesystem
-        + In Windows, one root for each storage device and/or partition of a storage device
-    - Filesystem tree
-        + Stylized illustrations
-            * [Windows](http://zhangjianyuan.net/wp-content/uploads/2014/04/05fig03_alt.gif)
-            * [Linux](http://zhangjianyuan.net/wp-content/uploads/2014/04/05fig05.gif)
-            * [Linux](http://www.csee.umbc.edu/wp-content/uploads/2012/07/linux_tree.jpg) (2)
-        + Schematic illustrations
-            * [Unix](http://www.openbookproject.net/tutorials/getdown/unix/images/lesson2/UnixDirectoryTree.png)
-            * [Unix](http://www.cs.miami.edu/~geoff/Courses/CSC322-11S/Content/UNIXUse/Pictures/Hierarchy.GIF)
+Your home directory is user space assigned to you for file storage, but it is rarely located near or at the root of the filesystem tree
+
+- Filesystem root
+    + "Top" (or bottom) of filesystem tree
+    + In Unix, one root for the entire filesystem
+    + In Windows, one root for each storage device and/or partition of a storage device
+- Filesystem tree
+    + Stylized illustrations
+        * [Windows](http://zhangjianyuan.net/wp-content/uploads/2014/04/05fig03_alt.gif)
+        * [Linux](http://zhangjianyuan.net/wp-content/uploads/2014/04/05fig05.gif)
+        * [Linux](http://www.csee.umbc.edu/wp-content/uploads/2012/07/linux_tree.jpg) (2)
+    + Schematic illustrations
+        * [Unix](http://www.openbookproject.net/tutorials/getdown/unix/images/lesson2/UnixDirectoryTree.png)
+        * [Unix](http://www.cs.miami.edu/~geoff/Courses/CSC322-11S/Content/UNIXUse/Pictures/Hierarchy.GIF)
+
+
+
+## User profile and avatars
+
+* User profile: another form of user space
+* May represent you using an avatar
+    * From Sanskrit *avatāra*
+    * In Hinduism, a deity (e.g., Vishnu) incarnated on Earth
+
+* [Second Life](http://secondlife.com/), 2003
+
+> The proliferation of *avatar*’s second meaning [in digital culture] can be traced to Second Life, a multiplayer online virtual world, where players fashion their own online personae called *avatars*. {% cite britt_language:_2008 --file 12-domain-2-user %}
+
+* Other places you may find avatars
+    - Blog comment threads
+        + [Gravatar](https://en.gravatar.com/)
+    - Customer service chat
+    - Video games
+        + [Maze War](http://en.wikipedia.org/wiki/Maze_War), 1974
+        + Xbox console et al.
+
+* 2009 film *[Avatar](http://www.avatarmovie.com/index.html)*
