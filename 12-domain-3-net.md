@@ -40,7 +40,7 @@ abstract:
 
 ## Readings
 
-{% bibliography --file 12-domain-3-network %}
+{% bibliography --file 12-domain-3-net %}
 
 
 
