@@ -45,7 +45,7 @@ abstract:
 
 ## User login
 
-* A "login" is the act or procesure of "logging in" or "logging on" to a computer system
+* A "login" is the act or procedure of "logging in" or "logging on" to a computer system
 * One "logs in" as a *user*
 * A user is *identified* and *authenticated* by the system using:
     1. A text *user name*
