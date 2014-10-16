@@ -75,7 +75,7 @@ Complete the assignment in the appropriate child pages of the Confluence Wikispa
 
 Rewrite and polish the following notes:
 
-A-E | F-K | L-Z
+A-B | C-J | K-Z
 :---|:----|:---
 [Standardization]({{ site.wiki }}/Russell%3A+Standardization) | [Openness]({{ site.wiki }}/Russell%3A+Openness) | [Cooperation]({{ site.wiki }}/Russell%3A+Cooperation)
 [Critique]({{ site.wiki }}/Russell%3A+Critique) | [Consensus]({{ site.wiki }}/Russell%3A+Consensus) | [Control]({{ site.wiki }}/Russell%3A+Control)
@@ -85,7 +85,7 @@ A-E | F-K | L-Z
 
 Drawing on our rewritten and polished [Notes]({{ site.wiki }}/Notes), as well as the notes we did not rewrite and polish, and where necessary on a rereading of chapters of Russell's *Open Standards and the Digital Age,* contribute 100 words to the following segment of our final working paper:
 
-A-E | F-K | L-Z
+A-B | C-J | K-Z
 :---|:----|:---
 [Standardization]({{ site.wiki }}/Standardization) | [Openness]({{ site.wiki }}/Openness) | [Control]({{ site.wiki }}/Control)
 
@@ -94,7 +94,7 @@ A-E | F-K | L-Z
 
 Drawing on our rewritten and polished [Notes]({{ site.wiki }}/Notes), as well as the notes we did not rewrite and polish, and where necessary on a rereading of chapters of Russell's *Open Standards and the Digital Age,* contribute 400 more words to the following segment of our final working paper:
 
-A-E | F-K | L-Z
+A-B | C-J | K-Z
 :---|:----|:---
 [Openness]({{ site.wiki }}/Openness) | [Control]({{ site.wiki }}/Control) | [Standardization]({{ site.wiki }}/Standardization)
 
@@ -102,7 +102,7 @@ A-E | F-K | L-Z
 
 Rewrite and polish the following segment of our final working paper:
 
-A-E | F-K | L-Z
+A-B | C-J | K-Z
 :---|:----|:---
 [Control]({{ site.wiki }}/Control) | [Standardization]({{ site.wiki }}/Standardization) | [Openness]({{ site.wiki }}/Openness)
 
@@ -110,7 +110,7 @@ A-E | F-K | L-Z
 
 Rewrite and polish the following segment of our final working paper:
 
-A-E | F-K | L-Z
+A-B | C-J | K-Z
 :---|:----|:---
 [Standardization]({{ site.wiki }}/Standardization) | [Openness]({{ site.wiki }}/Openness) | [Control]({{ site.wiki }}/Control)
 
