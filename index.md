@@ -63,9 +63,9 @@ Wed 10/15 | [User]({{ site.baseurl }}/12-domain-2-user), continued
 Fri 10/17 | Readings and course notes on **Domain** subtopic [Network]({{ site.baseurl }}/12-domain-3-net) | [ANGEL]({{ site.cms }}) Assessment 7 due, 9:00 AM
 Mon 10/20 | [Network]({{ site.baseurl }}/12-domain-3-net), continued
 Wed 10/22 | [Network]({{ site.baseurl }}/12-domain-3-net), continued
-Fri 10/24 | Readings and course notes on **Domain** subtopic [Game]({{ site.baseurl }}/12-domain-4-game) | [ANGEL]({{ site.cms }}) Assessment 8 due, 9:00 AM
-Mon 10/27 | [Game]({{ site.baseurl }}/12-domain-4-game), continued
-Wed 10/29 | [Game]({{ site.baseurl }}/12-domain-4-game), continued
+Fri 10/24 | Introduction to Russell, *Open Standards and the Digital Age*: "Open," "Standard," "Digital" | [ANGEL]({{ site.cms }}) Assessment 8 due, 9:00 AM
+Mon 10/27 | How to use the Confluence Wikispace for [Notes]({{ site.baseurl }}/06-assignments/#note-writing-assignments) assignments
+Wed 10/29 | Introduction to Russell, *Open Standards and the Digital Age*, continued: "History," "Ideology," "Network"
 Fri 10/31 | Discussion, Russell, *Open Standards and the Digital Age*, ch. 1 (Introduction) | [Notes]({{ site.baseurl }}/06-assignments/#note-writing-assignments) due, 9:00 AM
 Mon 11/03 | Discussion, Russell, ch. 2 | [Notes]({{ site.baseurl }}/06-assignments/#note-writing-assignments) due, 9:00 AM
 Wed 11/05 | Discussion, Russell, ch. 3 | [Notes]({{ site.baseurl }}/06-assignments/#note-writing-assignments) due, 9:00 AM
