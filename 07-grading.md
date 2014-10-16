@@ -44,12 +44,12 @@ During the second part of the semester, I will enter a grade for you each week t
 
 ## Grading rubric for participation in final working paper
 
-Grade | Participation in class discussion | Meets due dates | Writing quality
-A     | Frequent   | Always               | Very high
-B     | Occasional | Almost always        | Acceptable
-C     | Rare       | Most of the time     | Marginal
-D     | Never      | Rarely               | Poor
-F     | Never      | Never                | Plagiarized
+Grade | Absences per week | Participation in class discussion | Meets due dates | Writing quality
+A     | None | Frequent | Always               | Very high
+B     | No more than one | Occasional | Almost always        | Acceptable
+C     | Two | Rare        | Most of the time     | Marginal
+D     | Three | Never      | Rarely               | Poor
+F     | Three | Never      | Never                | Plagiarized
 
 ## Grading scale
 
