@@ -51,9 +51,9 @@ Due 10/31–11/21 on Russell, *Open Standards and the Digital Age.*
 
 Contribute 250 words' worth of notes to each document. Enter your notes in the appropriate child pages of the Confluence Wikispace page [Notes]({{ site.wiki }}/Notes) (child pages are linked below).
 
-Group membership is assigned by the first letter of your PSU user id: if your PSU user id is `abc1234`, then you should contribute to the document assigned to **A-E**.
+Group membership is assigned by the first letter of your PSU user id: if your PSU user id is `abc1234`, then you should contribute to the document assigned to **A-B**.
 
-Chapter | A-E | F-K | L-Z
+Chapter | A-B | C-J | K-Z
 :-------|:----|:----|:---
 Chapter 1 (Introduction) | [Openness]({{ site.wiki }}/Russell%3A+Openness) | [Ideology]({{ site.wiki }}/Russell%3A+Ideology) | [Standardization]({{ site.wiki }}/Russell%3A+Standardization)
 Chapter 2 | [Standardization]({{ site.wiki }}/Russell%3A+Standardization) | [Control]({{ site.wiki }}/Russell%3A+Control) | [Cooperation]({{ site.wiki }}/Russell%3A+Cooperation)
