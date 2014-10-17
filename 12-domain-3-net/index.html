@@ -215,7 +215,7 @@
         <div class="page">
   <h1 class="page-title">Network</h1>
   
-  <div class="vcsinfo">(  2014-10-16)</div>
+  <div class="vcsinfo">(v0.2.0-35-g963137e  2014-10-16)</div>
   
 
   <ul id="markdown-toc">
@@ -226,6 +226,7 @@
   <li><a href="#prehistory-of-todays-ubiquitous-networked-computing">Prehistory of today’s <em>ubiquitous</em> networked computing</a></li>
   <li><a href="#representations-of-networked-computing">Representations of networked computing</a></li>
   <li><a href="#layered-domains">Layered domains</a></li>
+  <li><a href="#how-the-internet-works">How the Internet works</a></li>
 </ul>
 
 <h2 id="readings">Readings</h2>
@@ -346,6 +347,84 @@
   <li>Your user account grants you access to computing resources like processing time and storage space for your files</li>
   <li>It also serves as a portal to a larger domain: a LAN</li>
   <li>And also as a portal to an even larger domain: the Internet</li>
+</ul>
+
+<h2 id="how-the-internet-works">How the Internet works</h2>
+
+<h3 id="three-kinds-of-networks">Three kinds of networks</h3>
+
+<ol>
+  <li>Centralized</li>
+  <li>Decentralized</li>
+  <li>Distributed</li>
+</ol>
+
+<ul>
+  <li>U.S. planning for surviving a Soviet nuclear strike</li>
+  <li>
+    <p>How to ensure that as much telecommunication infrastructure as possible could survive an attack, enabling the U.S. to respond?</p>
+  </li>
+  <li>A <em>centralized</em> network has one single hub. If that hub is destroyed, so is the network</li>
+  <li>A <em>decentralized</em> network has mutiple hubs. Destruction of a hub destroyed a subnetwork</li>
+  <li>A <em>distributed</em> network has no hubs. Nodes are connected to each other by multiple channels
+    <ul>
+      <li>If one node is destroyed, there is always another path</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="packet-switching">Packet-switching</h3>
+
+<ul>
+  <li>Each item of data (document, image) divided up into multiple “packets” and transmitted separately along different paths</li>
+  <li>Reassembled at destination</li>
+  <li>Efficient: allowed for all paths to be used simultaneously, for multiple messages</li>
+  <li>
+    <p>Could survive destruction of nodes of the network: if a packet encountered an obstacle, it could be routed around it</p>
+  </li>
+  <li><a href="http://www.youtube.com/watch?v=tT4AaelwvV4">National Physical Laboratory: The Story of Packet Switching</a>
+    <ul>
+      <li>Analogy: photocopying one page of the Bible at a time and mailing them to someone else, who uses page numbers to reassemble it</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="namespaces">Namespaces</h3>
+
+<h4 id="ip-internet-protocol-address">IP (Internet Protocol) address</h4>
+
+<ul>
+  <li>Serves as an identifier for the point of connection of any device to the Internet</li>
+  <li>Laptop, smart phone, smart toaster, etc.</li>
+  <li><a href="https://www.google.com/search?q=what%20is%20my%20IP%20address">What is my IP?</a></li>
+  <li>
+    <p><a href="http://www.tracemyip.org">Trace My IP</a></p>
+  </li>
+  <li>Because an IP address encodes the connection point of any device to the internet, it provides information about your geographic location, at least in relation to telecommunications hardware</li>
+  <li>It’s nearly impossible for an unskilled person to successfully obscure that information</li>
+  <li>
+    <p>That information can often be narrowed to a specific physical location, especially with a stationary device (e.g., a home desktop computer)</p>
+  </li>
+  <li>An IP address is a 32-bit number represented in decimal notation for human-readability </li>
+  <li>Most of us don’t normally encounter numeric IP addresses</li>
+  <li>But we do deal with the linguistic layer added “on top of” the IP address system, to make it more convenient for us to use</li>
+</ul>
+
+<h4 id="dns-domain-name-system">DNS (Domain Name System)</h4>
+
+<ul>
+  <li>You can enter an IP address into a browser window (e.g., <a href="http://146.186.15.17">http://146.186.15.17</a>) — but why would you?</li>
+  <li>
+    <p>DNS is a <em>translation</em> allowing humans to use easily memorized units of human language, instead of numbers</p>
+  </li>
+  <li>Something or someone has to translate the human language you type into the browser bar into numerical IP addresses: the DNS server
+    <ul>
+      <li>A computer whose job is to translate human language into numerical addresses</li>
+      <li>Like a phone book/ contact directory: you submit a name, get a contact number and/or address in response</li>
+    </ul>
+  </li>
+  <li>Domain names have a syntax (like other units of human language)</li>
+  <li>The part you’re most familiar with is the <strong>top-level domain</strong>: e.g., <code>.com</code>; <code>.org</code>, <code>.edu</code>, <code>.net</code>, <code>.gov</code></li>
 </ul>
 
 </div>
