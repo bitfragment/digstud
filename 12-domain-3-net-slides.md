@@ -317,186 +317,265 @@ from the queen.
 
 ----
 
-![fit](http://icons.iconarchive.com/icons/iconshock/vista-general/256/network-icon.png)
+# [fit] How the Internet works
 
-^
-* Network: any (minimum) two linked individual systems
-
-----
-
-![fit](http://usednetworkequip.files.wordpress.com/2013/09/computer-network.jpg)
-
-^
-Or more than two
+^ Let's talk a little bit about how the Internet actually works, in a technical sense
 
 ----
 
-![fit](http://www.jamasoftware.com/media/img/industry/Headers/telecommunications-header.jpg)
+# Three kinds of networks
 
-^
-* Connected via a telecommunications link
+1. Centralized
+2. Decentralized
+3. Distributed
 
-----
+^ To understand how Internet works, need to understand differences between three kinds of networks
 
-![fit](http://aqumcorporate.com/wp-content/uploads/2013/09/iStock_000003752861Large-1024x768.jpg)
-
-^
-* Telecoms link is material infrastructure (hardware)...
-* ...that transmits immaterial information (bits)
+^ Described by Paul Baran, engineer at RAND in 1960s
 
 ----
 
-![fit](http://www.geo-tel.com/wp-content/uploads/2013/10/data-wires.jpg)
+![](http://upload.wikimedia.org/wikipedia/commons/thumb/6/68/US_nuclear_strike_map.svg/1280px-US_nuclear_strike_map.svg.png)
 
-^
-They tend to take the form of tubes or waves
+^ Context for this was the Cold War
 
-----
+^ Planning for a Soviet nuclear strike on the U.S.
 
-![fit](http://www.mckinstry.com/cache/Offerings/11/721_292c/telecommunications_title.jpg)
-
-^
-That is, either bundles of wires...
+^ How to ensure that as much telecommunication infrastructure as possible could survive an attack, enabling the U.S. to respond?
 
 ----
 
-![fit](http://www.think-technology.co/wp-content/uploads/2013/07/Telecommunications.jpg)
+![fit](http://www.rand.org/content/dam/rand/www/external/images/baran_central.gif)
 
-^
-...or radio transmissions
+^ A centralized network has one single hub
 
-----
-
-![inline,left](http://s2.hubimg.com/u/902067_f496.jpg)![inline,right](http://files.cablewholesale.com/hires/10x6-561.jpg)
-
-^
-* LAN: computers located in same physical space
-* Simply connected to each other with networking cables
+^ The problem is that if the hub was destroyed, the entire network was destroyed
 
 ----
 
-![fit](http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2012/04/telephone-line.jpg)
+![fit](http://www.ibiblio.org/pioneers/images/centralized.gif)
 
-^
-* The earliest commercial form of telecommunications infrastructure
-* Telegraph and telephone wires
+^ A decentralized network might have multiple hubs
 
-----
-
-![fit](http://cdn1.bigcommerce.com/server3900/wlejmk/product_images/uploaded_images/info-wall-mount-phone-jacks.jpg)
-
-^
-Home telephone plugged into jack
+^ But then the destruction of any hub still destroyed an entire subnetwork
 
 ----
 
-![fit](http://upload.wikimedia.org/wikipedia/commons/7/7c/Acoustic_coupler_20041015_175456_1.jpg)
+![fit](http://www.rand.org/content/dam/rand/www/external/images/baran_distrib.gif)
 
-^
-* Earliest form of REMOTE desktop PC networking
-* Via phone lines, using an acoustic coupler modem
-* Two rubber cups for earpiece and mouthpiece
+^ Baran's idea was to design what he called a distributed network
 
-----
+^ No hubs at all
 
-![fit](http://upload.wikimedia.org/wikipedia/commons/e/e5/Analogue_modem_-_acoustic_coupler.jpg)
+^ Every node is connected to adjoining nodes via multiple paths
 
-^
-* Connect to computer
-* Plug it in like so
-* Use phone lines to connect to a remote PC
+^ If one destroyed, always another path available
 
 ----
 
-![fit](http://cdn3.computerworlduk.com/cmsdata/news/3246271/networking_iStock_000007517489Small.jpg)
-
-^
-* Network as space... as domain
-* Map of relations between connected machines
+![fit](http://www.cybertelecom.org/images/baran.gif)
 
 ----
 
-![fit](http://www.12ahead.com/sites/default/files/styles/article_top_image/public/network.computer.300.fotolia.jpg?itok=t8ZFJQDx)
+# [fit] Packet-switching
+
+^ Baran also designed the process by which info could be transmitted using such distributed networks
 
 ----
 
-![fit](http://thumbs.dreamstime.com/z/worldwide-computer-network-23344093.jpg)
+![](http://www.youtube.com/watch?v=f6YbjL7JlEE)
 
-^
-* Often represented as an overlay on geographic space
+^ Each item of data (document, image) divided up into multiple "packets" and transmitted separately along different paths
 
-----
-
-![fit](https://sharmainemercado04.files.wordpress.com/2013/02/computer-network-technology.jpg?w=1200)
+^ Reassembled at destination
 
 ----
 
-![fit](http://rdm1924g.files.wordpress.com/2012/01/world_internet1.jpg)
+![](http://upload.wikimedia.org/wikipedia/commons/f/f6/Packet_Switching.gif)
 
-^
-* ?(What's difference between this and previous images?)
-* These representations of a global network...
-* Invoke the GLOBAL infrastructure we call the Internet
+^ Efficient: allowed for all paths to be used simultaneously, for multiple messages
 
-----
-
-![fit](http://photo.elsoar.com/wp-content/images/Laptops-and-earth-globe-computer-network.jpg)
-
-^
-* Representations of the Internet often include image of globe/planet
+^ Could survive destruction of nodes of the network: if a packet encountered an obstacle, it could be routed around it
 
 ----
 
-![fit](http://telecomsolutions4u.co.uk/images/it.jpg)
+[National Physical Laboratory: The Story of Packet Switching](http://www.youtube.com/watch?v=tT4AaelwvV4)
 
-^
-* Globe/planet as image of totality of geographic space
+^ [Before watching first 2:00, explain]
 
-----
-
-![fit](http://www.freestockphotos.name/wallpaper-original/wallpapers/systems-internet-connectivity-to-download-5722.jpg)
-
-^
-* Potential to connect all human computer USERS on the planet
+^ Analogy: photocopying one page of the Bible at a time and mailing them to someone else, who uses page numbers to reassemble it
 
 ----
 
-![fit](http://www.danpontefract.com/wp-content/uploads/2014/05/internet2.jpg)
+# [fit] Namespace
 
-^
-Sometimes the globe itself is imagined as a network you can plug into
+^ Namespace = domain of identifiers
 
-----
-
-![fit](http://www.xpertcomputers.com.au/images/network-consultancy.jpg)
-
-^
-(Preferably in ocean so we don't have to dig any holes in a continent)
+^ Internet uses two of them
 
 ----
 
-![fit](http://upload.wikimedia.org/wikipedia/commons/d/d2/Internet_map_1024.jpg)
+# [fit] IP (Internet Protocol) address
 
-^
-* Now, why is that?
-* Internet radicalizes concept of network
-* This: an attempt to map all IP addresses (individual nodes)
+![](http://techstroke.com/wp-content/uploads/2014/09/20140218161244.jpg)
 
 ----
 
-![fit](http://lifereallymatters.com/wp-content/uploads/2014/03/internet.png)
+![](http://what-when-how.com/wp-content/uploads/2012/03/tmp946_thumb1.jpg)
 
-^
-* At this scale, useless to try to perceive individual computers
-* Global telecommunications network whose most salient characteristic is not individual connections...
+^ An IP address serves as an identifier for the point of connection of any device to the Internet
+
+^ Laptop, smart phone, smart toaster, etc.
 
 ----
 
-![fit](http://dev2.opte.org/wp-content/uploads/2014/04/home-page-pic.png)
+![](http://i.kinja-img.com/gawker-media/image/upload/s--oKzyDLhw--/18ixfgyg8mqn1jpg.jpg)
 
-^
-* But total interconnection and relationality
-* [flip back] Previous was Internet in 2003
-* This is Internet in 2010
+^ That number is visible to anyone who knows how to look for it
 
-<!-- next: bbs, world wide web -->
+^ It's like wearing a name tag
+
+----
+
+* [What is my IP?](https://www.google.com/search?q=what%20is%20my%20IP%20address)
+
+* [Trace My IP](http://www.tracemyip.org)
+
+^ [Demo both]
+
+----
+
+![fit](http://4.bp.blogspot.com/_F72DYBxrKoA/TDNwbTztG3I/AAAAAAAAAtE/z2l_krjKJbw/s1600/what-is-my-ip.png)
+
+^ Because IP encodes the connection point of any device to the internet...
+
+^ ...it therefore encodes information about your location, in relation to telecommunications hardware
+
+^ It's nearly impossible for a normal person to successfully obscure that info
+
+----
+
+![](http://d42i.s3.amazonaws.com/media/images/landing/ip-tracking/swithportimpactchart.png)
+
+^ That information can often be narrowed to a specific physical location, especially with a stationary device
+
+----
+
+![](http://cdn.colocationameric1.netdna-cdn.com/picts/blog/ip-lookup-location.jpg)
+
+^ People who make anonymous threats on social media are almost always located using the IP address of the device they used
+
+----
+
+![](http://www.youtube.com/watch?v=hkDD03yeLnU)
+
+^ Here's how you might see that process represented on a show like CSI
+
+----
+
+![](http://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ipv4_address.svg/800px-Ipv4_address.svg.png)
+
+^ An IP address is a 32-bit number represented in decimal notation for human readability
+
+----
+
+![fit](http://www.ml-ip.com/assets/images/ip-addr-1.gif)
+
+^ The first two or three segments identify the general area of the Internet to which you are connected
+
+^ The last one or two segments identify the host machine(s) connecting you to the internet
+
+^ An IP address on the PSU network: first segments: NE USA, PA; last segment: specific computers on the PSU campus through which your connection is being routed
+
+----
+
+![](http://i.kinja-img.com/gawker-media/image/upload/s--oKzyDLhw--/18ixfgyg8mqn1jpg.jpg)
+
+^ Now, you don't normally encounter numeric IP addresses unless you look for them
+
+^ Or unless you work as a network admin
+
+----
+
+# [fit] DNS (Domain Name System)
+
+^ You do deal with the next of the two namespaces that enable the Internet to work as it does: the DNS
+
+^ That's a linguistic domain added on top of the domain of numerical IP addresses, to make them easier for humans to read
+
+----
+
+![fit](http://vanilla.co.za/images/dslhelp/linksys/WAG120N/address.gif)
+
+^ You can do this to open a Web site
+
+^ Direct address of the computer that hosts a particular web site
+
+^ [nslookup or ping psu.edu, take IP address, put in browser bar]
+
+^ But you don't want to have to do that
+
+^ ?(What do you usually do)
+
+^ What you do instead is you type in a domain name
+
+^ [Type psu.edu]
+
+^ [Ask them for another]
+
+----
+
+# [fit] 93.184.216.119
+# [fit] www.example.com
+
+^ The point of this is to allow humans to use easily memorized bits of human language, instead of numbers
+
+----
+
+![fit](http://www.windowsnetworking.com/j_helmig/gifs/tcpipdns.gif)
+
+^ Something or someone has to translate the human language you type into the browser bar... into numerical IP addresses
+
+^ That's called a DNS server
+
+^ A computer on the Internet whose job is to translate human language into numerical addresses
+
+^ [Parse diagram]
+
+^ Like a phone book/ contact directory: you submit a name, get a contact number and/or address in response
+
+----
+
+# [fit] Domain name syntax
+
+^ Domain names have a syntax, just like any other unit of human language, like a sentence
+
+----
+
+![](http://www.sproutgeek.com/wp-content/uploads/2013/09/dot-com-blue-wall.jpg)
+
+^ Part you might be most familiar with
+
+^ Top-level domain
+
+----
+
+![](http://www.internetlegalattorney.com/wp-content/uploads/2013/11/top-level-domain-medium.png)
+
+^ Some of the others you're familiar with
+
+^ org, edu, net, gov
+
+----
+
+[EasyBib: Top-level domains](http://vimeo.com/86743239)
+
+----
+
+![fit](http://geovoices.geonetric.com/wp-content/uploads/2013/11/parts_of_a_domain_name.jpg)
+
+^ [Parse image]
+
+
+<!-- http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm -->
+<!-- server, tcp-ip, www, email, etc. network theory -->

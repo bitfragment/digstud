@@ -130,3 +130,61 @@ abstract:
 * Your user account grants you access to computing resources like processing time and storage space for your files
 * It also serves as a portal to a larger domain: a LAN
 * And also as a portal to an even larger domain: the Internet
+
+
+
+## How the Internet works
+
+### Three kinds of networks
+
+1. Centralized
+2. Decentralized
+3. Distributed
+
+* U.S. planning for surviving a Soviet nuclear strike
+* How to ensure that as much telecommunication infrastructure as possible could survive an attack, enabling the U.S. to respond?
+
+* A *centralized* network has one single hub. If that hub is destroyed, so is the network
+* A *decentralized* network has mutiple hubs. Destruction of a hub destroyed a subnetwork
+* A *distributed* network has no hubs. Nodes are connected to each other by multiple channels
+    - If one node is destroyed, there is always another path
+
+### Packet-switching
+
+* Each item of data (document, image) divided up into multiple "packets" and transmitted separately along different paths
+* Reassembled at destination
+* Efficient: allowed for all paths to be used simultaneously, for multiple messages
+* Could survive destruction of nodes of the network: if a packet encountered an obstacle, it could be routed around it
+
+* [National Physical Laboratory: The Story of Packet Switching](http://www.youtube.com/watch?v=tT4AaelwvV4)
+    * Analogy: photocopying one page of the Bible at a time and mailing them to someone else, who uses page numbers to reassemble it
+
+### Namespaces
+
+#### IP (Internet Protocol) address
+
+* Serves as an identifier for the point of connection of any device to the Internet
+* Laptop, smart phone, smart toaster, etc.
+* [What is my IP?](https://www.google.com/search?q=what%20is%20my%20IP%20address)
+* [Trace My IP](http://www.tracemyip.org)
+
+* Because an IP address encodes the connection point of any device to the internet, it provides information about your geographic location, at least in relation to telecommunications hardware
+* It's nearly impossible for an unskilled person to successfully obscure that information
+* That information can often be narrowed to a specific physical location, especially with a stationary device (e.g., a home desktop computer)
+
+* An IP address is a 32-bit number represented in decimal notation for human-readability 
+* Most of us don't normally encounter numeric IP addresses
+* But we do deal with the linguistic layer added "on top of" the IP address system, to make it more convenient for us to use
+
+
+#### DNS (Domain Name System)
+
+* You can enter an IP address into a browser window (e.g., [http://146.186.15.17](http://146.186.15.17)) — but why would you?
+* DNS is a *translation* allowing humans to use easily memorized units of human language, instead of numbers
+
+* Something or someone has to translate the human language you type into the browser bar into numerical IP addresses: the DNS server
+    * A computer whose job is to translate human language into numerical addresses
+    * Like a phone book/ contact directory: you submit a name, get a contact number and/or address in response
+
+* Domain names have a syntax (like other units of human language)
+* The part you're most familiar with is the **top-level domain**: e.g., `.com`; `.org`, `.edu`, `.net`, `.gov`
