@@ -544,6 +544,12 @@ from the queen.
 
 ^ Like a phone book/ contact directory: you submit a name, get a contact number and/or address in response
 
+---
+
+![](http://www.youtube.com/watch?v=72snZctFFtA)
+
+^ Video that explains this pretty well
+
 ----
 
 # [fit] Domain name syntax
@@ -568,7 +574,7 @@ from the queen.
 
 ----
 
-[EasyBib: Top-level domains](http://vimeo.com/86743239)
+# [fit] [EasyBib: Top-level domains](http://vimeo.com/86743239)
 
 ----
 
@@ -576,6 +582,228 @@ from the queen.
 
 ^ [Parse image]
 
+----
 
-<!-- http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm -->
-<!-- server, tcp-ip, www, email, etc. network theory -->
+# [fit] Domain "hacks"
+
+## Creative linguistic "abuse" of the TLD
+
+^ And its service as a linguistic layer atop the numberic layer of IP addresses
+
+^ Think of it as a new form of "creative writing"
+
+----
+
+![](http://www.scotthale.net/blog/wp-content/uploads/2011/11/ccTLD-1024x723.png)
+
+^ Group of TLDs that are set aside for each country in world
+
+^ Country code domains
+
+^ [Parse]
+
+----
+
+[The Weird World of Country-Specific Web Domains](http://mentalfloss.com/article/30583/weird-world-country-specific-web-domains):
+
+`.am` Armenia → AM radio stations
+
+`.fm` Federated States of Micronesia → FM radio stations
+
+`.dj` Djibouti → professional DJs
+
+`.to` Tonga, used as a verb (like `go.to`)
+
+`.md` Moldova, marketed for medical doctors
+
+`.me` Montenegro, used for personal websites
+
+----
+
+# [fit] [`instagr.am`](http://instagr.am)
+
+# [fit] [`bit.ly`](http://bit.ly)
+
+^ .am = Armenia
+
+^ ?(Guess `.ly`) = Libya
+
+----
+
+# [fit] Internet
+## World Wide Web
+
+^ Your major use of Internet is for WWW
+
+^ Probably also email, but mostly WWW
+
+^ WWW is a layer built on top of Internet, which can be used for other things
+
+----
+
+# [fit] Web browser
+
+## "Killer app" of the 1990s?
+
+^ Totally mundane and boring today
+
+^ ?(Which do you use)
+
+----
+
+![](https://www.youtube.com/watch?v=BrXPcaRlBqo)
+
+----
+
+![inline fit](http://images.pcworld.com/news/graphics/214235-web_browser_02_slide.jpg)
+
+WorldWideWeb, 1990
+
+^ History of Web browsers
+
+^ First, "WorldWideWeb," appeared in 1990
+
+----
+
+# [fit] [CERN: Line Mode Browser 2013](http://line-mode.cern.ch/www/hypertext/WWW/TheProject.html)
+
+^ Line Mode Browser, also 1990
+
+^ CLI, plain text browser
+
+^ This simulation of the LMB contains the first web page every published, about the WWW itself
+
+----
+
+![inline fit](http://cdn.arstechnica.net/2011/10/08/erwise5-4e906ce-intro.jpg)
+
+Erwise, 1992
+
+^ Erwise, 1992: first GUI browser (Unix)
+
+----
+
+![inline fit](http://cdn.arstechnica.net/2011/10/08/violawwwabout_1-4e906d8-intro.jpg)
+
+ViolaWWW, 1992
+
+----
+
+![inline fit](http://upload.wikimedia.org/wikipedia/commons/d/d5/Lynx-wikipedia.png)
+
+Lynx, 1992
+
+^ This is still available in Mac OS [demo]
+
+----
+
+![inline fit](http://cdn.arstechnica.net/2011/10/08/macwwwabout-4e906e7-intro.gif)
+
+Samba, 1992
+
+^ Early browser for Mac
+
+----
+
+![inline fit](http://images.pcworld.com/news/graphics/214237-web_browser_04_slide.jpg)
+
+Cello, 1993
+
+----
+
+![inline fit](http://cdn.arstechnica.net/2011/10/08/mosaic_6beta-4e90709-intro.jpg)
+
+Mosaic, 1993
+
+----
+
+# [fit] [Deja Vu: (re-)creating web history](http://www.dejavu.org/)
+
+----
+
+![](http://kingsolutions.org.uk/wordpress/wp-content/uploads/internet-users-in-world.png)
+
+----
+
+> ...in the 18 months since it was released, Mosaic has incited a rush of excitement and commercial energy unprecedented in the history of the Net.
+--Gary Wolfe, "The (Second Phase of the) Revolution Has Begun," *Wired*, October 1994
+
+----
+
+![inline fit](http://upload.wikimedia.org/wikipedia/en/1/1f/Mosaic_Netscape_0.9_on_Windows_XP.png)
+
+Netscape Navigator, 1994
+
+^ Displaced Mosaic
+
+----
+
+# [fit] "Browser Wars," 1990s
+
+^ Rise and fall of NN
+
+^ Rise of its rival from Microsoft
+
+----
+
+![inline fit](http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Netscape-navigator-usage-data.svg/1280px-Netscape-navigator-usage-data.svg.png)
+
+Netscape Navigator market share, 1994-2006
+
+^ NN was the dominant browser from 1994-1996, then declined
+
+----
+
+![inline fit](http://images.pcworld.com/news/graphics/214243-web_browser_09_slide.jpg)
+
+Microsoft Internet Explorer, 1995
+
+----
+
+![inline fit](http://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Internet-explorer-usage-data.svg/1280px-Internet-explorer-usage-data.svg.png)
+
+Microsoft Internet Explorer market share, 1995-2011
+
+----
+
+# [fit] "Browser Wars," 2000s
+
+^ Fall of MS Internet Explorer
+
+^ Rise of NN in another form, along with others
+
+----
+
+![inline fit](http://images.pcworld.com/news/graphics/214251-web_browser_18_slide.jpg)
+
+Apple Safari, 2003
+
+----
+
+![inline fit](http://images.pcworld.com/news/graphics/214252-web_browser_19_slide.jpg)
+
+Mozilla Firefox, 2004
+
+^ Firefox began as a branch of Mozilla, an earlier name for Netscape Navigator
+
+^ Developed into a new browser after 2004
+
+----
+
+![fit](http://upload.wikimedia.org/wikipedia/commons/3/31/Mozilla_Firefox_usage_share.png)
+
+----
+
+![inline fit](http://images.pcworld.com/news/graphics/214253-web_browser_20_slide.jpg)
+
+Google Chrome, 2008
+
+----
+
+![fit](http://news.bbcimg.co.uk/media/images/59575000/gif/_59575791_browsers_464_2.gif)
+
+^ After 2008 [parse]
+
+----
+
+![fit](http://pat-mc.com/wp-content/uploads/2013/06/Browser-Market-Share-2002-2013.jpg)
