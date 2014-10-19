@@ -188,3 +188,42 @@ abstract:
 
 * Domain names have a syntax (like other units of human language)
 * The part you're most familiar with is the **top-level domain**: e.g., `.com`; `.org`, `.edu`, `.net`, `.gov`
+
+
+##### Domain "hacks"
+
+Creative linguistic "abuse" of the top-level domain, especially of [country code domains](http://en.wikipedia.org/wiki/Country_code_top-level_domain)
+
+* [The Weird World of Country-Specific Web Domains](http://mentalfloss.com/article/30583/weird-world-country-specific-web-domains)
+
+* Examples:
+    - [`instagr.am`](http://instagr.am)
+    - [`bit.ly`](http://bit.ly)
+
+
+
+## The World Wide Web (WWW)
+
+One domain of the Internet, not its entirety
+
+### History of the Web browser
+
+* [WorldWideWeb](http://en.wikipedia.org/wiki/WorldWideWeb), 1990
+* [Erwise](http://en.wikipedia.org/wiki/Erwise), 1992
+* [ViolaWWW](http://en.wikipedia.org/wiki/ViolaWWW), 1992
+* [Lynx](https://en.wikipedia.org/wiki/Lynx_(web_browser)), 1992
+* [Cello](http://en.wikipedia.org/wiki/Cello_(web_browser)), 1993
+
+* [Mosaic](http://en.wikipedia.org/wiki/Mosaic_(web_browser)), 1993
+
+> ...in the 18 months since it was released, Mosaic has incited a rush of excitement and commercial energy unprecedented in the history of the Net. {% cite wolfe_second_1994 --file 12-domain-3-net %}
+
+* [Netscape Navigator](https://en.wikipedia.org/wiki/Netscape_Navigator), 1994
+* [Microsoft Internet Explorer](https://en.wikipedia.org/wiki/Internet_Explorer), 1995
+* [Apple Safari](https://en.wikipedia.org/wiki/Safari_(web_browser)), 2003
+* [Mozilla Firefox](https://en.wikipedia.org/wiki/Firefox), 2004
+* [Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome), 2003
+
+### Browser emulation (in a browser!)
+
+[Deja Vu: (re-)creating web history](http://www.dejavu.org/)
