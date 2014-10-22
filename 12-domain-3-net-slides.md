@@ -807,3 +807,121 @@ Google Chrome, 2008
 ----
 
 ![fit](http://pat-mc.com/wp-content/uploads/2013/06/Browser-Market-Share-2002-2013.jpg)
+
+----
+
+# [fit] Tron, 1982
+# [fit] Tron: Legacy, 2010
+
+^ Tron, 1982: one of first representations of electronic network space "from inside"
+
+^ "The grid": a network space inside a mainframe computer and network
+
+^ Main char a video game programmer who is digitized by an evil AI and forced to participate in gladiator-type games
+
+^ Sequel made in 2010
+
+^ We'll look at a few similar scenes from both
+
+----
+
+![](https://www.youtube.com/watch?v=tOzTikUdvuU)
+
+^ Tron 1982
+
+^ Entering "the grid"
+
+^ Trying to hack into a mainframe, an AI program running on it digitizes him
+
+^ Watch for core concepts from this semester, take note of them
+
+^ [Watch twice]
+
+^ Password, bit, program, user, game
+
+----
+
+![](https://www.youtube.com/watch?v=yiRPWfz3HZw)
+ 
+^ Tron: Legacy, 2010
+
+^ Entering the grid
+
+^ Here, Sam Flynn, son of Kevin Flynn (programmer in Tron 1982)
+
+----
+
+![](https://www.youtube.com/watch?v=-3ODe9mqoDE)
+
+^ Tron 1982
+
+^ Light cycle scene: gladitorial game played on the grid
+
+^ Representation of network space
+
+----
+
+![](https://www.youtube.com/watch?v=kn4SUk6p1fg)
+ 
+^ Tron: Legacy, 2010
+
+^ Light cycle scene
+
+^ Visual metaphors for virtual space of digital domain (account, network, game), and virtual representation of user's avatar in relation to data objects we call programs
+
+^ Light cycle scenes: game as constraint: literally trapped inside a mazelike space of computation
+
+----
+
+
+![](http://www.youtube.com/watch?v=-OyoNR4kiJ0)
+
+^ WarGames, 1983
+
+^ Another early dramatic representation of networked computing and gaming
+
+^ Main character is a young game enthusiast and hacker who accidentally enters a US DoD supercomputer that runs nuclear war simulations
+
+^ He thinks he's just playing a game, but he sets off a nuclear alert
+
+----
+
+![](http://www.youtube.com/watch?v=AByemfK_qD4)
+
+^ Acoustic coupler modem scene
+
+----
+
+![](https://www.youtube.com/watch?v=doAnB5_eDnw)
+
+^ Lawnmower Man, 1992
+
+^ Like Tron, digitization of a human user and entry of avatar into cyberspace
+
+^ Scientist working on VR and a human who participates in his experiments
+
+^ [Watch only 2:00]
+
+----
+
+![](https://www.youtube.com/watch?v=nX2tduNr8DU)
+
+^ Johnny Mnemonic, 1995
+
+^ Set in 2021
+
+^ Main character is a data courier who carries data in his brain
+
+^ Opening sequence
+
+----
+
+![](https://www.youtube.com/watch?v=ZKpFFD7aX3c)
+
+^ You all know the Matrix films probably, so I won't dwell on them
+
+^ Made many of these conceits & iconography famous
+
+^ What's the name of the virtual space/ digital domain in these films?
+
+^ Here, Matrix Reloaded, 2003: Neo's conversation with The Architect, the program that created the Matrix itself
