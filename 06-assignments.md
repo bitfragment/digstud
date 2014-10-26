@@ -43,6 +43,8 @@ ANGEL assessments can be completed on the [ANGEL site]({{ site.cms }}). All ANGE
 
 ## Wiki writing and editing
 
+You can find the link to the Confluence Wikispace on the [Sites]({{site.baseurl}}/02-sites/) page. The Confluence Wikispace includes a "[sandbox](https://wikispaces.psu.edu/pages/viewpage.action?pageId=234457313#)" page, where you can experiment with editing and saving a page until you get used to it, and a [sample note](https://wikispaces.psu.edu/display/digstud/Sample+note#) to use as a model for the tone and style of your own contributions. I will cover basic logistics of using the Confluence Wikispace in one class session only, prior to use.
+
 If you all try to edit a wiki page at the same time (for example, if you all start working on an assignment on the evening of the deadline), you may have to manage edit conflicts. (See [Concurrent Editing and Merging Changes](https://confluence.atlassian.com/display/DOC/Concurrent+Editing+and+Merging+Changes).) Especially when you are adding original content to a wiki page for the first time (rather than editing page content that is already there), avoid composing your text directly in the wiki editor itself. Rather, compose your text using a text editor or word processor (and save it among your own personal files), then paste it into the wiki editor. Familiarize yourself, as well, with your Drafts archive, to which Confluence will save documents you are editing, at a default interval of thirty seconds. (See [Working with Drafts](https://confluence.atlassian.com/display/DOC/Working+with+Drafts).)
 
 ### Note-writing assignments
