@@ -41,11 +41,11 @@ N.B.: This course has no final exam.
 
 ANGEL assessments can be completed on the [ANGEL site]({{ site.cms }}). All ANGEL assessments are "open book": that is, you are permitted to consult the relevant course notes while completing each assessment.
 
-## Reminder about wiki editing
+## Wiki writing and editing
 
 If you all try to edit a wiki page at the same time (for example, if you all start working on an assignment on the evening of the deadline), you may have to manage edit conflicts. (See [Concurrent Editing and Merging Changes](https://confluence.atlassian.com/display/DOC/Concurrent+Editing+and+Merging+Changes).) Especially when you are adding original content to a wiki page for the first time (rather than editing page content that is already there), avoid composing your text directly in the wiki editor itself. Rather, compose your text using a text editor or word processor (and save it among your own personal files), then paste it into the wiki editor. Familiarize yourself, as well, with your Drafts archive, to which Confluence will save documents you are editing, at a default interval of thirty seconds. (See [Working with Drafts](https://confluence.atlassian.com/display/DOC/Working+with+Drafts).)
 
-## Note-writing assignments
+### Note-writing assignments
 
 Due 10/31–11/21 on Russell, *Open Standards and the Digital Age.*
 
@@ -65,13 +65,13 @@ Chapter 7 | [Internationalization]({{ site.wiki }}/Russell%3A+Internationalizati
 Chapter 8 | [Critique]({{ site.wiki }}/Russell%3A+Critique) | [Consensus]({{ site.wiki }}/Russell%3A+Consensus) | [Autocracy]({{ site.wiki }}/Russell%3A+Autocracy)
 Chapter 9 (Conclusion) | [Openness]({{ site.wiki }}/Russell%3A+Openness) | [Standardization]({{ site.wiki }}/Russell%3A+Standardization) | [Critique]({{ site.wiki }}/Russell%3A+Critique)
 
-## Working paper assignments
+### Working paper assignments
 
 Due 12/03–12/12 on Russell, *Open Standards and the Digital Age.*
 
 Complete the assignment in the appropriate child pages of the Confluence Wikispace page [Working paper]({{ site.wiki }}/Working+paper) (child pages are linked below).
 
-### Working paper assignment 1
+#### Working paper assignment 1
 
 Rewrite and polish the following notes:
 
@@ -81,7 +81,7 @@ A-B | C-J | K-Z
 [Critique]({{ site.wiki }}/Russell%3A+Critique) | [Consensus]({{ site.wiki }}/Russell%3A+Consensus) | [Control]({{ site.wiki }}/Russell%3A+Control)
 
 
-### Working paper assignment 2
+#### Working paper assignment 2
 
 Drawing on our rewritten and polished [Notes]({{ site.wiki }}/Notes), as well as the notes we did not rewrite and polish, and where necessary on a rereading of chapters of Russell's *Open Standards and the Digital Age,* contribute 100 words to the following segment of our final working paper:
 
@@ -90,7 +90,7 @@ A-B | C-J | K-Z
 [Standardization]({{ site.wiki }}/Standardization) | [Openness]({{ site.wiki }}/Openness) | [Control]({{ site.wiki }}/Control)
 
 
-### Working paper assignment 3
+#### Working paper assignment 3
 
 Drawing on our rewritten and polished [Notes]({{ site.wiki }}/Notes), as well as the notes we did not rewrite and polish, and where necessary on a rereading of chapters of Russell's *Open Standards and the Digital Age,* contribute 400 more words to the following segment of our final working paper:
 
@@ -98,7 +98,7 @@ A-B | C-J | K-Z
 :---|:----|:---
 [Openness]({{ site.wiki }}/Openness) | [Control]({{ site.wiki }}/Control) | [Standardization]({{ site.wiki }}/Standardization)
 
-### Working paper assignment 4
+#### Working paper assignment 4
 
 Rewrite and polish the following segment of our final working paper:
 
@@ -106,7 +106,7 @@ A-B | C-J | K-Z
 :---|:----|:---
 [Control]({{ site.wiki }}/Control) | [Standardization]({{ site.wiki }}/Standardization) | [Openness]({{ site.wiki }}/Openness)
 
-### Working paper assignment 5
+#### Working paper assignment 5
 
 Rewrite and polish the following segment of our final working paper:
 
@@ -114,6 +114,6 @@ A-B | C-J | K-Z
 :---|:----|:---
 [Standardization]({{ site.wiki }}/Standardization) | [Openness]({{ site.wiki }}/Openness) | [Control]({{ site.wiki }}/Control)
 
-### Working paper assignment 6
+#### Working paper assignment 6
 
 Add 100 words' worth of comments to the [sites.psu.edu]({{ site.blog }}) version of our final working paper.
