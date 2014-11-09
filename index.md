@@ -79,10 +79,10 @@ Fri 11/21 | Discussion, Russell, ch. 9 (Conclusion) | [Notes]({{ site.baseurl }}
 Mon 11/24 | No class (Thanksgiving holiday)
 Wed 11/26 | No class (Thanksgiving holiday)
 Fri 11/28 | No class (Thanksgiving holiday)
-Mon 12/01 | Review and planning; writing time in class
-Wed 12/03 | Discussion and writing time in class | [Working paper assignment]({{ site.baseurl }}/06-assignments/#working-paper-assignments) 1 due, 9:00 AM
-Fri 12/05 | Discussion and writing time in class | [Working paper assignment]({{ site.baseurl }}/06-assignments/#working-paper-assignments) 2 due, 9:00 AM; fourth [participation evaluation]({{ site.baseurl }}/07-grading/#grading-rubric-for-participation-in-final-working-paper)
-Mon 12/08 | Discussion and writing time in class | [Working paper assignment]({{ site.baseurl }}/06-assignments/#working-paper-assignments) 3 due, 9:00 AM
-Wed 12/10 | Discussion and writing time in class | [Working paper assignment]({{ site.baseurl }}/06-assignments/#working-paper-assignments) 4 due, 9:00 AM
-Fri 12/12 | Discussion and writing time in class | [Working paper assignment]({{ site.baseurl }}/06-assignments/#working-paper-assignments) 5 due, 9:00 AM; fifth [participation evaluation]({{ site.baseurl }}/07-grading/#grading-rubric-for-participation-in-final-working-paper)
+Mon 12/01 | Review and planning
+Wed 12/03 | No class (writing time for next working paper assignment) | [Working paper assignment]({{ site.baseurl }}/06-assignments/#working-paper-assignments) 1 due, 9:00 AM
+Fri 12/05 | Discussion and planning | [Working paper assignment]({{ site.baseurl }}/06-assignments/#working-paper-assignments) 2 due, 9:00 AM; fourth [participation evaluation]({{ site.baseurl }}/07-grading/#grading-rubric-for-participation-in-final-working-paper)
+Mon 12/08 | Discussion and planning | [Working paper assignment]({{ site.baseurl }}/06-assignments/#working-paper-assignments) 3 due, 9:00 AM
+Wed 12/10 | No class (writing time for next working paper assignment) | [Working paper assignment]({{ site.baseurl }}/06-assignments/#working-paper-assignments) 4 due, 9:00 AM
+Fri 12/12 | Discussion and planning | [Working paper assignment]({{ site.baseurl }}/06-assignments/#working-paper-assignments) 5 due, 9:00 AM; fifth [participation evaluation]({{ site.baseurl }}/07-grading/#grading-rubric-for-participation-in-final-working-paper)
 Wed 12/17 | No class (final exam week). I will compile versions of the working paper in various file formats using the [Anthologize](http://anthologize.org) plugin. | [Working paper assignment]({{ site.baseurl }}/06-assignments/#working-paper-assignments) 6 due, 9:00 AM; sixth [participation evaluation]({{ site.baseurl }}/07-grading/#grading-rubric-for-participation-in-final-working-paper)
