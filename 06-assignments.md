@@ -71,8 +71,6 @@ Chapter 9 (Conclusion) | [Openness]({{ site.wiki }}/Russell%3A+Openness) | [Stan
 
 Due 12/03–12/17 on Russell, *Open Standards and the Digital Age.*
 
-Complete the assignment in the appropriate child pages of the Confluence Wikispace page [Working paper]({{ site.wiki }}/Working+paper) (child pages are linked below).
-
 #### Working paper assignment 1
 
 Rewrite and polish the following notes:
